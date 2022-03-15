@@ -1,0 +1,68 @@
+{
+    "l": "Apex Email Notification",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ApexEmailNotification ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "Email",
+            "l": "email",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,454 @@
+{
+    "l": "Case",
+    "p": [
+        {
+            "n": "Case",
+            "rf": "MasterRecordId",
+            "rl": "Master Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ContactId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "Case",
+            "rf": "ParentId",
+            "rl": "Parent Case ID"
+        },
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "Subscription__c",
+            "rl": "Subscription"
+        }
+    ],
+    "c": [
+        {
+            "n": "ActivityHistory",
+            "rf": "WhatId",
+            "rl": "ActivityHistories"
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "Case",
+            "rf": "ParentId",
+            "rl": "Cases"
+        },
+        {
+            "n": "CaseChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "CaseComment",
+            "rf": "ParentId",
+            "rl": "CaseComments"
+        },
+        {
+            "n": "CaseContactRole",
+            "rf": "CasesId",
+            "rl": "CaseContactRoles"
+        },
+        {
+            "n": "CaseFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "CaseHistory",
+            "rf": "CaseId",
+            "rl": "Histories"
+        },
+        {
+            "n": "CaseShare",
+            "rf": "CaseId",
+            "rl": "Shares"
+        },
+        {
+            "n": "CaseSolution",
+            "rf": "CaseId",
+            "rl": "CaseSolutions"
+        },
+        {
+            "n": "CaseTeamMember",
+            "rf": "ParentId",
+            "rl": "TeamMembers"
+        },
+        {
+            "n": "CaseTeamTemplateRecord",
+            "rf": "ParentId",
+            "rl": "TeamTemplateRecords"
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "RecordId",
+            "rl": "RecordAssociatedGroups"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhatId",
+            "rl": "ContactRequests"
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "ParentId",
+            "rl": "EmailMessages"
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedToId",
+            "rl": "Emails"
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "RelatedToId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "WhatId",
+            "rl": "Events"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "WhatId",
+            "rl": "OpenActivities"
+        },
+        {
+            "n": "ProcessException",
+            "rf": "CaseId",
+            "rl": "ProcessExceptions"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "ParentId",
+            "rl": "Posts"
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "Task",
+            "rf": "WhatId",
+            "rl": "Tasks"
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "EntityId",
+            "rl": "TopicAssignments"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "CaseId",
+            "rl": "WorkOrders"
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "CaseId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Case ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "MasterRecordId",
+            "l": "Master Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "CaseNumber",
+            "l": "Case Number",
+            "t": "string"
+        },
+        {
+            "n": "ContactId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent Case ID",
+            "t": "reference"
+        },
+        {
+            "n": "SuppliedName",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "SuppliedEmail",
+            "l": "Email Address",
+            "t": "email"
+        },
+        {
+            "n": "SuppliedPhone",
+            "l": "Phone",
+            "t": "string"
+        },
+        {
+            "n": "SuppliedCompany",
+            "l": "Company",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "Case Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "Reason",
+            "l": "Case Reason",
+            "t": "picklist"
+        },
+        {
+            "n": "Origin",
+            "l": "Case Origin",
+            "t": "picklist"
+        },
+        {
+            "n": "Subject",
+            "l": "Subject",
+            "t": "string"
+        },
+        {
+            "n": "Priority",
+            "l": "Priority",
+            "t": "picklist"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "IsClosed",
+            "l": "Closed",
+            "t": "boolean"
+        },
+        {
+            "n": "ClosedDate",
+            "l": "Closed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsEscalated",
+            "l": "Escalated",
+            "t": "boolean"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ContactPhone",
+            "l": "Contact Phone",
+            "t": "phone"
+        },
+        {
+            "n": "ContactMobile",
+            "l": "Contact Mobile",
+            "t": "phone"
+        },
+        {
+            "n": "ContactEmail",
+            "l": "Contact Email",
+            "t": "email"
+        },
+        {
+            "n": "ContactFax",
+            "l": "Contact Fax",
+            "t": "phone"
+        },
+        {
+            "n": "Comments",
+            "l": "Internal Comments",
+            "t": "textarea"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Legacy_CaseNumber__c",
+            "l": "Legacy CaseNumber",
+            "t": "string"
+        },
+        {
+            "n": "Subscription__c",
+            "l": "Subscription",
+            "t": "reference"
+        }
+    ]
+}

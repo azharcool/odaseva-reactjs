@@ -1,0 +1,48 @@
+{
+    "l": "Login IP",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UsersId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Login IP ID",
+            "t": "id"
+        },
+        {
+            "n": "UsersId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "SourceIp",
+            "l": "Source IP",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsAuthenticated",
+            "l": "IsAuthenticated",
+            "t": "boolean"
+        },
+        {
+            "n": "ChallengeSentDate",
+            "l": "Challenge SentDate",
+            "t": "datetime"
+        },
+        {
+            "n": "ChallengeMethod",
+            "l": "Challenge Method",
+            "t": "picklist"
+        }
+    ]
+}

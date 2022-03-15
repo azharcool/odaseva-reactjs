@@ -1,0 +1,59 @@
+{
+    "l": "User Field Access",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FieldDefinition",
+            "rf": "RunningUserFieldAccessId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Field Access ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsUpdatable",
+            "l": "Is Updatable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCreatable",
+            "l": "Is Creatable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAccessible",
+            "l": "Is Accessible",
+            "t": "boolean"
+        },
+        {
+            "n": "EntityDefinitionId",
+            "l": "Entity Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "FieldDefinitionId",
+            "l": "Field Definition ID",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "l": "Login History",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "AuthenticationServiceId",
+            "rl": "Authentication Service ID"
+        },
+        {
+            "n": "SamlSsoConfig",
+            "rf": "AuthenticationServiceId",
+            "rl": "Authentication Service ID"
+        },
+        {
+            "n": "LoginGeo",
+            "rf": "LoginGeoId",
+            "rl": "Login Geo Data ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AuthSession",
+            "rf": "LoginHistoryId",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "LoginHistoryId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Login History Id",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "LoginTime",
+            "l": "Login Time",
+            "t": "datetime"
+        },
+        {
+            "n": "LoginType",
+            "l": "Login Type",
+            "t": "picklist"
+        },
+        {
+            "n": "SourceIp",
+            "l": "Source IP",
+            "t": "string"
+        },
+        {
+            "n": "LoginUrl",
+            "l": "Login URL",
+            "t": "string"
+        },
+        {
+            "n": "AuthenticationServiceId",
+            "l": "Authentication Service ID",
+            "t": "reference"
+        },
+        {
+            "n": "LoginGeoId",
+            "l": "Login Geo Data ID",
+            "t": "reference"
+        },
+        {
+            "n": "TlsProtocol",
+            "l": "TLS Protocol",
+            "t": "picklist"
+        },
+        {
+            "n": "CipherSuite",
+            "l": "TLS Cipher Suite",
+            "t": "picklist"
+        },
+        {
+            "n": "OptionsIsGet",
+            "l": "Login via GET",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsIsPost",
+            "l": "Login via POST",
+            "t": "boolean"
+        },
+        {
+            "n": "Browser",
+            "l": "Browser",
+            "t": "string"
+        },
+        {
+            "n": "Platform",
+            "l": "Platform",
+            "t": "string"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "string"
+        },
+        {
+            "n": "Application",
+            "l": "Application",
+            "t": "string"
+        },
+        {
+            "n": "ClientVersion",
+            "l": "Client Version",
+            "t": "string"
+        },
+        {
+            "n": "ApiType",
+            "l": "API Type",
+            "t": "string"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "API Version",
+            "t": "string"
+        },
+        {
+            "n": "CountryIso",
+            "l": "Country Code",
+            "t": "string"
+        },
+        {
+            "n": "AuthMethodReference",
+            "l": "Authentication Method Reference",
+            "t": "string"
+        }
+    ]
+}

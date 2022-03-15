@@ -1,0 +1,1 @@
+{"l":"Predefined Case Team Member","p":{"CaseTeamTemplate":[{"rf":"TeamTemplateId","rl":"Team Template ID"}],"Contact":[{"rf":"MemberId","rl":"Member ID"}],"User":[{"rf":"MemberId","rl":"Member ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"CaseTeamRole":[{"rf":"TeamRoleId","rl":"Team Role ID"}]},"c":{}}

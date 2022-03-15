@@ -1,0 +1,88 @@
+{
+    "l": "Platform Cache Partition Type",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "PlatformCachePartition",
+            "rf": "PlatformCachePartitionId",
+            "rl": "Platform Cache Partition ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Platform Cache Partition Type ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "PlatformCachePartitionId",
+            "l": "Platform Cache Partition ID",
+            "t": "reference"
+        },
+        {
+            "n": "CacheType",
+            "l": "Cache Type",
+            "t": "picklist"
+        },
+        {
+            "n": "AllocatedCapacity",
+            "l": "Allocated Capacity",
+            "t": "int"
+        },
+        {
+            "n": "AllocatedPurchasedCapacity",
+            "l": "Allocated Namespaced Purchased Capacity",
+            "t": "int"
+        },
+        {
+            "n": "AllocatedTrialCapacity",
+            "l": "Allocated Trial Capacity",
+            "t": "int"
+        },
+        {
+            "n": "AllocatedPartnerCapacity",
+            "l": "Allocated Partner Capacity",
+            "t": "int"
+        }
+    ]
+}

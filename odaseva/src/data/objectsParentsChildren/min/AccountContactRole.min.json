@@ -1,0 +1,1 @@
+{"l":"Account Contact Role","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Account":[{"rf":"AccountId","rl":"Account ID"}],"Contact":[{"rf":"ContactId","rl":"Contact ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

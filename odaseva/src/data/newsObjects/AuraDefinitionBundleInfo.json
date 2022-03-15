@@ -1,0 +1,43 @@
+{
+    "l": "AuraDefinitionBundle Info",
+    "p": [],
+    "c": [
+        {
+            "n": "AuraDefinitionInfo",
+            "rf": "AuraDefinitionBundleInfoId",
+            "rl": "Bundle"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Lightning Definition Bundle ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "AuraDefinitionBundleId",
+            "l": "Lightning Definition Bundle ID",
+            "t": "string"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "Api Version",
+            "t": "double"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Bundle Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        }
+    ]
+}

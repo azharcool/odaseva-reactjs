@@ -1,0 +1,119 @@
+{
+    "l": "Streaming Channel",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "StreamingChannelShare",
+            "rf": "ParentId",
+            "rl": "Shares"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Streaming Channel Id",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Is Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Streaming Channel Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsDynamic",
+            "l": "Is Dynamically Created",
+            "t": "boolean"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        }
+    ]
+}

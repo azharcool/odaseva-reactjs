@@ -1,0 +1,1 @@
+{"l":"Email Message Relation","p":{"EmailMessage":[{"rf":"EmailMessageId","rl":"Email Message ID"}],"Contact":[{"rf":"RelationId","rl":"Relation ID"}],"Lead":[{"rf":"RelationId","rl":"Relation ID"}],"User":[{"rf":"RelationId","rl":"Relation ID"},{"rf":"CreatedById","rl":"Created By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

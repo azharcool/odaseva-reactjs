@@ -1,0 +1,1 @@
+{"l":"Session Permission Set Activation","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"UserId","rl":"User ID"}],"AuthSession":[{"rf":"AuthSessionId","rl":"Auth Session ID"}],"PermissionSet":[{"rf":"PermissionSetId","rl":"PermissionSet ID"}]},"c":{}}

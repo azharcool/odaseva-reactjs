@@ -1,0 +1,98 @@
+{
+    "l": "Scheduled Jobs",
+    "p": [
+        {
+            "n": "CronJobDetail",
+            "rf": "CronJobDetailId",
+            "rl": "Job ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "User ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Scheduled Job ID",
+            "t": "id"
+        },
+        {
+            "n": "CronJobDetailId",
+            "l": "Job ID",
+            "t": "reference"
+        },
+        {
+            "n": "NextFireTime",
+            "l": "Next Run Time",
+            "t": "datetime"
+        },
+        {
+            "n": "PreviousFireTime",
+            "l": "Previous Run Time",
+            "t": "datetime"
+        },
+        {
+            "n": "State",
+            "l": "Job State",
+            "t": "string"
+        },
+        {
+            "n": "StartTime",
+            "l": "Start Time",
+            "t": "datetime"
+        },
+        {
+            "n": "EndTime",
+            "l": "End Time",
+            "t": "datetime"
+        },
+        {
+            "n": "CronExpression",
+            "l": "Cron Expression",
+            "t": "string"
+        },
+        {
+            "n": "TimeZoneSidKey",
+            "l": "Java Time Zone Id",
+            "t": "picklist"
+        },
+        {
+            "n": "OwnerId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "TimesTriggered",
+            "l": "Job Fired Count",
+            "t": "int"
+        }
+    ]
+}

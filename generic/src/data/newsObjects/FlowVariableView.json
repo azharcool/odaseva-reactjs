@@ -1,0 +1,57 @@
+{
+    "l": "Flow Variable",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Flow Variable View ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "FlowVersionViewId",
+            "l": "Flow Version View ID",
+            "t": "string"
+        },
+        {
+            "n": "ApiName",
+            "l": "Variable API Name",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Variable Description",
+            "t": "string"
+        },
+        {
+            "n": "DataType",
+            "l": "Variable Data Type",
+            "t": "string"
+        },
+        {
+            "n": "IsInput",
+            "l": "Variable is available for input",
+            "t": "boolean"
+        },
+        {
+            "n": "IsOutput",
+            "l": "Variable is available for output",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCollection",
+            "l": "Variable allows multiple values (collection)",
+            "t": "boolean"
+        },
+        {
+            "n": "ObjectType",
+            "l": "Record Variable Object",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,329 @@
+{
+    "l": "Content Delivery",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "ContentVersionId",
+            "rl": "ContentVersion ID"
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "ContentDocumentId",
+            "rl": "ContentDocument ID"
+        },
+        {
+            "n": "Account",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Case",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "ListEmail",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "NadraCustomSetting__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaSettings__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ContentDistributionView",
+            "rf": "DistributionId",
+            "rl": "ContentDistributionViews"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Content Delivery ID",
+            "t": "id"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Name",
+            "l": "Content Delivery Name",
+            "t": "string"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "ContentVersionId",
+            "l": "ContentVersion ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentDocumentId",
+            "l": "ContentDocument ID",
+            "t": "reference"
+        },
+        {
+            "n": "RelatedRecordId",
+            "l": "Related Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "PreferencesAllowPDFDownload",
+            "l": "Allow Download as PDF",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesAllowOriginalDownload",
+            "l": "Allow Download in Original Format",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesPasswordRequired",
+            "l": "Require Password to Access Content",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesNotifyOnVisit",
+            "l": "Notify Me of First View or Download",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesLinkLatestVersion",
+            "l": "Content Delivery Opens Latest Version",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesAllowViewInBrowser",
+            "l": "Allow View in the Browser",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesExpires",
+            "l": "Content Delivery Expires",
+            "t": "boolean"
+        },
+        {
+            "n": "PreferencesNotifyRndtnComplete",
+            "l": "Email when Preview Images are Ready",
+            "t": "boolean"
+        },
+        {
+            "n": "ExpiryDate",
+            "l": "Expiration Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Password",
+            "l": "Password",
+            "t": "string"
+        },
+        {
+            "n": "ViewCount",
+            "l": "View Count",
+            "t": "int"
+        },
+        {
+            "n": "FirstViewDate",
+            "l": "First Viewed",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewDate",
+            "l": "Last Viewed",
+            "t": "datetime"
+        },
+        {
+            "n": "DistributionPublicUrl",
+            "l": "External Link",
+            "t": "string"
+        },
+        {
+            "n": "ContentDownloadUrl",
+            "l": "File Download Link",
+            "t": "string"
+        },
+        {
+            "n": "PdfDownloadUrl",
+            "l": "PDF Download Link",
+            "t": "string"
+        }
+    ]
+}

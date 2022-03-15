@@ -1,0 +1,469 @@
+{
+    "l": "Group",
+    "p": [
+        {
+            "n": "User",
+            "rf": "RelatedId",
+            "rl": "Related ID"
+        },
+        {
+            "n": "UserRole",
+            "rf": "RelatedId",
+            "rl": "Related ID"
+        },
+        {
+            "n": "Organization",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AccountShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AssetShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUseShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarViewShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CaseShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequestShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspaceMember",
+            "rf": "MemberId",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasisShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurposeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMappingShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "FieldDefinition",
+            "rf": "BusinessOwnerId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "GroupMember",
+            "rf": "GroupId",
+            "rl": "GroupMembers"
+        },
+        {
+            "n": "GroupMember",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ImageShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "IndividualShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LeadShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LocationShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasureShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OrderShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessExceptionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "PromptActionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "PromptErrorShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "QueueSobject",
+            "rf": "QueueId",
+            "rl": "QueueSobjects"
+        },
+        {
+            "n": "QuickTextShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsageShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannelShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoalShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "DelegatedApproverId",
+            "rl": "DelegatedUsers"
+        },
+        {
+            "n": "UserAppMenuCustomizationShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "DelegatedApproverId",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPersonShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequestShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccessShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanksShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Group ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "RelatedId",
+            "l": "Related ID",
+            "t": "reference"
+        },
+        {
+            "n": "Type",
+            "l": "Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Email",
+            "l": "Email",
+            "t": "email"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "DoesSendEmailToMembers",
+            "l": "Send Email to Members",
+            "t": "boolean"
+        },
+        {
+            "n": "DoesIncludeBosses",
+            "l": "Include Bosses",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

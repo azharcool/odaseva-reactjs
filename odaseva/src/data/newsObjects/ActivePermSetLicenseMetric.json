@@ -1,0 +1,43 @@
+{
+    "l": "Active Permission Set License Metric",
+    "p": [
+        {
+            "n": "PermissionSetLicense",
+            "rf": "PermissionSetLicenseId",
+            "rl": "Permission Set License ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Active Permission Set License Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "MetricsDate",
+            "l": "Metrics Date",
+            "t": "date"
+        },
+        {
+            "n": "PermissionSetLicenseId",
+            "l": "Permission Set License ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "AssignedUserCount",
+            "l": "Assigned User Count",
+            "t": "int"
+        },
+        {
+            "n": "ActiveUserCount",
+            "l": "Active User Count",
+            "t": "int"
+        }
+    ]
+}

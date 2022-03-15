@@ -1,0 +1,169 @@
+{
+    "l": "External Data Source",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "AuthProviderId",
+            "rl": "Auth. Provider ID"
+        },
+        {
+            "n": "StaticResource",
+            "rf": "LargeIconId",
+            "rl": "Static Resource ID"
+        },
+        {
+            "n": "StaticResource",
+            "rf": "SmallIconId",
+            "rl": "Static Resource ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ContentVersion",
+            "rf": "ExternalDataSourceId",
+            "rl": ""
+        },
+        {
+            "n": "CustomHttpHeader",
+            "rf": "ParentId",
+            "rl": "CustomHttpHeaders"
+        },
+        {
+            "n": "ExternalDataUserAuth",
+            "rf": "ExternalDataSourceId",
+            "rl": "UserAuths"
+        },
+        {
+            "n": "Product2",
+            "rf": "ExternalDataSourceId",
+            "rl": ""
+        },
+        {
+            "n": "Product2ChangeEvent",
+            "rf": "ExternalDataSourceId",
+            "rl": ""
+        },
+        {
+            "n": "SetupEntityAccess",
+            "rf": "SetupEntityId",
+            "rl": "SetupEntityAccessItems"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "External Data Source ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Language",
+            "l": "Master Language",
+            "t": "picklist"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "External Data Source",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Type",
+            "l": "Class ID",
+            "t": "picklist"
+        },
+        {
+            "n": "Endpoint",
+            "l": "URL",
+            "t": "textarea"
+        },
+        {
+            "n": "Repository",
+            "l": "Default External Repository",
+            "t": "string"
+        },
+        {
+            "n": "IsWritable",
+            "l": "Writable External Objects",
+            "t": "boolean"
+        },
+        {
+            "n": "PrincipalType",
+            "l": "Identity Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Protocol",
+            "l": "Authentication Protocol",
+            "t": "picklist"
+        },
+        {
+            "n": "AuthProviderId",
+            "l": "Auth. Provider ID",
+            "t": "reference"
+        },
+        {
+            "n": "LargeIconId",
+            "l": "Static Resource ID",
+            "t": "reference"
+        },
+        {
+            "n": "SmallIconId",
+            "l": "Static Resource ID",
+            "t": "reference"
+        },
+        {
+            "n": "CustomConfiguration",
+            "l": "Custom Configuration",
+            "t": "textarea"
+        }
+    ]
+}

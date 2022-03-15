@@ -1,0 +1,169 @@
+{
+    "l": "__MISSING LABEL__ PropertyFile - val Image not found in section StandardFeedLabel",
+    "p": [
+        {
+            "n": "Image",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "RelatedRecordId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "User",
+            "rf": "InsertedById",
+            "rl": "InsertedBy ID"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "BestCommentId",
+            "rl": "Best Comment ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FeedAttachment",
+            "rf": "FeedEntityId",
+            "rl": "FeedAttachments"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "FeedItemId",
+            "rl": "FeedComments"
+        },
+        {
+            "n": "FeedLike",
+            "rf": "FeedEntityId",
+            "rl": ""
+        },
+        {
+            "n": "FeedLike",
+            "rf": "FeedItemId",
+            "rl": "FeedLikes"
+        },
+        {
+            "n": "FeedPollChoice",
+            "rf": "FeedItemId",
+            "rl": ""
+        },
+        {
+            "n": "FeedPollVote",
+            "rf": "FeedItemId",
+            "rl": ""
+        },
+        {
+            "n": "FeedSignal",
+            "rf": "FeedEntityId",
+            "rl": ""
+        },
+        {
+            "n": "FeedSignal",
+            "rf": "FeedItemId",
+            "rl": "FeedSignals"
+        },
+        {
+            "n": "FeedTrackedChange",
+            "rf": "FeedItemId",
+            "rl": "FeedTrackedChanges"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Feed Item ID",
+            "t": "id"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "Type",
+            "l": "Feed Item Type",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "CommentCount",
+            "l": "Comment Count",
+            "t": "int"
+        },
+        {
+            "n": "LikeCount",
+            "l": "Like Count",
+            "t": "int"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "textarea"
+        },
+        {
+            "n": "LinkUrl",
+            "l": "Link Url",
+            "t": "url"
+        },
+        {
+            "n": "IsRichText",
+            "l": "Is Rich Text",
+            "t": "boolean"
+        },
+        {
+            "n": "RelatedRecordId",
+            "l": "Related Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "InsertedById",
+            "l": "InsertedBy ID",
+            "t": "reference"
+        },
+        {
+            "n": "BestCommentId",
+            "l": "Best Comment ID",
+            "t": "reference"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "l": "Icon Definition",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Icon Definition ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Icon Definition Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "TabDefinitionId",
+            "l": "Tab Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "Url",
+            "l": "URL",
+            "t": "string"
+        },
+        {
+            "n": "ContentType",
+            "l": "Content Type",
+            "t": "string"
+        },
+        {
+            "n": "Theme",
+            "l": "Theme",
+            "t": "string"
+        },
+        {
+            "n": "Height",
+            "l": "Height",
+            "t": "int"
+        },
+        {
+            "n": "Width",
+            "l": "Width",
+            "t": "int"
+        }
+    ]
+}

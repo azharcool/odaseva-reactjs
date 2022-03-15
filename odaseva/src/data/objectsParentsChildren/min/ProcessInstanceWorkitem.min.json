@@ -1,0 +1,1 @@
+{"l":"Approval Request","p":{"ProcessInstance":[{"rf":"ProcessInstanceId","rl":"Process Instance ID"}],"Group":[{"rf":"OriginalActorId","rl":"Original Actor ID"},{"rf":"ActorId","rl":"Actor ID"}],"User":[{"rf":"OriginalActorId","rl":"Original Actor ID"},{"rf":"ActorId","rl":"Actor ID"},{"rf":"CreatedById","rl":"Created By ID"}]},"c":{}}

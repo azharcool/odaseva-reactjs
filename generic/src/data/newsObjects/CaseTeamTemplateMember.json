@@ -1,0 +1,83 @@
+{
+    "l": "Predefined Case Team Member",
+    "p": [
+        {
+            "n": "CaseTeamTemplate",
+            "rf": "TeamTemplateId",
+            "rl": "Team Template ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "MemberId",
+            "rl": "Member ID"
+        },
+        {
+            "n": "User",
+            "rf": "MemberId",
+            "rl": "Member ID"
+        },
+        {
+            "n": "CaseTeamRole",
+            "rf": "TeamRoleId",
+            "rl": "Team Role ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Team Template Member Id",
+            "t": "id"
+        },
+        {
+            "n": "TeamTemplateId",
+            "l": "Team Template ID",
+            "t": "reference"
+        },
+        {
+            "n": "MemberId",
+            "l": "Member ID",
+            "t": "reference"
+        },
+        {
+            "n": "TeamRoleId",
+            "l": "Team Role ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

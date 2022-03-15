@@ -1,0 +1,1 @@
+{"l":"Change Event: RoaRequest","p":{"Group":[{"rf":"OwnerId","rl":"Owner ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Contact":[{"rf":"OdasevaRoa__Contact__c","rl":"Contact"}],"Individual":[{"rf":"OdasevaRoa__Individual__c","rl":"Individual"}]},"c":{}}

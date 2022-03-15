@@ -1,0 +1,159 @@
+{
+    "l": "Price Book",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "Opportunity",
+            "rf": "Pricebook2Id",
+            "rl": "Opportunities"
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "Pricebook2Id",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "Pricebook2Id",
+            "rl": "Orders"
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "Pricebook2Id",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2History",
+            "rf": "Pricebook2Id",
+            "rl": "Histories"
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "Pricebook2Id",
+            "rl": "PricebookEntries"
+        },
+        {
+            "n": "Quote",
+            "rf": "Pricebook2Id",
+            "rl": "Quotes"
+        },
+        {
+            "n": "QuoteChangeEvent",
+            "rf": "Pricebook2Id",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "Pricebook2Id",
+            "rl": "WorkOrders"
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "Pricebook2Id",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Price Book ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Price Book Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "IsArchived",
+            "l": "Archived",
+            "t": "boolean"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "IsStandard",
+            "l": "Is Standard Price Book",
+            "t": "boolean"
+        }
+    ]
+}

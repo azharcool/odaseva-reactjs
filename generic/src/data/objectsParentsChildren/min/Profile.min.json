@@ -1,0 +1,1 @@
+{"l":"Profile","p":{"UserLicense":[{"rf":"UserLicenseId","rl":"User License ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"Name":[{"rf":"ProfileId","rl":null}],"PermissionSet":[{"rf":"ProfileId","rl":null}],"RecentlyViewed":[{"rf":"ProfileId","rl":null}],"User":[{"rf":"ProfileId","rl":"Users"}]}}

@@ -1,0 +1,88 @@
+{
+    "l": "Content Folder Item",
+    "p": [
+        {
+            "n": "ContentFolder",
+            "rf": "ParentContentFolderId",
+            "rl": "Parent Content Folder ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Content Folder Item ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "IsFolder",
+            "l": "Is Folder",
+            "t": "boolean"
+        },
+        {
+            "n": "ParentContentFolderId",
+            "l": "Parent Content Folder ID",
+            "t": "reference"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "FileType",
+            "l": "File Type",
+            "t": "string"
+        },
+        {
+            "n": "ContentSize",
+            "l": "Size",
+            "t": "int"
+        },
+        {
+            "n": "FileExtension",
+            "l": "File Extension",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

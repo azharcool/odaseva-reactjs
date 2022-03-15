@@ -1,0 +1,1 @@
+{"l":"Apex Test Run Result","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"UserId","rl":"User ID"}],"AsyncApexJob":[{"rf":"AsyncApexJobId","rl":"Apex Job ID"}]},"c":{"ApexTestQueueItem":[{"rf":"TestRunResultId","rl":null}],"ApexTestResult":[{"rf":"ApexTestRunResultId","rl":null}]}}

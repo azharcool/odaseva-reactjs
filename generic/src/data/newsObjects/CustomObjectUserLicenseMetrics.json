@@ -1,0 +1,53 @@
+{
+    "l": "Custom Object Usage By User License Metric",
+    "p": [
+        {
+            "n": "UserLicense",
+            "rf": "UserLicenseId",
+            "rl": "User License ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Custom Object Usage By User License Metrics Id",
+            "t": "id"
+        },
+        {
+            "n": "MetricsDate",
+            "l": "Metrics Date",
+            "t": "date"
+        },
+        {
+            "n": "UserLicenseId",
+            "l": "User License ID",
+            "t": "reference"
+        },
+        {
+            "n": "CustomObjectId",
+            "l": "Custom Object Id",
+            "t": "string"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "CustomObjectType",
+            "l": "Custom Object Type",
+            "t": "picklist"
+        },
+        {
+            "n": "CustomObjectName",
+            "l": "Custom Object Name",
+            "t": "string"
+        },
+        {
+            "n": "ObjectCount",
+            "l": "Count of Objects assigned",
+            "t": "int"
+        }
+    ]
+}

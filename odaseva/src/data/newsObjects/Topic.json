@@ -1,0 +1,119 @@
+{
+    "l": "Topic",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "CustomBrand",
+            "rf": "ParentId",
+            "rl": "CustomBrands"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "KnowledgeableUser",
+            "rf": "TopicId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "SourceListId",
+            "rl": "ListEmailRecipientSources"
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "TopicId",
+            "rl": "TopicAssignments"
+        },
+        {
+            "n": "TopicFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "TopicUserEvent",
+            "rf": "TopicId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Topic ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "TalkingAbout",
+            "l": "Talking About",
+            "t": "int"
+        },
+        {
+            "n": "ManagedTopicType",
+            "l": "Enabled For",
+            "t": "string"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

@@ -1,0 +1,304 @@
+{
+    "l": "Product",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "ExternalDataSourceId",
+            "rl": "External Data Source ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ActivityHistory",
+            "rf": "WhatId",
+            "rl": "ActivityHistories"
+        },
+        {
+            "n": "Asset",
+            "rf": "Product2Id",
+            "rl": "Assets"
+        },
+        {
+            "n": "AssetChangeEvent",
+            "rf": "Product2Id",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedToId",
+            "rl": "Emails"
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "RelatedToId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "WhatId",
+            "rl": "Events"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "ParentId",
+            "rl": "Notes"
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "ParentId",
+            "rl": "NotesAndAttachments"
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "WhatId",
+            "rl": "OpenActivities"
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "Product2Id",
+            "rl": ""
+        },
+        {
+            "n": "OrderItem",
+            "rf": "Product2Id",
+            "rl": ""
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "Product2Id",
+            "rl": "PricebookEntries"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "Product2Feed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "Product2History",
+            "rf": "Product2Id",
+            "rl": "Histories"
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "Product2Id",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItemChangeEvent",
+            "rf": "Product2Id",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "Task",
+            "rf": "WhatId",
+            "rl": "Tasks"
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "Product2Id",
+            "rl": "WorkOrderLineItems"
+        },
+        {
+            "n": "WorkOrderLineItemChangeEvent",
+            "rf": "Product2Id",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Product ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Product Name",
+            "t": "string"
+        },
+        {
+            "n": "ProductCode",
+            "l": "Product Code",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Product Description",
+            "t": "textarea"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Family",
+            "l": "Product Family",
+            "t": "picklist"
+        },
+        {
+            "n": "ExternalDataSourceId",
+            "l": "External Data Source ID",
+            "t": "reference"
+        },
+        {
+            "n": "ExternalId",
+            "l": "External ID",
+            "t": "string"
+        },
+        {
+            "n": "DisplayUrl",
+            "l": "Display URL",
+            "t": "url"
+        },
+        {
+            "n": "QuantityUnitOfMeasure",
+            "l": "Quantity Unit Of Measure",
+            "t": "picklist"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "IsArchived",
+            "l": "Archived",
+            "t": "boolean"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "StockKeepingUnit",
+            "l": "Product SKU",
+            "t": "string"
+        }
+    ]
+}

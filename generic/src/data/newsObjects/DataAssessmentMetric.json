@@ -1,0 +1,104 @@
+{
+    "l": "Data Assessment Metric",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "DataAssessmentFieldMetric",
+            "rf": "DataAssessmentMetricId",
+            "rl": "DataAssessmentMetrics"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Data Assessment Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Data Assessment Metric",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "NumTotal",
+            "l": "Total Number of Records to access",
+            "t": "int"
+        },
+        {
+            "n": "NumProcessed",
+            "l": "Number of Processed Records",
+            "t": "int"
+        },
+        {
+            "n": "NumMatched",
+            "l": "Number of Matched Records",
+            "t": "int"
+        },
+        {
+            "n": "NumMatchedDifferent",
+            "l": "Number of Matched Records with different field values",
+            "t": "int"
+        },
+        {
+            "n": "NumUnmatched",
+            "l": "Number of Unmatched Records",
+            "t": "int"
+        },
+        {
+            "n": "NumDuplicates",
+            "l": "Number of Duplicates",
+            "t": "int"
+        }
+    ]
+}

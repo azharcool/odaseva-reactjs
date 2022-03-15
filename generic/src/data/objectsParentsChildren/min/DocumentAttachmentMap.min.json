@@ -1,0 +1,1 @@
+{"l":"Document Entity Map","p":{"EmailTemplate":[{"rf":"ParentId","rl":"Entity ID"}],"Document":[{"rf":"DocumentId","rl":"Document ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"}]},"c":{}}

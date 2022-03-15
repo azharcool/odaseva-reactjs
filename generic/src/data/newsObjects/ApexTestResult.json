@@ -1,0 +1,104 @@
+{
+    "l": "Apex Test Result",
+    "p": [
+        {
+            "n": "ApexClass",
+            "rf": "ApexClassId",
+            "rl": "Class ID"
+        },
+        {
+            "n": "AsyncApexJob",
+            "rf": "AsyncApexJobId",
+            "rl": "Apex Job ID"
+        },
+        {
+            "n": "ApexTestQueueItem",
+            "rf": "QueueItemId",
+            "rl": "Apex Test Queue Item ID"
+        },
+        {
+            "n": "ApexLog",
+            "rf": "ApexLogId",
+            "rl": "Log ID"
+        },
+        {
+            "n": "ApexTestRunResult",
+            "rf": "ApexTestRunResultId",
+            "rl": "ApexTestRunResult ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ApexTestResultLimits",
+            "rf": "ApexTestResultId",
+            "rl": "ApexTestResults"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Apex Test Result ID",
+            "t": "id"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "TestTimestamp",
+            "l": "Time Started",
+            "t": "datetime"
+        },
+        {
+            "n": "Outcome",
+            "l": "Pass\/Fail",
+            "t": "picklist"
+        },
+        {
+            "n": "ApexClassId",
+            "l": "Class ID",
+            "t": "reference"
+        },
+        {
+            "n": "MethodName",
+            "l": "Method Name",
+            "t": "string"
+        },
+        {
+            "n": "Message",
+            "l": "Error Message",
+            "t": "string"
+        },
+        {
+            "n": "StackTrace",
+            "l": "Stack Trace",
+            "t": "string"
+        },
+        {
+            "n": "AsyncApexJobId",
+            "l": "Apex Job ID",
+            "t": "reference"
+        },
+        {
+            "n": "QueueItemId",
+            "l": "Apex Test Queue Item ID",
+            "t": "reference"
+        },
+        {
+            "n": "ApexLogId",
+            "l": "Log ID",
+            "t": "reference"
+        },
+        {
+            "n": "ApexTestRunResultId",
+            "l": "ApexTestRunResult ID",
+            "t": "reference"
+        },
+        {
+            "n": "RunTime",
+            "l": "Run Time",
+            "t": "int"
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "l": "Ui Formula Rule",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "PromptVersion",
+            "rf": "AssociatedElementId",
+            "rl": "Associated Element ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "UiFormulaCriterion",
+            "rf": "RuleId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Ui Formula Rule ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Language",
+            "l": "Master Language",
+            "t": "picklist"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "AssociatedElementId",
+            "l": "Associated Element ID",
+            "t": "reference"
+        },
+        {
+            "n": "BooleanFilter",
+            "l": "Boolean Filter",
+            "t": "string"
+        },
+        {
+            "n": "Formula",
+            "l": "Formula",
+            "t": "textarea"
+        },
+        {
+            "n": "ParentKeyPrefix",
+            "l": "Parent Key Prefix",
+            "t": "string"
+        }
+    ]
+}

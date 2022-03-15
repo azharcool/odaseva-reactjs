@@ -1,0 +1,1 @@
+{"l":"List View","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"ListEmailRecipientSource":[{"rf":"SourceListId","rl":"ListEmailRecipientSources"}],"ListViewChartInstance":[{"rf":"ListViewContextId","rl":null}],"UserListView":[{"rf":"ListViewId","rl":null}]}}

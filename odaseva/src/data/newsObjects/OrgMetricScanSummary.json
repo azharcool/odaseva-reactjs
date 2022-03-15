@@ -1,0 +1,139 @@
+{
+    "l": "Org Metric Scan Summary",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "OrgMetricId",
+            "rl": "Org Metric ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "LatestOrgMetricScanSummaryId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanResult",
+            "rf": "OrgMetricScanSummaryId",
+            "rl": "OrgMetricScanSummary"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Org Metric Scan ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Org Metric Scan Summary",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "OrgMetricId",
+            "l": "Org Metric ID",
+            "t": "reference"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "ImplementationEffort",
+            "l": "Implementation Effort",
+            "t": "picklist"
+        },
+        {
+            "n": "ErrorMessage",
+            "l": "Error Message",
+            "t": "picklist"
+        },
+        {
+            "n": "ItemCount",
+            "l": "Count",
+            "t": "int"
+        },
+        {
+            "n": "FeatureLimit",
+            "l": "Limit",
+            "t": "int"
+        },
+        {
+            "n": "Unit",
+            "l": "Unit",
+            "t": "string"
+        },
+        {
+            "n": "PercentUsage",
+            "l": "Percent Usage",
+            "t": "percent"
+        },
+        {
+            "n": "ScanDate",
+            "l": "Scan Date",
+            "t": "datetime"
+        }
+    ]
+}

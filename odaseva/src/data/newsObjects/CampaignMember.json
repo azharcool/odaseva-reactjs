@@ -1,0 +1,264 @@
+{
+    "l": "Campaign Member",
+    "p": [
+        {
+            "n": "Campaign",
+            "rf": "CampaignId",
+            "rl": "Campaign ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "LeadId",
+            "rl": "Lead ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ContactId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Account",
+            "rf": "LeadOrContactId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "LeadOrContactId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "LeadOrContactId",
+            "rl": "Related Record ID"
+        },
+        {
+            "n": "Group",
+            "rf": "LeadOrContactOwnerId",
+            "rl": "Related Record Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "LeadOrContactOwnerId",
+            "rl": "Related Record Owner ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "RecipientId",
+            "rl": "ListEmailIndividualRecipients"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Campaign Member ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CampaignId",
+            "l": "Campaign ID",
+            "t": "reference"
+        },
+        {
+            "n": "LeadId",
+            "l": "Lead ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContactId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "HasResponded",
+            "l": "Responded",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "FirstRespondedDate",
+            "l": "First Responded Date",
+            "t": "date"
+        },
+        {
+            "n": "Salutation",
+            "l": "Salutation",
+            "t": "picklist"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "FirstName",
+            "l": "First Name",
+            "t": "string"
+        },
+        {
+            "n": "LastName",
+            "l": "Last Name",
+            "t": "string"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "Street",
+            "l": "Street",
+            "t": "string"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "State",
+            "l": "State\/Province",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "Zip\/Postal Code",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country",
+            "t": "string"
+        },
+        {
+            "n": "Email",
+            "l": "Email",
+            "t": "email"
+        },
+        {
+            "n": "Phone",
+            "l": "Phone",
+            "t": "phone"
+        },
+        {
+            "n": "Fax",
+            "l": "Fax",
+            "t": "phone"
+        },
+        {
+            "n": "MobilePhone",
+            "l": "Mobile",
+            "t": "phone"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "DoNotCall",
+            "l": "Do Not Call",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutOfEmail",
+            "l": "Email Opt Out",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutOfFax",
+            "l": "Fax Opt Out",
+            "t": "boolean"
+        },
+        {
+            "n": "LeadSource",
+            "l": "Lead Source",
+            "t": "picklist"
+        },
+        {
+            "n": "CompanyOrAccount",
+            "l": "Company (Account)",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "Type",
+            "t": "string"
+        },
+        {
+            "n": "LeadOrContactId",
+            "l": "Related Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "LeadOrContactOwnerId",
+            "l": "Related Record Owner ID",
+            "t": "reference"
+        }
+    ]
+}

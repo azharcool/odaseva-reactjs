@@ -1,0 +1,108 @@
+{
+    "l": "Mail Merge Template",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Mail Merge Template ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "Filename",
+            "l": "File",
+            "t": "string"
+        },
+        {
+            "n": "BodyLength",
+            "l": "Body Length",
+            "t": "int"
+        },
+        {
+            "n": "Category",
+            "l": "Document Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "base64"
+        },
+        {
+            "n": "LastUsedDate",
+            "l": "Last Used Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "SecurityOptionsAttachmentScannedForXSS",
+            "l": "Attachment has been scanned for XSS",
+            "t": "boolean"
+        },
+        {
+            "n": "SecurityOptionsAttachmentHasXSSThreat",
+            "l": "XSS threat was detected in the attachment",
+            "t": "boolean"
+        },
+        {
+            "n": "SecurityOptionsAttachmentScannedforFlash",
+            "l": "Attachment has been scanned for Flash Injection",
+            "t": "boolean"
+        },
+        {
+            "n": "SecurityOptionsAttachmentHasFlash",
+            "l": "Flash Injection was detected in the attachment",
+            "t": "boolean"
+        }
+    ]
+}

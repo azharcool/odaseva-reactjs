@@ -1,0 +1,179 @@
+{
+    "l": "Background Operation",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "BackgroundOperation",
+            "rf": "GroupLeaderId",
+            "rl": "Background Operation ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "BackgroundOperation",
+            "rf": "GroupLeaderId",
+            "rl": "MergedOperations"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessExceptionEvent",
+            "rf": "BackgroundOperationId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Background Operation ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Background Operation Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "SubmittedAt",
+            "l": "Submitted",
+            "t": "datetime"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "ExecutionGroup",
+            "l": "Execution Group",
+            "t": "string"
+        },
+        {
+            "n": "SequenceGroup",
+            "l": "Sequence Group",
+            "t": "string"
+        },
+        {
+            "n": "SequenceNumber",
+            "l": "Sequence Number",
+            "t": "int"
+        },
+        {
+            "n": "GroupLeaderId",
+            "l": "Background Operation ID",
+            "t": "reference"
+        },
+        {
+            "n": "StartedAt",
+            "l": "Started",
+            "t": "datetime"
+        },
+        {
+            "n": "FinishedAt",
+            "l": "Finished",
+            "t": "datetime"
+        },
+        {
+            "n": "WorkerUri",
+            "l": "Worker URI",
+            "t": "string"
+        },
+        {
+            "n": "Timeout",
+            "l": "Timeout",
+            "t": "int"
+        },
+        {
+            "n": "ExpiresAt",
+            "l": "ExpiresAt",
+            "t": "datetime"
+        },
+        {
+            "n": "NumFollowers",
+            "l": "NumFollowers",
+            "t": "int"
+        },
+        {
+            "n": "ProcessAfter",
+            "l": "ProcessAfter",
+            "t": "datetime"
+        },
+        {
+            "n": "ParentKey",
+            "l": "ParentKey",
+            "t": "string"
+        },
+        {
+            "n": "RetryLimit",
+            "l": "RetryLimit",
+            "t": "int"
+        },
+        {
+            "n": "RetryCount",
+            "l": "RetryCount",
+            "t": "int"
+        },
+        {
+            "n": "RetryBackoff",
+            "l": "RetryBackoff",
+            "t": "int"
+        },
+        {
+            "n": "Error",
+            "l": "Error",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "Type",
+            "t": "picklist"
+        }
+    ]
+}

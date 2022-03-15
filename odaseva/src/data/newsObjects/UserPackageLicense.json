@@ -1,0 +1,68 @@
+{
+    "l": "User Package License",
+    "p": [
+        {
+            "n": "PackageLicense",
+            "rf": "PackageLicenseId",
+            "rl": "Package License ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "Assigned User ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Package License ID",
+            "t": "id"
+        },
+        {
+            "n": "PackageLicenseId",
+            "l": "Package License ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserId",
+            "l": "Assigned User ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

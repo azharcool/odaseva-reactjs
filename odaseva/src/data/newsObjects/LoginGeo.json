@@ -1,0 +1,109 @@
+{
+    "l": "Login Geo Data",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AuthSession",
+            "rf": "LoginGeoId",
+            "rl": ""
+        },
+        {
+            "n": "LoginHistory",
+            "rf": "LoginGeoId",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "LoginGeoId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Login Geo Data ID",
+            "t": "id"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LoginTime",
+            "l": "Login Time",
+            "t": "datetime"
+        },
+        {
+            "n": "CountryIso",
+            "l": "Country Code",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country",
+            "t": "string"
+        },
+        {
+            "n": "Latitude",
+            "l": "Latitude",
+            "t": "double"
+        },
+        {
+            "n": "Longitude",
+            "l": "Longitude",
+            "t": "double"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "PostalCode",
+            "t": "string"
+        },
+        {
+            "n": "Subdivision",
+            "l": "Subdivision",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,159 @@
+{
+    "l": "Connected App",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AssetTokenEvent",
+            "rf": "ConnectedAppId",
+            "rl": ""
+        },
+        {
+            "n": "IdpEventLog",
+            "rf": "AppId",
+            "rl": ""
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "ConnectedApplicationId",
+            "rl": "InstalledMobileApps"
+        },
+        {
+            "n": "SPSamlAttributes",
+            "rf": "ConnectivityId",
+            "rl": ""
+        },
+        {
+            "n": "SetupEntityAccess",
+            "rf": "SetupEntityId",
+            "rl": "SetupEntityAccessItems"
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "ApplicationId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "ConnectedAppId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "ConnectedAppId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningConfig",
+            "rf": "ConnectedAppId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "ConnectedAppId",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "ResourceId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Connected App ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Connected App Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "OptionsAllowAdminApprovedUsersOnly",
+            "l": "AllowAdminApprovedUsersOnly",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsRefreshTokenValidityMetric",
+            "l": "RefreshTokenValidityMetric",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsHasSessionLevelPolicy",
+            "l": "HasSessionLevelPolicy",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsIsInternal",
+            "l": "isInternal",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsFullContentPushNotifications",
+            "l": "FullContentPushNotifications",
+            "t": "boolean"
+        },
+        {
+            "n": "MobileSessionTimeout",
+            "l": "Lock App After",
+            "t": "picklist"
+        },
+        {
+            "n": "PinLength",
+            "l": "PIN Length",
+            "t": "picklist"
+        },
+        {
+            "n": "StartUrl",
+            "l": "Start URL",
+            "t": "url"
+        },
+        {
+            "n": "MobileStartUrl",
+            "l": "Mobile Start URL",
+            "t": "url"
+        },
+        {
+            "n": "RefreshTokenValidityPeriod",
+            "l": "Refresh Token Policy:",
+            "t": "int"
+        }
+    ]
+}

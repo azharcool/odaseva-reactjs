@@ -1,0 +1,48 @@
+{
+    "l": "Field Permissions",
+    "p": [
+        {
+            "n": "PermissionSet",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Field Permissions ID",
+            "t": "id"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "SobjectType",
+            "l": "SObject Type Name",
+            "t": "picklist"
+        },
+        {
+            "n": "Field",
+            "l": "Field Name",
+            "t": "picklist"
+        },
+        {
+            "n": "PermissionsEdit",
+            "l": "Edit Field",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsRead",
+            "l": "Read Field",
+            "t": "boolean"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

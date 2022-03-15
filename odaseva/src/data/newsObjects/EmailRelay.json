@@ -1,0 +1,94 @@
+{
+    "l": "Email Relay",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "EmailDomainFilter",
+            "rf": "EmailRelayId",
+            "rl": "Filters"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Email Relay ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Host",
+            "l": "Host",
+            "t": "string"
+        },
+        {
+            "n": "Port",
+            "l": "Port",
+            "t": "picklist"
+        },
+        {
+            "n": "TlsSetting",
+            "l": "TLS Setting",
+            "t": "picklist"
+        },
+        {
+            "n": "IsRequireAuth",
+            "l": "Enable SMTP Auth",
+            "t": "boolean"
+        },
+        {
+            "n": "Username",
+            "l": "Username",
+            "t": "string"
+        },
+        {
+            "n": "Password",
+            "l": "Password",
+            "t": "encryptedstring"
+        },
+        {
+            "n": "AuthType",
+            "l": "Auth Type",
+            "t": "picklist"
+        }
+    ]
+}

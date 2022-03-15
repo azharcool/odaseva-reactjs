@@ -1,0 +1,1 @@
+{"l":"Account Change Event","p":{"Account":[{"rf":"ParentId","rl":"Parent Account ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

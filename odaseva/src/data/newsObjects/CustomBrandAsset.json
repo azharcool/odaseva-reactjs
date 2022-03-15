@@ -1,0 +1,78 @@
+{
+    "l": "Custom Brand Asset",
+    "p": [
+        {
+            "n": "CustomBrand",
+            "rf": "CustomBrandId",
+            "rl": "Custom Brand ID"
+        },
+        {
+            "n": "ContentAsset",
+            "rf": "AssetSourceId",
+            "rl": "Asset source ID"
+        },
+        {
+            "n": "Document",
+            "rf": "AssetSourceId",
+            "rl": "Asset source ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Custom Brand Asset ID",
+            "t": "id"
+        },
+        {
+            "n": "CustomBrandId",
+            "l": "Custom Brand ID",
+            "t": "reference"
+        },
+        {
+            "n": "AssetCategory",
+            "l": "Asset Category",
+            "t": "picklist"
+        },
+        {
+            "n": "TextAsset",
+            "l": "Text Asset",
+            "t": "string"
+        },
+        {
+            "n": "AssetSourceId",
+            "l": "Asset source ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        }
+    ]
+}

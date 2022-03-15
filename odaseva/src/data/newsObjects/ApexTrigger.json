@@ -1,0 +1,133 @@
+{
+    "l": "Apex Trigger",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Trigger ID",
+            "t": "id"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "TableEnumOrId",
+            "l": "Custom Object Definition ID",
+            "t": "picklist"
+        },
+        {
+            "n": "UsageBeforeInsert",
+            "l": "BeforeInsert",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageAfterInsert",
+            "l": "AfterInsert",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageBeforeUpdate",
+            "l": "BeforeUpdate",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageAfterUpdate",
+            "l": "AfterUpdate",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageBeforeDelete",
+            "l": "BeforeDelete",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageAfterDelete",
+            "l": "AfterDelete",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageIsBulk",
+            "l": "IsBulk",
+            "t": "boolean"
+        },
+        {
+            "n": "UsageAfterUndelete",
+            "l": "AfterUndelete",
+            "t": "boolean"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "Api Version",
+            "t": "double"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "IsValid",
+            "l": "Is Valid",
+            "t": "boolean"
+        },
+        {
+            "n": "BodyCrc",
+            "l": "Body CRC",
+            "t": "double"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "textarea"
+        },
+        {
+            "n": "LengthWithoutComments",
+            "l": "Size Without Comments",
+            "t": "int"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

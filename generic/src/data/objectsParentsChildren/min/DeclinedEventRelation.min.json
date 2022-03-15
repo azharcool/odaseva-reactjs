@@ -1,0 +1,1 @@
+{"l":"Declined Event Relation","p":{"Contact":[{"rf":"RelationId","rl":"Relation ID"}],"Lead":[{"rf":"RelationId","rl":"Relation ID"}],"User":[{"rf":"RelationId","rl":"Relation ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Event":[{"rf":"EventId","rl":"Event ID"}]},"c":{}}

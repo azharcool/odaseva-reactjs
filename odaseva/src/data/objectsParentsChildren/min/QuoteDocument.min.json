@@ -1,0 +1,1 @@
+{"l":"Quote PDF","p":{"Quote":[{"rf":"QuoteId","rl":"Quote ID"}],"ContentVersion":[{"rf":"ContentVersionDocumentId","rl":"ContentVersion ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

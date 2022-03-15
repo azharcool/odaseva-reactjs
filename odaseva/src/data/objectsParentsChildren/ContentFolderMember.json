@@ -1,0 +1,1 @@
+{"l":"Content Folder Member","p":{"ContentFolder":[{"rf":"ParentContentFolderId","rl":"Parent Content Folder ID"}],"ContentDocument":[{"rf":"ChildRecordId","rl":"Child Record ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

@@ -1,0 +1,73 @@
+{
+    "l": "Setup Entity Access",
+    "p": [
+        {
+            "n": "PermissionSet",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "ApexClass",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "ApexPage",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "ConnectedApplication",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "CustomPermission",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "ExternalSocialAccount",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        },
+        {
+            "n": "NamedCredential",
+            "rf": "SetupEntityId",
+            "rl": "Setup Entity ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "SetupEntityAccess ID",
+            "t": "id"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "SetupEntityId",
+            "l": "Setup Entity ID",
+            "t": "reference"
+        },
+        {
+            "n": "SetupEntityType",
+            "l": "Setup Entity Type",
+            "t": "picklist"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

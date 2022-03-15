@@ -1,0 +1,3781 @@
+[
+  {
+    "l": "Accepted Event Relation",
+    "n": "AcceptedEventRelation"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Account",
+    "n": "Account",
+    "r": true,
+    "s": 194,
+    "u": true
+  },
+  {
+    "l": "Account Change Event",
+    "n": "AccountChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Account Contact Role",
+    "n": "AccountContactRole",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Account Contact Role Change Event",
+    "n": "AccountContactRoleChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Account Feed",
+    "n": "AccountFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Account History",
+    "n": "AccountHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Account Partner",
+    "n": "AccountPartner"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Account Share",
+    "n": "AccountShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Action Link Group Template",
+    "n": "ActionLinkGroupTemplate",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Action Link Template",
+    "n": "ActionLinkTemplate",
+    "u": true
+  },
+  {
+    "l": "Active Feature License Metric",
+    "n": "ActiveFeatureLicenseMetric",
+    "s": 9
+  },
+  {
+    "l": "Active Permission Set License Metric",
+    "n": "ActivePermSetLicenseMetric",
+    "s": 3
+  },
+  {
+    "l": "Active Profile Metric",
+    "n": "ActiveProfileMetric",
+    "s": 48
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Additional Directory Number",
+    "n": "AdditionalNumber",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Announcement",
+    "n": "Announcement",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Class",
+    "n": "ApexClass",
+    "r": true,
+    "s": 29,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Visualforce Component",
+    "n": "ApexComponent",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Email Notification",
+    "n": "ApexEmailNotification",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Apex Debug Log",
+    "n": "ApexLog"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Visualforce Page",
+    "n": "ApexPage",
+    "r": true,
+    "s": 4,
+    "u": true
+  },
+  {
+    "l": "Apex Page Info",
+    "n": "ApexPageInfo",
+    "s": 4
+  },
+  {
+    "c": true,
+    "l": "Apex Test Queue Item",
+    "n": "ApexTestQueueItem",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Test Result",
+    "n": "ApexTestResult",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Test Result Limit",
+    "n": "ApexTestResultLimits",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Test Run Result",
+    "n": "ApexTestRunResult",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Test Suite",
+    "n": "ApexTestSuite",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Apex Trigger",
+    "n": "ApexTrigger",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "App Analytics Query Request",
+    "n": "AppAnalyticsQueryRequest",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "AppMenuItem",
+    "n": "AppMenuItem",
+    "s": 16,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Asset",
+    "n": "Asset",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Asset Change Event",
+    "n": "AssetChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Asset Feed",
+    "n": "AssetFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Asset History",
+    "n": "AssetHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Asset Relationship",
+    "n": "AssetRelationship",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Asset Relationship Feed",
+    "n": "AssetRelationshipFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Asset Relationship History",
+    "n": "AssetRelationshipHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Asset Share",
+    "n": "AssetShare",
+    "ts": true
+  },
+  {
+    "l": "Assignment Rule",
+    "n": "AssignmentRule",
+    "s": 1
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Associated Location",
+    "n": "AssociatedLocation",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Associated Location History",
+    "n": "AssociatedLocationHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Apex Job",
+    "n": "AsyncApexJob"
+  },
+  {
+    "l": "Async Operation Event",
+    "n": "AsyncOperationEvent"
+  },
+  {
+    "l": "Async Operation Status",
+    "n": "AsyncOperationStatus"
+  },
+  {
+    "c": true,
+    "d": true,
+    "f": true,
+    "l": "Attachment",
+    "n": "Attachment",
+    "r": true,
+    "s": 2,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Lightning Component Definition",
+    "n": "AuraDefinition",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Aura Component Bundle",
+    "n": "AuraDefinitionBundle",
+    "u": true
+  },
+  {
+    "l": "AuraDefinitionBundle Info",
+    "n": "AuraDefinitionBundleInfo"
+  },
+  {
+    "l": "AuraDefinition Info",
+    "n": "AuraDefinitionInfo"
+  },
+  {
+    "l": "Authentication Configuration",
+    "n": "AuthConfig"
+  },
+  {
+    "l": "Authentication Configuration Auth. Provider",
+    "n": "AuthConfigProviders"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form",
+    "n": "AuthorizationForm",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Consent",
+    "n": "AuthorizationFormConsent",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Authorization Form Consent Change Event",
+    "n": "AuthorizationFormConsentChangeEvent"
+  },
+  {
+    "l": "Authorization Form Consent History",
+    "n": "AuthorizationFormConsentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Consent Share",
+    "n": "AuthorizationFormConsentShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Data Use",
+    "n": "AuthorizationFormDataUse",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Authorization Form Data Use History",
+    "n": "AuthorizationFormDataUseHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Data Use Share",
+    "n": "AuthorizationFormDataUseShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Authorization Form History",
+    "n": "AuthorizationFormHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Share",
+    "n": "AuthorizationFormShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Authorization Form Text",
+    "n": "AuthorizationFormText",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "__MISSING LABEL__ PropertyFile - val AuthorizationFormText not found in section StandardFeedLabel",
+    "n": "AuthorizationFormTextFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Authorization Form Text History",
+    "n": "AuthorizationFormTextHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Auth. Provider",
+    "n": "AuthProvider",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Auth Session",
+    "n": "AuthSession",
+    "s": 5
+  },
+  {
+    "l": "Background Operation",
+    "n": "BackgroundOperation",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Branding Set",
+    "n": "BrandingSet",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Branding Set Property",
+    "n": "BrandingSetProperty",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Letterhead",
+    "n": "BrandTemplate",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Business Hours",
+    "n": "BusinessHours",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Business Process",
+    "n": "BusinessProcess",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Calendar",
+    "n": "Calendar",
+    "s": 10
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Calendar",
+    "n": "CalendarView",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Calendar Share",
+    "n": "CalendarViewShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Call Center",
+    "n": "CallCenter",
+    "r": true
+  },
+  {
+    "c": true,
+    "l": "CallCoachingMediaProvider",
+    "n": "CallCoachingMediaProvider",
+    "u": true
+  },
+  {
+    "l": "Campaign",
+    "n": "Campaign",
+    "r": true
+  },
+  {
+    "l": "Campaign Change Event",
+    "n": "CampaignChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Campaign Feed",
+    "n": "CampaignFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Campaign Field History",
+    "n": "CampaignHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Campaign Influence Model",
+    "n": "CampaignInfluenceModel",
+    "s": 1
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Campaign Member",
+    "n": "CampaignMember",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Campaign Member Change Event",
+    "n": "CampaignMemberChangeEvent"
+  },
+  {
+    "l": "Campaign Member Status",
+    "n": "CampaignMemberStatus",
+    "r": true
+  },
+  {
+    "l": "Campaign Member Status Change Event",
+    "n": "CampaignMemberStatusChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Campaign Share",
+    "n": "CampaignShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case",
+    "n": "Case",
+    "r": true,
+    "s": 2631,
+    "u": true
+  },
+  {
+    "l": "Case Change Event",
+    "n": "CaseChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Comment",
+    "n": "CaseComment",
+    "r": true,
+    "s": 10380,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Contact Role",
+    "n": "CaseContactRole",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Case Feed",
+    "n": "CaseFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Case History",
+    "n": "CaseHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Share",
+    "n": "CaseShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Solution",
+    "n": "CaseSolution",
+    "r": true
+  },
+  {
+    "l": "Case Status Value",
+    "n": "CaseStatus",
+    "s": 4
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Subject Particle",
+    "n": "CaseSubjectParticle",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Case Team Member",
+    "n": "CaseTeamMember",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Case Team Member Role",
+    "n": "CaseTeamRole",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Predefined Case Team",
+    "n": "CaseTeamTemplate",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Predefined Case Team Member",
+    "n": "CaseTeamTemplateMember",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Predefined Case Team Record",
+    "n": "CaseTeamTemplateRecord",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Category Data",
+    "n": "CategoryData",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Category Node",
+    "n": "CategoryNode",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Chatter Activity",
+    "n": "ChatterActivity",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Extension",
+    "n": "ChatterExtension",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Chatter Extension Configuration",
+    "n": "ChatterExtensionConfig",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Client Browser",
+    "n": "ClientBrowser",
+    "s": 2
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Group",
+    "n": "CollaborationGroup",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Group Feed",
+    "n": "CollaborationGroupFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Group Member",
+    "n": "CollaborationGroupMember",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Group Member Request",
+    "n": "CollaborationGroupMemberRequest",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Chatter Invitation",
+    "n": "CollaborationInvitation"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription",
+    "n": "CommSubscription",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Channel Type",
+    "n": "CommSubscriptionChannelType",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Communication Subscription Channel Type Feed",
+    "n": "CommSubscriptionChannelTypeFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Communication Subscription Channel Type  History",
+    "n": "CommSubscriptionChannelTypeHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Channel Type Share",
+    "n": "CommSubscriptionChannelTypeShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Consent",
+    "n": "CommSubscriptionConsent",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Communication Subscription Consent Change Event",
+    "n": "CommSubscriptionConsentChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Communication Subscription Consent Feed",
+    "n": "CommSubscriptionConsentFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Communication Subscription Consent  History",
+    "n": "CommSubscriptionConsentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Consent Share",
+    "n": "CommSubscriptionConsentShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Communication Subscription Feed",
+    "n": "CommSubscriptionFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Communication Subscription  History",
+    "n": "CommSubscriptionHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Share",
+    "n": "CommSubscriptionShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Communication Subscription Timing",
+    "n": "CommSubscriptionTiming",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Communication Subscription Timing Feed",
+    "n": "CommSubscriptionTimingFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Communication Subscription Timing  History",
+    "n": "CommSubscriptionTimingHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Zone",
+    "n": "Community",
+    "s": 1
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Conference Number",
+    "n": "ConferenceNumber",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Connected App",
+    "n": "ConnectedApplication",
+    "s": 2
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact",
+    "n": "Contact",
+    "r": true,
+    "s": 1456,
+    "u": true
+  },
+  {
+    "l": "Contact Change Event",
+    "n": "ContactChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Contact Feed",
+    "n": "ContactFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Contact History",
+    "n": "ContactHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Address",
+    "n": "ContactPointAddress",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Contact Point Address Change Event",
+    "n": "ContactPointAddressChangeEvent"
+  },
+  {
+    "l": "Contact Point Address History",
+    "n": "ContactPointAddressHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Address Share",
+    "n": "ContactPointAddressShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Consent",
+    "n": "ContactPointConsent",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Contact Point Consent Change Event",
+    "n": "ContactPointConsentChangeEvent"
+  },
+  {
+    "l": "Contact Point Consent  History",
+    "n": "ContactPointConsentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Consent Share",
+    "n": "ContactPointConsentShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Email",
+    "n": "ContactPointEmail",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Contact Point Email Change Event",
+    "n": "ContactPointEmailChangeEvent"
+  },
+  {
+    "l": "Contact Point Email History",
+    "n": "ContactPointEmailHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Email Share",
+    "n": "ContactPointEmailShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Phone",
+    "n": "ContactPointPhone",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Contact Point Phone Change Event",
+    "n": "ContactPointPhoneChangeEvent"
+  },
+  {
+    "l": "Contact Point Phone History",
+    "n": "ContactPointPhoneHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Phone Share",
+    "n": "ContactPointPhoneShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Type Consent",
+    "n": "ContactPointTypeConsent",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Contact Point Type Consent Change Event",
+    "n": "ContactPointTypeConsentChangeEvent"
+  },
+  {
+    "l": "Contact Point Type Consent  History",
+    "n": "ContactPointTypeConsentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Point Type Consent Share",
+    "n": "ContactPointTypeConsentShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Request",
+    "n": "ContactRequest",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contact Request Share",
+    "n": "ContactRequestShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Contact Share",
+    "n": "ContactShare",
+    "ts": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Asset File",
+    "n": "ContentAsset",
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Content Delivery",
+    "n": "ContentDistribution",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Content Delivery View",
+    "n": "ContentDistributionView",
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Content Document",
+    "n": "ContentDocument",
+    "s": 34,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "ContentDocument Feed",
+    "n": "ContentDocumentFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Content Document History",
+    "n": "ContentDocumentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "d": true,
+    "l": "Content Document Subscription",
+    "n": "ContentDocumentSubscription"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Content Folder",
+    "n": "ContentFolder",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Content Folder Link",
+    "n": "ContentFolderLink"
+  },
+  {
+    "d": true,
+    "l": "Content Notification",
+    "n": "ContentNotification"
+  },
+  {
+    "d": true,
+    "l": "Content Tag Subscription",
+    "n": "ContentTagSubscription"
+  },
+  {
+    "d": true,
+    "l": "Content User Subscription",
+    "n": "ContentUserSubscription"
+  },
+  {
+    "c": true,
+    "f": true,
+    "l": "Content Version",
+    "n": "ContentVersion",
+    "s": 38,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Content Version Comment",
+    "n": "ContentVersionComment"
+  },
+  {
+    "l": "Content Version History",
+    "n": "ContentVersionHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "d": true,
+    "l": "Content Version Rating",
+    "n": "ContentVersionRating"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Library",
+    "n": "ContentWorkspace",
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Library Document",
+    "n": "ContentWorkspaceDoc",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Library Member",
+    "n": "ContentWorkspaceMember",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Library Permission",
+    "n": "ContentWorkspacePermission",
+    "s": 3,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Content Workspace Subscription",
+    "n": "ContentWorkspaceSubscription"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contract",
+    "n": "Contract",
+    "r": true,
+    "s": 2,
+    "u": true
+  },
+  {
+    "l": "Contract Change Event",
+    "n": "ContractChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Contract Contact Role",
+    "n": "ContractContactRole",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Contract Feed",
+    "n": "ContractFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Contract History",
+    "n": "ContractHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Contract Status Value",
+    "n": "ContractStatus",
+    "s": 3
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "CORS Allowed Origin List",
+    "n": "CorsWhitelistEntry",
+    "u": true
+  },
+  {
+    "l": "Cron Job",
+    "n": "CronJobDetail"
+  },
+  {
+    "l": "Scheduled Jobs",
+    "n": "CronTrigger"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Content Security Policy Trusted Site",
+    "n": "CspTrustedSite",
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Custom Brand",
+    "n": "CustomBrand",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Custom Brand Asset",
+    "n": "CustomBrandAsset",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Custom Help Menu Item",
+    "n": "CustomHelpMenuItem",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Custom Help Menu Section",
+    "n": "CustomHelpMenuSection",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Custom Notification Type",
+    "n": "CustomNotificationType",
+    "u": true
+  },
+  {
+    "l": "Custom Object Usage By User License Metric",
+    "n": "CustomObjectUserLicenseMetrics",
+    "s": 60
+  },
+  {
+    "l": "Custom Permission",
+    "n": "CustomPermission"
+  },
+  {
+    "l": "Custom Permission Dependency",
+    "n": "CustomPermissionDependency"
+  },
+  {
+    "l": "Dashboard",
+    "n": "Dashboard",
+    "s": 3
+  },
+  {
+    "l": "Dashboard Component",
+    "n": "DashboardComponent",
+    "s": 33
+  },
+  {
+    "d": true,
+    "l": "Dashboard Component Feed",
+    "n": "DashboardComponentFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "d": true,
+    "l": "Dashboard Feed",
+    "n": "DashboardFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Data Assessment Field Metric",
+    "n": "DataAssessmentFieldMetric",
+    "r": true
+  },
+  {
+    "l": "Data Assessment Metric",
+    "n": "DataAssessmentMetric",
+    "r": true
+  },
+  {
+    "l": "Data Assessment Field Value Metric",
+    "n": "DataAssessmentValueMetric",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "DataIntegrationRecordPurchasePermission",
+    "n": "DataIntegrationRecordPurchasePermission",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Data Use Legal Basis",
+    "n": "DataUseLegalBasis",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Data Use Legal Basis  History",
+    "n": "DataUseLegalBasisHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Data Use Legal Basis Share",
+    "n": "DataUseLegalBasisShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Data Use Purpose",
+    "n": "DataUsePurpose",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Data Use Purpose  History",
+    "n": "DataUsePurposeHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Data Use Purpose Share",
+    "n": "DataUsePurposeShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Declined Event Relation",
+    "n": "DeclinedEventRelation"
+  },
+  {
+    "l": "Recycle Bin Item",
+    "n": "DeleteEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "f": true,
+    "l": "Document",
+    "n": "Document",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Document Entity Map",
+    "n": "DocumentAttachmentMap",
+    "u": true
+  },
+  {
+    "l": "Domain",
+    "n": "Domain"
+  },
+  {
+    "l": "Custom URL",
+    "n": "DomainSite"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Duplicate Record Item",
+    "n": "DuplicateRecordItem",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Duplicate Record Set",
+    "n": "DuplicateRecordSet",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Duplicate Rule",
+    "n": "DuplicateRule",
+    "s": 3
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "EmailCapture",
+    "n": "EmailCapture",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Domain Filter",
+    "n": "EmailDomainFilter",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Domain Key",
+    "n": "EmailDomainKey",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Message",
+    "n": "EmailMessage",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Email Message Change Event",
+    "n": "EmailMessageChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Message Relation",
+    "n": "EmailMessageRelation",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Relay",
+    "n": "EmailRelay",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Services Address",
+    "n": "EmailServicesAddress",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Service",
+    "n": "EmailServicesFunction",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Email Template",
+    "n": "EmailTemplate",
+    "r": true,
+    "s": 10,
+    "u": true
+  },
+  {
+    "l": "Email Template Change Event",
+    "n": "EmailTemplateChangeEvent"
+  },
+  {
+    "l": "Embedded Service",
+    "n": "EmbeddedServiceDetail"
+  },
+  {
+    "l": "Embedded Service Label",
+    "n": "EmbeddedServiceLabel"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Engagement Channel Type",
+    "n": "EngagementChannelType",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Engagement Channel Type Feed",
+    "n": "EngagementChannelTypeFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Engagement Channel Type  History",
+    "n": "EngagementChannelTypeHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Engagement Channel Type Share",
+    "n": "EngagementChannelTypeShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Enhanced Letterhead",
+    "n": "EnhancedLetterhead",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Enhanced Letterhead Feed",
+    "n": "EnhancedLetterheadFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Entity Definition",
+    "n": "EntityDefinition",
+    "s": 621
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Entity Subscription",
+    "n": "EntitySubscription",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Event",
+    "n": "Event",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Event Change Event",
+    "n": "EventChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Event Feed",
+    "n": "EventFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "f": true,
+    "l": "Event Log File",
+    "n": "EventLogFile"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Event Relation",
+    "n": "EventRelation",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Event Relation Change Event",
+    "n": "EventRelationChangeEvent"
+  },
+  {
+    "l": "External Data Source",
+    "n": "ExternalDataSource"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "External Data User Authentication",
+    "n": "ExternalDataUserAuth",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "External Event",
+    "n": "ExternalEvent",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "External Event Mapping",
+    "n": "ExternalEventMapping",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "External Event Mapping Share",
+    "n": "ExternalEventMappingShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Managed Social Account",
+    "n": "ExternalSocialAccount"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Feed Attachment",
+    "n": "FeedAttachment",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Feed Comment",
+    "n": "FeedComment",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Feed Item",
+    "n": "FeedItem",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Feed Poll Choice",
+    "n": "FeedPollChoice"
+  },
+  {
+    "l": "Feed Poll Vote",
+    "n": "FeedPollVote"
+  },
+  {
+    "l": "Feed Revision",
+    "n": "FeedRevision",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Feed Signal",
+    "n": "FeedSignal"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Field Permissions",
+    "n": "FieldPermissions",
+    "s": 4987,
+    "u": true
+  },
+  {
+    "l": "Field Security Classification",
+    "n": "FieldSecurityClassification",
+    "s": 5
+  },
+  {
+    "l": "FileSearchActivity",
+    "n": "FileSearchActivity",
+    "r": true
+  },
+  {
+    "l": "Fiscal Year Settings",
+    "n": "FiscalYearSettings",
+    "r": true,
+    "s": 8
+  },
+  {
+    "l": "Flow Execution Error Event",
+    "n": "FlowExecutionErrorEvent"
+  },
+  {
+    "d": true,
+    "l": "Flow Interview",
+    "n": "FlowInterview",
+    "r": true
+  },
+  {
+    "l": "Flow Interview Log",
+    "n": "FlowInterviewLog",
+    "r": true
+  },
+  {
+    "l": "Flow Interview Log Entry",
+    "n": "FlowInterviewLogEntry",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Flow Interview Log Share",
+    "n": "FlowInterviewLogShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Flow Interview Share",
+    "n": "FlowInterviewShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Flow Record Relation",
+    "n": "FlowRecordRelation",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Flow Interview Stage Relation",
+    "n": "FlowStageRelation",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Folder",
+    "n": "Folder",
+    "r": true,
+    "s": 17,
+    "u": true
+  },
+  {
+    "l": "Formula Function",
+    "n": "FormulaFunction",
+    "s": 82
+  },
+  {
+    "l": "Formula Context Function",
+    "n": "FormulaFunctionAllowedType",
+    "s": 261
+  },
+  {
+    "l": "Formula Function Category",
+    "n": "FormulaFunctionCategory",
+    "s": 6
+  },
+  {
+    "l": "Setting Granted By License",
+    "n": "GrantedByLicense"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Group",
+    "n": "Group",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Group Member",
+    "n": "GroupMember",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Holiday",
+    "n": "Holiday",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Idea",
+    "n": "Idea",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Identity Provider Event Log",
+    "n": "IdpEventLog"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Trusted Domain for Inline Frames",
+    "n": "IframeWhiteListUrl",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Image",
+    "n": "Image",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "__MISSING LABEL__ PropertyFile - val Image not found in section StandardFeedLabel",
+    "n": "ImageFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Image History",
+    "n": "ImageHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Image Share",
+    "n": "ImageShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Individual",
+    "n": "Individual",
+    "r": true,
+    "s": 18700,
+    "u": true
+  },
+  {
+    "l": "Individual Change Event",
+    "n": "IndividualChangeEvent"
+  },
+  {
+    "l": "Individual History",
+    "n": "IndividualHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Individual Share",
+    "n": "IndividualShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Installed Mobile App",
+    "n": "InstalledMobileApp",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "IP Address Range",
+    "n": "IPAddressRange",
+    "u": true
+  },
+  {
+    "l": "Knowledgeable User",
+    "n": "KnowledgeableUser"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Lead",
+    "n": "Lead",
+    "r": true,
+    "s": 4,
+    "u": true
+  },
+  {
+    "l": "Lead Change Event",
+    "n": "LeadChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Lead Feed",
+    "n": "LeadFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Lead History",
+    "n": "LeadHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Lead Share",
+    "n": "LeadShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Lead Status Value",
+    "n": "LeadStatus",
+    "s": 5
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Lightning Experience Theme",
+    "n": "LightningExperienceTheme",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "LightningOnboardingConfig",
+    "n": "LightningOnboardingConfig",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "List Email",
+    "n": "ListEmail",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "List Email Change Event",
+    "n": "ListEmailChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "List Email Individual Recipient",
+    "n": "ListEmailIndividualRecipient",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "List Email Recipient Source",
+    "n": "ListEmailRecipientSource",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "List Email Share",
+    "n": "ListEmailShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "List View",
+    "n": "ListView",
+    "s": 216
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "List View Chart",
+    "n": "ListViewChart",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Location",
+    "n": "Location",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Location Change Event",
+    "n": "LocationChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Location Feed",
+    "n": "LocationFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Location History",
+    "n": "LocationHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Location Share",
+    "n": "LocationShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Location Trust Measure",
+    "n": "LocationTrustMeasure",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Location Trust Measure Share",
+    "n": "LocationTrustMeasureShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Login Geo Data",
+    "n": "LoginGeo",
+    "s": 10
+  },
+  {
+    "l": "Login History",
+    "n": "LoginHistory",
+    "s": 10,
+    "th": true
+  },
+  {
+    "d": true,
+    "l": "Login IP",
+    "n": "LoginIp",
+    "s": 9
+  },
+  {
+    "c": true,
+    "d": true,
+    "f": true,
+    "l": "Mail Merge Template",
+    "n": "MailmergeTemplate",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Matching Information",
+    "n": "MatchingInformation",
+    "r": true
+  },
+  {
+    "l": "Matching Rule",
+    "n": "MatchingRule",
+    "s": 3
+  },
+  {
+    "l": "Matching Rule Item",
+    "n": "MatchingRuleItem"
+  },
+  {
+    "c": true,
+    "l": "Mobile Application Detail",
+    "n": "MobileApplicationDetail",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Muting Permission Set",
+    "n": "MutingPermissionSet",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "My Domain Discoverable Login",
+    "n": "MyDomainDiscoverableLogin",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "MyObjectForGIDTest",
+    "n": "MyObjectForGIDTest__c",
+    "r": true,
+    "s": 3,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: MyObjectForGIDTest",
+    "n": "MyObjectForGIDTest__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: MyObjectForGIDTest",
+    "n": "MyObjectForGIDTest__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "myObjectForMassDeleteTest",
+    "n": "myObjectForMassDeleteTest__c",
+    "r": true,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: myObjectForMassDeleteTest",
+    "n": "myObjectForMassDeleteTest__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: myObjectForMassDeleteTest",
+    "n": "myObjectForMassDeleteTest__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Nadra Custom Metadata Type",
+    "n": "NadraCustomMetadataType__mdt",
+    "tc": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Nadra Custom Setting",
+    "n": "NadraCustomSetting__c",
+    "r": true,
+    "tc": true,
+    "tcs": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Nadra Custom Setting",
+    "n": "NadraCustomSetting__ChangeEvent"
+  },
+  {
+    "l": "Named Credential",
+    "n": "NamedCredential"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Note",
+    "n": "Note",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "OAuth Custom Scope",
+    "n": "OauthCustomScope",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "OAuth Custom Scope App",
+    "n": "OauthCustomScopeApp",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Object Permissions",
+    "n": "ObjectPermissions",
+    "s": 371,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "RoaRequest",
+    "n": "OdasevaRoa__RoaRequest__c",
+    "r": true,
+    "s": 2,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: RoaRequest",
+    "n": "OdasevaRoa__RoaRequest__ChangeEvent"
+  },
+  {
+    "l": "History: RoaRequest",
+    "n": "OdasevaRoa__RoaRequest__History",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: RoaRequest",
+    "n": "OdasevaRoa__RoaRequest__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Right of Access Settings",
+    "n": "OdasevaRoa__RoaSettings__c",
+    "r": true,
+    "s": 1,
+    "tc": true,
+    "tcs": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Right of Access Settings",
+    "n": "OdasevaRoa__RoaSettings__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Onboarding Metrics",
+    "n": "OnboardingMetrics",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity",
+    "n": "Opportunity",
+    "r": true,
+    "s": 196,
+    "u": true
+  },
+  {
+    "l": "Opportunity Change Event",
+    "n": "OpportunityChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity: Competitor",
+    "n": "OpportunityCompetitor",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity Contact Role",
+    "n": "OpportunityContactRole",
+    "r": true,
+    "s": 52,
+    "u": true
+  },
+  {
+    "l": "Opportunity Contact Role Change Event",
+    "n": "OpportunityContactRoleChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Opportunity Feed",
+    "n": "OpportunityFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Opportunity Field History",
+    "n": "OpportunityFieldHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Opportunity History",
+    "n": "OpportunityHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity Product",
+    "n": "OpportunityLineItem",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity Partner",
+    "n": "OpportunityPartner"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Opportunity Share",
+    "n": "OpportunityShare",
+    "s": 196,
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Opportunity Stage",
+    "n": "OpportunityStage",
+    "s": 16
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Order",
+    "n": "Order",
+    "r": true,
+    "s": 3,
+    "u": true
+  },
+  {
+    "l": "Order Change Event",
+    "n": "OrderChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Order Feed",
+    "n": "OrderFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Order History",
+    "n": "OrderHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Order Product",
+    "n": "OrderItem",
+    "r": true,
+    "s": 6,
+    "u": true
+  },
+  {
+    "l": "Order Product Change Event",
+    "n": "OrderItemChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Order Product Feed",
+    "n": "OrderItemFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Order Product History",
+    "n": "OrderItemHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Order Share",
+    "n": "OrderShare",
+    "ts": true
+  },
+  {
+    "l": "Order Status Value",
+    "n": "OrderStatus",
+    "s": 2
+  },
+  {
+    "l": "Organization",
+    "n": "Organization",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Org Metric",
+    "n": "OrgMetric",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Org Metric Scan Result",
+    "n": "OrgMetricScanResult",
+    "r": true
+  },
+  {
+    "c": true,
+    "l": "Org Metric Scan Summary",
+    "n": "OrgMetricScanSummary",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Organization-wide From Email Address",
+    "n": "OrgWideEmailAddress",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Package License",
+    "n": "PackageLicense",
+    "s": 2
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Partner",
+    "n": "Partner",
+    "r": true
+  },
+  {
+    "l": "Partner Role Value",
+    "n": "PartnerRole",
+    "s": 11
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Party Consent",
+    "n": "PartyConsent",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Party Consent Change Event",
+    "n": "PartyConsentChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Party Consent Feed",
+    "n": "PartyConsentFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Party Consent  History",
+    "n": "PartyConsentHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Party Consent Share",
+    "n": "PartyConsentShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Payment",
+    "n": "Payment__c",
+    "r": true,
+    "s": 5198,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Payment",
+    "n": "Payment__ChangeEvent"
+  },
+  {
+    "l": "History: Payment",
+    "n": "Payment__History",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Period",
+    "n": "Period",
+    "r": true,
+    "s": 136
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set",
+    "n": "PermissionSet",
+    "s": 16,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set Assignment",
+    "n": "PermissionSetAssignment",
+    "s": 4,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set Group",
+    "n": "PermissionSetGroup",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set Group Component",
+    "n": "PermissionSetGroupComponent"
+  },
+  {
+    "l": "Permission Set License",
+    "n": "PermissionSetLicense",
+    "s": 1
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set License Assignment",
+    "n": "PermissionSetLicenseAssign"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Permission Set Tab Setting",
+    "n": "PermissionSetTabSetting",
+    "s": 3000,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Platform Cache Partition",
+    "n": "PlatformCachePartition",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Platform Cache Partition Type",
+    "n": "PlatformCachePartitionType",
+    "u": true
+  },
+  {
+    "l": "Platform Event Usage Metric",
+    "n": "PlatformEventUsageMetric"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Price Book",
+    "n": "Pricebook2",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Price Book Change Event",
+    "n": "Pricebook2ChangeEvent"
+  },
+  {
+    "l": "Price Book History",
+    "n": "Pricebook2History",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Price Book Entry",
+    "n": "PricebookEntry",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Price Book Entry History",
+    "n": "PricebookEntryHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Process Definition",
+    "n": "ProcessDefinition"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Process Exception",
+    "n": "ProcessException",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "Process Exception Event",
+    "n": "ProcessExceptionEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Process Exception Share",
+    "n": "ProcessExceptionShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Process Instance",
+    "n": "ProcessInstance"
+  },
+  {
+    "l": "Process Instance Node",
+    "n": "ProcessInstanceNode",
+    "r": true
+  },
+  {
+    "l": "Process Instance Step",
+    "n": "ProcessInstanceStep"
+  },
+  {
+    "d": true,
+    "l": "Approval Request",
+    "n": "ProcessInstanceWorkitem",
+    "u": true
+  },
+  {
+    "l": "Process Node",
+    "n": "ProcessNode"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Product",
+    "n": "Product2",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Product Change Event",
+    "n": "Product2ChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Product Feed",
+    "n": "Product2Feed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Product History",
+    "n": "Product2History",
+    "r": true,
+    "th": true
+  },
+  {
+    "d": true,
+    "l": "Profile",
+    "n": "Profile",
+    "r": true,
+    "s": 12,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Skill",
+    "n": "ProfileSkill",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Endorsement",
+    "n": "ProfileSkillEndorsement",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Endorsement Feed",
+    "n": "ProfileSkillEndorsementFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Endorsement History",
+    "n": "ProfileSkillEndorsementHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "d": true,
+    "l": "Skill Feed",
+    "n": "ProfileSkillFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Skill History",
+    "n": "ProfileSkillHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Skill Share",
+    "n": "ProfileSkillShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Skill User",
+    "n": "ProfileSkillUser",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Skill User Feed",
+    "n": "ProfileSkillUserFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Skill User History",
+    "n": "ProfileSkillUserHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt",
+    "n": "Prompt",
+    "s": 22,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt Action",
+    "n": "PromptAction",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt Action Share",
+    "n": "PromptActionShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt Error",
+    "n": "PromptError",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt Error Share",
+    "n": "PromptErrorShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Prompt Version",
+    "n": "PromptVersion",
+    "s": 22,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Push Topic",
+    "n": "PushTopic",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Queue sObject",
+    "n": "QueueSobject",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quick Text",
+    "n": "QuickText",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Quick Text Change Event",
+    "n": "QuickTextChangeEvent"
+  },
+  {
+    "l": "Quick Text History",
+    "n": "QuickTextHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quick Text Share",
+    "n": "QuickTextShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Quick Text Usage",
+    "n": "QuickTextUsage",
+    "r": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quick Text Usage Share",
+    "n": "QuickTextUsageShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quote",
+    "n": "Quote",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Quote Change Event",
+    "n": "QuoteChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "f": true,
+    "l": "Quote PDF",
+    "n": "QuoteDocument",
+    "r": true,
+    "s": 2
+  },
+  {
+    "d": true,
+    "l": "Quote Feed",
+    "n": "QuoteFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quote Line Item",
+    "n": "QuoteLineItem",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "l": "Quote Line Item Change Event",
+    "n": "QuoteLineItemChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Quote Share",
+    "n": "QuoteShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Recently Viewed",
+    "n": "RecentlyViewed",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Recommendation",
+    "n": "Recommendation",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Recommendation Change Event",
+    "n": "RecommendationChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "RecordAction",
+    "n": "RecordAction",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "RecordActionHistory",
+    "n": "RecordActionHistory",
+    "th": true
+  },
+  {
+    "c": true,
+    "l": "Record Type",
+    "n": "RecordType",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Allow URL for Redirects",
+    "n": "RedirectWhitelistUrl",
+    "u": true
+  },
+  {
+    "l": "Report",
+    "n": "Report",
+    "s": 39
+  },
+  {
+    "d": true,
+    "l": "Report Feed",
+    "n": "ReportFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "SAML Single Sign-On Setting",
+    "n": "SamlSsoConfig"
+  },
+  {
+    "d": true,
+    "l": "Custom S-Control",
+    "n": "Scontrol",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Secure Agent Cluster",
+    "n": "SecureAgentsCluster"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Security Custom Baseline",
+    "n": "SecurityCustomBaseline",
+    "u": true
+  },
+  {
+    "l": "Session Permission Set Activation",
+    "n": "SessionPermSetActivation"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Setup Assistant Step",
+    "n": "SetupAssistantStep",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Setup Audit Trail Entry",
+    "n": "SetupAuditTrail",
+    "s": 13
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Setup Entity Access",
+    "n": "SetupEntityAccess",
+    "s": 414
+  },
+  {
+    "l": "Site",
+    "n": "Site"
+  },
+  {
+    "d": true,
+    "l": "Site",
+    "n": "SiteFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Site History",
+    "n": "SiteHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Trusted Domains for Inline Frames",
+    "n": "SiteIframeWhiteListUrl",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Site Redirect Mapping",
+    "n": "SiteRedirectMapping",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Social Persona",
+    "n": "SocialPersona",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Social Persona History",
+    "n": "SocialPersonaHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Social Post",
+    "n": "SocialPost",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Social Post Change Event",
+    "n": "SocialPostChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Social Post Feed",
+    "n": "SocialPostFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Social Post History",
+    "n": "SocialPostHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Social Post Share",
+    "n": "SocialPostShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Solution",
+    "n": "Solution",
+    "r": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Solution Feed",
+    "n": "SolutionFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Solution History",
+    "n": "SolutionHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Solution Status Value",
+    "n": "SolutionStatus",
+    "s": 3
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Service Provider SAML Attribute",
+    "n": "SPSamlAttributes",
+    "u": true
+  },
+  {
+    "l": "Stamp",
+    "n": "Stamp"
+  },
+  {
+    "l": "Stamp Assignment",
+    "n": "StampAssignment"
+  },
+  {
+    "c": true,
+    "d": true,
+    "f": true,
+    "l": "Static Resource",
+    "n": "StaticResource",
+    "r": true,
+    "s": 2,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Streaming Channel",
+    "n": "StreamingChannel",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Streaming Channel Share",
+    "n": "StreamingChannelShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Subscription",
+    "n": "Subscription__c",
+    "r": true,
+    "s": 2599,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Subscription",
+    "n": "Subscription__ChangeEvent"
+  },
+  {
+    "l": "History: Subscription",
+    "n": "Subscription__History",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Subscription Order",
+    "n": "Subscription_Order__c",
+    "r": true,
+    "s": 4599,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Subscription Order",
+    "n": "Subscription_Order__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Subscription Product",
+    "n": "Subscription_Product__c",
+    "r": true,
+    "s": 5,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Subscription Product",
+    "n": "Subscription_Product__ChangeEvent"
+  },
+  {
+    "l": "History: Subscription Product",
+    "n": "Subscription_Product__History",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: Subscription Product",
+    "n": "Subscription_Product__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Subscription Product Feature",
+    "n": "Subscription_Product_Feature__c",
+    "r": true,
+    "s": 9,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Subscription Product Feature",
+    "n": "Subscription_Product_Feature__ChangeEvent"
+  },
+  {
+    "l": "Tab Definition",
+    "n": "TabDefinition",
+    "s": 78
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Task",
+    "n": "Task",
+    "r": true,
+    "s": 5,
+    "u": true
+  },
+  {
+    "l": "Task Change Event",
+    "n": "TaskChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Task Feed",
+    "n": "TaskFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Task Priority Value",
+    "n": "TaskPriority",
+    "s": 3
+  },
+  {
+    "l": "Task Status Value",
+    "n": "TaskStatus",
+    "s": 5
+  },
+  {
+    "l": "Tenant Usage Entitlement",
+    "n": "TenantUsageEntitlement",
+    "s": 7
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "TestSFTOrgId",
+    "n": "TestSFTOrgId__c",
+    "r": true,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: TestSFTOrgId",
+    "n": "TestSFTOrgId__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: TestSFTOrgId",
+    "n": "TestSFTOrgId__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Test Suite Membership",
+    "n": "TestSuiteMembership",
+    "u": true
+  },
+  {
+    "l": "Third Party Account Link",
+    "n": "ThirdPartyAccountLink"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Goal",
+    "n": "TodayGoal",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Goal Share",
+    "n": "TodayGoalShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Topic",
+    "n": "Topic",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Topic Assignment",
+    "n": "TopicAssignment",
+    "r": true
+  },
+  {
+    "d": true,
+    "l": "Topic Feed",
+    "n": "TopicFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Language Translation",
+    "n": "Translation"
+  },
+  {
+    "l": "Ui Formula Criterion",
+    "n": "UiFormulaCriterion",
+    "s": 22
+  },
+  {
+    "l": "Ui Formula Rule",
+    "n": "UiFormulaRule",
+    "s": 22
+  },
+  {
+    "l": "Undecided Event Relation",
+    "n": "UndecidedEventRelation"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Update Data 1",
+    "n": "Update_Data_1__c",
+    "r": true,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Update Data 1",
+    "n": "Update_Data_1__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: Update Data 1",
+    "n": "Update_Data_1__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Update Data 2",
+    "n": "Update_Data_2__c",
+    "r": true,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Update Data 2",
+    "n": "Update_Data_2__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: Update Data 2",
+    "n": "Update_Data_2__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Update Data 3",
+    "n": "Update_Data_3__c",
+    "r": true,
+    "tc": true,
+    "u": true
+  },
+  {
+    "l": "Change Event: Update Data 3",
+    "n": "Update_Data_3__ChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Share: Update Data 3",
+    "n": "Update_Data_3__Share",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "l": "User",
+    "n": "User",
+    "r": true,
+    "s": 6,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Last Used App",
+    "n": "UserAppInfo",
+    "r": true,
+    "s": 1,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "UserAppMenuCustomization",
+    "n": "UserAppMenuCustomization",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "UserAppMenuCustomization Share",
+    "n": "UserAppMenuCustomizationShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Application",
+    "n": "UserAppMenuItem"
+  },
+  {
+    "l": "User Change Event",
+    "n": "UserChangeEvent"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Email Preferred Person",
+    "n": "UserEmailPreferredPerson",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Email Preferred Person Share",
+    "n": "UserEmailPreferredPersonShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "User Feed",
+    "n": "UserFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "User License",
+    "n": "UserLicense",
+    "s": 6
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User List View",
+    "n": "UserListView",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User List View Criteria",
+    "n": "UserListViewCriterion",
+    "u": true
+  },
+  {
+    "l": "User Login",
+    "n": "UserLogin",
+    "s": 3,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Package License",
+    "n": "UserPackageLicense"
+  },
+  {
+    "l": "User Permission Access",
+    "n": "UserPermissionAccess",
+    "s": 1
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Preference",
+    "n": "UserPreference",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Account",
+    "n": "UserProvAccount",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Account Staging",
+    "n": "UserProvAccountStaging",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Config",
+    "n": "UserProvisioningConfig",
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Log",
+    "n": "UserProvisioningLog",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Request",
+    "n": "UserProvisioningRequest",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Request Share",
+    "n": "UserProvisioningRequestShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Provisioning Mock Target",
+    "n": "UserProvMockTarget",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Role",
+    "n": "UserRole",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "User Setup Entity Access",
+    "n": "UserSetupEntityAccess"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "User Share",
+    "n": "UserShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Identity Verification History",
+    "n": "VerificationHistory",
+    "th": true
+  },
+  {
+    "l": "Visualforce Access Metric",
+    "n": "VisualforceAccessMetrics"
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Custom Button or Link",
+    "n": "WebLink",
+    "r": true,
+    "s": 24,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Access",
+    "n": "WorkAccess",
+    "r": true,
+    "s": 12,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Access Share",
+    "n": "WorkAccessShare",
+    "s": 24,
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Badge Received",
+    "n": "WorkBadge",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Badge",
+    "n": "WorkBadgeDefinition",
+    "r": true,
+    "s": 12,
+    "u": true
+  },
+  {
+    "d": true,
+    "l": "Badge Feed",
+    "n": "WorkBadgeDefinitionFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Badge History",
+    "n": "WorkBadgeDefinitionHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Badge Share",
+    "n": "WorkBadgeDefinitionShare",
+    "s": 12,
+    "ts": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Work Order",
+    "n": "WorkOrder",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Work Order Change Event",
+    "n": "WorkOrderChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Work Order Feed",
+    "n": "WorkOrderFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Work Order History",
+    "n": "WorkOrderHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Work Order Line Item",
+    "n": "WorkOrderLineItem",
+    "r": true,
+    "u": true
+  },
+  {
+    "l": "Work Order Line Item Change Event",
+    "n": "WorkOrderLineItemChangeEvent"
+  },
+  {
+    "d": true,
+    "l": "Work Order Line Item Feed",
+    "n": "WorkOrderLineItemFeed",
+    "r": true,
+    "tf": true
+  },
+  {
+    "l": "Line Item History",
+    "n": "WorkOrderLineItemHistory",
+    "r": true,
+    "th": true
+  },
+  {
+    "l": "Work Order Line Item Status Value",
+    "n": "WorkOrderLineItemStatus",
+    "s": 7
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Work Order Share",
+    "n": "WorkOrderShare",
+    "ts": true,
+    "u": true
+  },
+  {
+    "l": "Work Order Status Value",
+    "n": "WorkOrderStatus",
+    "s": 7
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Thanks",
+    "n": "WorkThanks",
+    "r": true,
+    "u": true
+  },
+  {
+    "c": true,
+    "d": true,
+    "l": "Thanks Share",
+    "n": "WorkThanksShare",
+    "ts": true,
+    "u": true
+  }
+]

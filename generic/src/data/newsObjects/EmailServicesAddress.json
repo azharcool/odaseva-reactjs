@@ -1,0 +1,93 @@
+{
+    "l": "Email Services Address",
+    "p": [
+        {
+            "n": "User",
+            "rf": "RunAsUserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "EmailServicesFunction",
+            "rf": "FunctionId",
+            "rl": "Service ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Address ID",
+            "t": "id"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "LocalPart",
+            "l": "Email address",
+            "t": "string"
+        },
+        {
+            "n": "EmailDomainName",
+            "l": "Email address domain",
+            "t": "string"
+        },
+        {
+            "n": "AuthorizedSenders",
+            "l": "Accept Email From",
+            "t": "textarea"
+        },
+        {
+            "n": "RunAsUserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "FunctionId",
+            "l": "Service ID",
+            "t": "reference"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Email Address Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

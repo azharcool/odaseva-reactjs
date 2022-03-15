@@ -1,0 +1,189 @@
+{
+    "l": "SAML Single Sign-On Setting",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "ApexClass",
+            "rf": "SamlJitHandlerId",
+            "rl": "Class ID"
+        },
+        {
+            "n": "User",
+            "rf": "ExecutionUserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AuthConfigProviders",
+            "rf": "AuthProviderId",
+            "rl": ""
+        },
+        {
+            "n": "LoginHistory",
+            "rf": "AuthenticationServiceId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "SAML Single Sign-On Setting ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Language",
+            "l": "Master Language",
+            "t": "picklist"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Version",
+            "l": "SAML Version",
+            "t": "picklist"
+        },
+        {
+            "n": "Issuer",
+            "l": "Issuer",
+            "t": "string"
+        },
+        {
+            "n": "OptionsSpInitBinding",
+            "l": "SpInitBinding",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsUserProvisioning",
+            "l": "UserProvisioning",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsUseConfigRequestMethod",
+            "l": "UseConfigRequestMethod",
+            "t": "boolean"
+        },
+        {
+            "n": "AttributeFormat",
+            "l": "Name ID Format",
+            "t": "string"
+        },
+        {
+            "n": "AttributeName",
+            "l": "Attribute Name",
+            "t": "string"
+        },
+        {
+            "n": "Audience",
+            "l": "Entity ID",
+            "t": "string"
+        },
+        {
+            "n": "IdentityMapping",
+            "l": "SAML Identity Type",
+            "t": "picklist"
+        },
+        {
+            "n": "IdentityLocation",
+            "l": "SAML Identity Location",
+            "t": "picklist"
+        },
+        {
+            "n": "SamlJitHandlerId",
+            "l": "Class ID",
+            "t": "reference"
+        },
+        {
+            "n": "ExecutionUserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "LoginUrl",
+            "l": "Identity Provider Login URL",
+            "t": "string"
+        },
+        {
+            "n": "LogoutUrl",
+            "l": "Identity Provider Logout URL",
+            "t": "string"
+        },
+        {
+            "n": "ErrorUrl",
+            "l": "Custom Error URL",
+            "t": "string"
+        },
+        {
+            "n": "ValidationCert",
+            "l": "Identity Provider Certificate",
+            "t": "string"
+        },
+        {
+            "n": "RequestSignatureMethod",
+            "l": "Request Signature Method",
+            "t": "picklist"
+        },
+        {
+            "n": "SingleLogoutUrl",
+            "l": "Identity Provider Single Logout URL",
+            "t": "string"
+        },
+        {
+            "n": "SingleLogoutBinding",
+            "l": "Single Logout Request Binding",
+            "t": "picklist"
+        }
+    ]
+}

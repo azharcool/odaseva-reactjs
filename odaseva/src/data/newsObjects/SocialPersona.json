@@ -1,0 +1,254 @@
+{
+    "l": "Social Persona",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Account",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "SocialPersonaHistory",
+            "rf": "SocialPersonaId",
+            "rl": "Histories"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "PersonaId",
+            "rl": "Posts"
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "PersonaId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Social Persona ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Social Handle",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "Provider",
+            "l": "Social Network",
+            "t": "picklist"
+        },
+        {
+            "n": "ExternalId",
+            "l": "Social Persona Provider External Id",
+            "t": "string"
+        },
+        {
+            "n": "IsDefault",
+            "l": "Default",
+            "t": "boolean"
+        },
+        {
+            "n": "ExternalPictureURL",
+            "l": "Provider External Picture URL",
+            "t": "url"
+        },
+        {
+            "n": "ProfileUrl",
+            "l": "Profile URL",
+            "t": "url"
+        },
+        {
+            "n": "TopicType",
+            "l": "Topic Type",
+            "t": "string"
+        },
+        {
+            "n": "IsBlacklisted",
+            "l": "Blocklisted",
+            "t": "boolean"
+        },
+        {
+            "n": "RealName",
+            "l": "Real Name",
+            "t": "string"
+        },
+        {
+            "n": "IsFollowingUs",
+            "l": "Is following us",
+            "t": "boolean"
+        },
+        {
+            "n": "AreWeFollowing",
+            "l": "Are we following",
+            "t": "boolean"
+        },
+        {
+            "n": "MediaType",
+            "l": "Social Studio Media Type",
+            "t": "string"
+        },
+        {
+            "n": "Bio",
+            "l": "Bio",
+            "t": "textarea"
+        },
+        {
+            "n": "Followers",
+            "l": "Followers",
+            "t": "int"
+        },
+        {
+            "n": "Following",
+            "l": "Following",
+            "t": "int"
+        },
+        {
+            "n": "NumberOfFriends",
+            "l": "Number Of Friends",
+            "t": "int"
+        },
+        {
+            "n": "ListedCount",
+            "l": "Listed Count",
+            "t": "int"
+        },
+        {
+            "n": "MediaProvider",
+            "l": "Social Studio Media Provider",
+            "t": "string"
+        },
+        {
+            "n": "ProfileType",
+            "l": "Profile Type",
+            "t": "picklist"
+        },
+        {
+            "n": "R6SourceId",
+            "l": "Social Studio Source Id",
+            "t": "string"
+        },
+        {
+            "n": "NumberOfTweets",
+            "l": "Number Of Tweets",
+            "t": "int"
+        },
+        {
+            "n": "SourceApp",
+            "l": "Source App",
+            "t": "string"
+        },
+        {
+            "n": "AuthorLabels",
+            "l": "Author Labels",
+            "t": "string"
+        },
+        {
+            "n": "IsVerified",
+            "l": "Verified",
+            "t": "boolean"
+        },
+        {
+            "n": "InfluencerScore",
+            "l": "Influencer Score",
+            "t": "int"
+        },
+        {
+            "n": "AvatarUrl",
+            "l": "Avatar URL",
+            "t": "string"
+        }
+    ]
+}

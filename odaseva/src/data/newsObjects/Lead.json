@@ -1,0 +1,554 @@
+{
+    "l": "Lead",
+    "p": [
+        {
+            "n": "Lead",
+            "rf": "MasterRecordId",
+            "rl": "Master Record ID"
+        },
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "Account",
+            "rf": "ConvertedAccountId",
+            "rl": "Converted Account ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ConvertedContactId",
+            "rl": "Converted Contact ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "ConvertedOpportunityId",
+            "rl": "Converted Opportunity ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "IndividualId",
+            "rl": "Individual ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AcceptedEventRelation",
+            "rf": "RelationId",
+            "rl": "AcceptedEventRelations"
+        },
+        {
+            "n": "ActivityHistory",
+            "rf": "WhoId",
+            "rl": "ActivityHistories"
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "LeadId",
+            "rl": "CampaignMembers"
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "LeadOrContactId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberChangeEvent",
+            "rf": "LeadId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "RecordId",
+            "rl": "RecordAssociatedGroups"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhoId",
+            "rl": "ContactRequests"
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "DeclinedEventRelation",
+            "rf": "RelationId",
+            "rl": "DeclinedEventRelations"
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "RecordId",
+            "rl": "DuplicateRecordItems"
+        },
+        {
+            "n": "EmailMessageRelation",
+            "rf": "RelationId",
+            "rl": "EmailMessageRelations"
+        },
+        {
+            "n": "EmailStatus",
+            "rf": "WhoId",
+            "rl": "EmailStatuses"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "WhoId",
+            "rl": "Events"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "WhoId",
+            "rl": ""
+        },
+        {
+            "n": "EventRelation",
+            "rf": "RelationId",
+            "rl": "EventRelations"
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "LeadFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "LeadHistory",
+            "rf": "LeadId",
+            "rl": "Histories"
+        },
+        {
+            "n": "LeadShare",
+            "rf": "LeadId",
+            "rl": "Shares"
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "RecipientId",
+            "rl": "ListEmailIndividualRecipients"
+        },
+        {
+            "n": "Note",
+            "rf": "ParentId",
+            "rl": "Notes"
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "ParentId",
+            "rl": "NotesAndAttachments"
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "WhoId",
+            "rl": "OpenActivities"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "ParentId",
+            "rl": "Personas"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "WhoId",
+            "rl": "Posts"
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "WhoId",
+            "rl": ""
+        },
+        {
+            "n": "Task",
+            "rf": "WhoId",
+            "rl": "Tasks"
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "WhoId",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "EntityId",
+            "rl": "TopicAssignments"
+        },
+        {
+            "n": "UndecidedEventRelation",
+            "rf": "RelationId",
+            "rl": "UndecidedEventRelations"
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "PersonRecordId",
+            "rl": "PersonRecord"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Lead ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "MasterRecordId",
+            "l": "Master Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastName",
+            "l": "Last Name",
+            "t": "string"
+        },
+        {
+            "n": "FirstName",
+            "l": "First Name",
+            "t": "string"
+        },
+        {
+            "n": "Salutation",
+            "l": "Salutation",
+            "t": "picklist"
+        },
+        {
+            "n": "Name",
+            "l": "Full Name",
+            "t": "string"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "Company",
+            "l": "Company",
+            "t": "string"
+        },
+        {
+            "n": "Street",
+            "l": "Street",
+            "t": "textarea"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "State",
+            "l": "State\/Province",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "Zip\/Postal Code",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country",
+            "t": "string"
+        },
+        {
+            "n": "Latitude",
+            "l": "Latitude",
+            "t": "double"
+        },
+        {
+            "n": "Longitude",
+            "l": "Longitude",
+            "t": "double"
+        },
+        {
+            "n": "GeocodeAccuracy",
+            "l": "Geocode Accuracy",
+            "t": "picklist"
+        },
+        {
+            "n": "Address",
+            "l": "Address",
+            "t": "address"
+        },
+        {
+            "n": "Phone",
+            "l": "Phone",
+            "t": "phone"
+        },
+        {
+            "n": "MobilePhone",
+            "l": "Mobile Phone",
+            "t": "phone"
+        },
+        {
+            "n": "Fax",
+            "l": "Fax",
+            "t": "phone"
+        },
+        {
+            "n": "Email",
+            "l": "Email",
+            "t": "email"
+        },
+        {
+            "n": "Website",
+            "l": "Website",
+            "t": "url"
+        },
+        {
+            "n": "PhotoUrl",
+            "l": "Photo URL",
+            "t": "url"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "LeadSource",
+            "l": "Lead Source",
+            "t": "picklist"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "Industry",
+            "l": "Industry",
+            "t": "picklist"
+        },
+        {
+            "n": "Rating",
+            "l": "Rating",
+            "t": "picklist"
+        },
+        {
+            "n": "AnnualRevenue",
+            "l": "Annual Revenue",
+            "t": "currency"
+        },
+        {
+            "n": "NumberOfEmployees",
+            "l": "Employees",
+            "t": "int"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "HasOptedOutOfEmail",
+            "l": "Email Opt Out",
+            "t": "boolean"
+        },
+        {
+            "n": "IsConverted",
+            "l": "Converted",
+            "t": "boolean"
+        },
+        {
+            "n": "ConvertedDate",
+            "l": "Converted Date",
+            "t": "date"
+        },
+        {
+            "n": "ConvertedAccountId",
+            "l": "Converted Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "ConvertedContactId",
+            "l": "Converted Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "ConvertedOpportunityId",
+            "l": "Converted Opportunity ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsUnreadByOwner",
+            "l": "Unread By Owner",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastActivityDate",
+            "l": "Last Activity",
+            "t": "date"
+        },
+        {
+            "n": "DoNotCall",
+            "l": "Do Not Call",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutOfFax",
+            "l": "Fax Opt Out",
+            "t": "boolean"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastTransferDate",
+            "l": "Last Transfer Date",
+            "t": "date"
+        },
+        {
+            "n": "Jigsaw",
+            "l": "Data.com Key",
+            "t": "string"
+        },
+        {
+            "n": "JigsawContactId",
+            "l": "Jigsaw Contact ID",
+            "t": "string"
+        },
+        {
+            "n": "EmailBouncedReason",
+            "l": "Email Bounced Reason",
+            "t": "string"
+        },
+        {
+            "n": "EmailBouncedDate",
+            "l": "Email Bounced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IndividualId",
+            "l": "Individual ID",
+            "t": "reference"
+        }
+    ]
+}

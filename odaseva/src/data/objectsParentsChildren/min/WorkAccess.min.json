@@ -1,0 +1,1 @@
+{"l":"Access","p":{"Group":[{"rf":"OwnerId","rl":"Owner ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"WorkBadgeDefinition":[{"rf":"ParentId","rl":"Badge ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}],"WorkAccessShare":[{"rf":"ParentId","rl":"Shares"}]}}

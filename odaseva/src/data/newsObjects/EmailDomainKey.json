@@ -1,0 +1,108 @@
+{
+    "l": "Email Domain Key",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Email Domain Key ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Selector",
+            "l": "Selector",
+            "t": "string"
+        },
+        {
+            "n": "Domain",
+            "l": "Domain",
+            "t": "string"
+        },
+        {
+            "n": "DomainMatch",
+            "l": "Domain Match",
+            "t": "picklist"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "AlternateSelector",
+            "l": "Alternate Selector",
+            "t": "string"
+        },
+        {
+            "n": "TxtRecordName",
+            "l": "TXT Record Name",
+            "t": "string"
+        },
+        {
+            "n": "AlternateTxtRecordName",
+            "l": "Alternate TXT Record Name",
+            "t": "string"
+        },
+        {
+            "n": "TxtRecordsPublishState",
+            "l": "TXT Record Status",
+            "t": "picklist"
+        },
+        {
+            "n": "KeySize",
+            "l": "Key Size",
+            "t": "int"
+        },
+        {
+            "n": "PublicKey",
+            "l": "Public Key",
+            "t": "textarea"
+        },
+        {
+            "n": "AlternatePublicKey",
+            "l": "Alternate Public Key",
+            "t": "textarea"
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+    "l": "Visualforce Page",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "SetupEntityAccess",
+            "rf": "SetupEntityId",
+            "rl": "SetupEntityAccessItems"
+        },
+        {
+            "n": "VisualforceAccessMetrics",
+            "rf": "ApexPageId",
+            "rl": ""
+        },
+        {
+            "n": "WebLink",
+            "rf": "ScontrolId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Page ID",
+            "t": "id"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "Api Version",
+            "t": "double"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "ControllerType",
+            "l": "Controller Type",
+            "t": "picklist"
+        },
+        {
+            "n": "ControllerKey",
+            "l": "Controller Key",
+            "t": "string"
+        },
+        {
+            "n": "IsAvailableInTouch",
+            "l": "Available for Lightning Experience, Experience Builder sites, and the mobile app",
+            "t": "boolean"
+        },
+        {
+            "n": "IsConfirmationTokenRequired",
+            "l": "Require CSRF protection on GET requests",
+            "t": "boolean"
+        },
+        {
+            "n": "Markup",
+            "l": "Markup",
+            "t": "textarea"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

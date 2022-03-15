@@ -1,0 +1,109 @@
+{
+    "l": "Matching Information",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "SFDCIdId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Matching Information ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "EmailAddress",
+            "l": "Email Address",
+            "t": "email"
+        },
+        {
+            "n": "ExternalId",
+            "l": "External Id",
+            "t": "string"
+        },
+        {
+            "n": "SFDCIdId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsPickedAsPreferred",
+            "l": "Preferred",
+            "t": "boolean"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "PreferenceUsed",
+            "l": "Preference Used",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "l": "Permission Set Tab Setting",
+    "p": [
+        {
+            "n": "PermissionSet",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Permission Set Tab Setting ID",
+            "t": "id"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "Visibility",
+            "l": "Visibility",
+            "t": "picklist"
+        },
+        {
+            "n": "Name",
+            "l": "Tab Name",
+            "t": "string"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

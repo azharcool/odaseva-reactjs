@@ -1,0 +1,83 @@
+{
+    "l": "Account Share",
+    "p": [
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "Group",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Account Share ID",
+            "t": "id"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserOrGroupId",
+            "l": "User\/Group ID",
+            "t": "reference"
+        },
+        {
+            "n": "AccountAccessLevel",
+            "l": "Account Access",
+            "t": "picklist"
+        },
+        {
+            "n": "OpportunityAccessLevel",
+            "l": "Opportunity Access",
+            "t": "picklist"
+        },
+        {
+            "n": "CaseAccessLevel",
+            "l": "Case Access",
+            "t": "picklist"
+        },
+        {
+            "n": "ContactAccessLevel",
+            "l": "Contact Access",
+            "t": "picklist"
+        },
+        {
+            "n": "RowCause",
+            "l": "Row Cause",
+            "t": "picklist"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        }
+    ]
+}

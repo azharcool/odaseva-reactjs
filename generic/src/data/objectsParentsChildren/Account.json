@@ -1,0 +1,413 @@
+{
+    "l": "Account",
+    "p": {
+        "Account": [
+            {
+                "rf": "MasterRecordId",
+                "rl": "Master Record ID"
+            },
+            {
+                "rf": "ParentId",
+                "rl": "Parent Account ID"
+            }
+        ],
+        "User": [
+            {
+                "rf": "OwnerId",
+                "rl": "Owner ID"
+            },
+            {
+                "rf": "CreatedById",
+                "rl": "Created By ID"
+            },
+            {
+                "rf": "LastModifiedById",
+                "rl": "Last Modified By ID"
+            }
+        ]
+    },
+    "c": {
+        "Account": [
+            {
+                "rf": "ParentId",
+                "rl": "ChildAccounts"
+            }
+        ],
+        "AccountChangeEvent": [
+            {
+                "rf": "ParentId",
+                "rl": null
+            }
+        ],
+        "AccountContactRole": [
+            {
+                "rf": "AccountId",
+                "rl": "AccountContactRoles"
+            }
+        ],
+        "AccountFeed": [
+            {
+                "rf": "ParentId",
+                "rl": "Feeds"
+            }
+        ],
+        "AccountHistory": [
+            {
+                "rf": "AccountId",
+                "rl": "Histories"
+            }
+        ],
+        "AccountPartner": [
+            {
+                "rf": "AccountFromId",
+                "rl": "AccountPartnersFrom"
+            },
+            {
+                "rf": "AccountToId",
+                "rl": "AccountPartnersTo"
+            }
+        ],
+        "AccountShare": [
+            {
+                "rf": "AccountId",
+                "rl": "Shares"
+            }
+        ],
+        "ActivityHistory": [
+            {
+                "rf": "AccountId",
+                "rl": "ActivityHistories"
+            }
+        ],
+        "Asset": [
+            {
+                "rf": "AccountId",
+                "rl": "Assets"
+            },
+            {
+                "rf": "AssetProvidedById",
+                "rl": "ProvidedAssets"
+            },
+            {
+                "rf": "AssetServicedById",
+                "rl": "ServicedAssets"
+            }
+        ],
+        "AssetChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            },
+            {
+                "rf": "AssetProvidedById",
+                "rl": null
+            },
+            {
+                "rf": "AssetServicedById",
+                "rl": null
+            }
+        ],
+        "AssociatedLocation": [
+            {
+                "rf": "ParentRecordId",
+                "rl": "AssociatedLocations"
+            }
+        ],
+        "AttachedContentDocument": [
+            {
+                "rf": "LinkedEntityId",
+                "rl": "AttachedContentDocuments"
+            }
+        ],
+        "Attachment": [
+            {
+                "rf": "ParentId",
+                "rl": "Attachments"
+            }
+        ],
+        "CampaignMember": [
+            {
+                "rf": "LeadOrContactId",
+                "rl": null
+            }
+        ],
+        "Case": [
+            {
+                "rf": "AccountId",
+                "rl": "Cases"
+            }
+        ],
+        "CaseChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            }
+        ],
+        "CollaborationGroupRecord": [
+            {
+                "rf": "RecordId",
+                "rl": "RecordAssociatedGroups"
+            }
+        ],
+        "CombinedAttachment": [
+            {
+                "rf": "ParentId",
+                "rl": "CombinedAttachments"
+            }
+        ],
+        "Contact": [
+            {
+                "rf": "AccountId",
+                "rl": "Contacts"
+            }
+        ],
+        "ContactChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            }
+        ],
+        "ContentDistribution": [
+            {
+                "rf": "RelatedRecordId",
+                "rl": null
+            }
+        ],
+        "ContentDocumentLink": [
+            {
+                "rf": "LinkedEntityId",
+                "rl": "ContentDocumentLinks"
+            }
+        ],
+        "ContentVersion": [
+            {
+                "rf": "FirstPublishLocationId",
+                "rl": null
+            }
+        ],
+        "Contract": [
+            {
+                "rf": "AccountId",
+                "rl": "Contracts"
+            }
+        ],
+        "DuplicateRecordItem": [
+            {
+                "rf": "RecordId",
+                "rl": "DuplicateRecordItems"
+            }
+        ],
+        "EmailMessage": [
+            {
+                "rf": "RelatedToId",
+                "rl": "Emails"
+            }
+        ],
+        "EntitySubscription": [
+            {
+                "rf": "ParentId",
+                "rl": "FeedSubscriptionsForEntity"
+            }
+        ],
+        "Event": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            },
+            {
+                "rf": "WhatId",
+                "rl": "Events"
+            }
+        ],
+        "EventChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            },
+            {
+                "rf": "WhatId",
+                "rl": null
+            }
+        ],
+        "EventRelationChangeEvent": [
+            {
+                "rf": "RelationId",
+                "rl": null
+            }
+        ],
+        "FeedComment": [
+            {
+                "rf": "ParentId",
+                "rl": null
+            }
+        ],
+        "FeedItem": [
+            {
+                "rf": "ParentId",
+                "rl": null
+            }
+        ],
+        "FlowRecordRelation": [
+            {
+                "rf": "RelatedRecordId",
+                "rl": null
+            }
+        ],
+        "Lead": [
+            {
+                "rf": "ConvertedAccountId",
+                "rl": null
+            }
+        ],
+        "LeadChangeEvent": [
+            {
+                "rf": "ConvertedAccountId",
+                "rl": null
+            }
+        ],
+        "Note": [
+            {
+                "rf": "ParentId",
+                "rl": "Notes"
+            }
+        ],
+        "NoteAndAttachment": [
+            {
+                "rf": "ParentId",
+                "rl": "NotesAndAttachments"
+            }
+        ],
+        "OpenActivity": [
+            {
+                "rf": "AccountId",
+                "rl": "OpenActivities"
+            }
+        ],
+        "Opportunity": [
+            {
+                "rf": "AccountId",
+                "rl": "Opportunities"
+            }
+        ],
+        "OpportunityChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            }
+        ],
+        "OpportunityPartner": [
+            {
+                "rf": "AccountToId",
+                "rl": "OpportunityPartnersTo"
+            }
+        ],
+        "Order": [
+            {
+                "rf": "AccountId",
+                "rl": "Orders"
+            }
+        ],
+        "OrderChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            }
+        ],
+        "Partner": [
+            {
+                "rf": "AccountFromId",
+                "rl": "PartnersFrom"
+            },
+            {
+                "rf": "AccountToId",
+                "rl": "PartnersTo"
+            }
+        ],
+        "ProcessInstance": [
+            {
+                "rf": "TargetObjectId",
+                "rl": "ProcessInstances"
+            }
+        ],
+        "ProcessInstanceHistory": [
+            {
+                "rf": "TargetObjectId",
+                "rl": "ProcessSteps"
+            }
+        ],
+        "Quote": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            }
+        ],
+        "RecordAction": [
+            {
+                "rf": "RecordId",
+                "rl": "RecordActions"
+            }
+        ],
+        "Relationship_Tester_0__c": [
+            {
+                "rf": "Account__c",
+                "rl": "Relationship_Tester_0s__r"
+            }
+        ],
+        "SocialPersona": [
+            {
+                "rf": "ParentId",
+                "rl": "Personas"
+            }
+        ],
+        "SocialPost": [
+            {
+                "rf": "WhoId",
+                "rl": "Posts"
+            }
+        ],
+        "Task": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            },
+            {
+                "rf": "WhatId",
+                "rl": "Tasks"
+            }
+        ],
+        "TaskChangeEvent": [
+            {
+                "rf": "AccountId",
+                "rl": null
+            },
+            {
+                "rf": "WhatId",
+                "rl": null
+            }
+        ],
+        "TopicAssignment": [
+            {
+                "rf": "EntityId",
+                "rl": "TopicAssignments"
+            }
+        ],
+        "User": [
+            {
+                "rf": "AccountId",
+                "rl": "Users"
+            }
+        ],
+        "UserRole": [
+            {
+                "rf": "PortalAccountId",
+                "rl": null
+            }
+        ],
+        "WorkOrder": [
+            {
+                "rf": "AccountId",
+                "rl": "WorkOrders"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "l": "User Preference",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Preference ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "Preference",
+            "l": "Preference",
+            "t": "picklist"
+        },
+        {
+            "n": "Value",
+            "l": "Value",
+            "t": "textarea"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

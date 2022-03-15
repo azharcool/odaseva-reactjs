@@ -1,0 +1,1 @@
+{"l":"Aura Component Bundle","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"AuraDefinition":[{"rf":"AuraDefinitionBundleId","rl":null}],"ChatterExtension":[{"rf":"CompositionComponentEnumOrId","rl":null},{"rf":"RenderComponentEnumOrId","rl":null}]}}

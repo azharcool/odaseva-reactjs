@@ -1,0 +1,7164 @@
+{
+    "l": "User",
+    "p": [
+        {
+            "n": "UserRole",
+            "rf": "UserRoleId",
+            "rl": "Role ID"
+        },
+        {
+            "n": "Profile",
+            "rf": "ProfileId",
+            "rl": "Profile ID"
+        },
+        {
+            "n": "Group",
+            "rf": "DelegatedApproverId",
+            "rl": "Delegated Approver ID"
+        },
+        {
+            "n": "User",
+            "rf": "DelegatedApproverId",
+            "rl": "Delegated Approver ID"
+        },
+        {
+            "n": "User",
+            "rf": "ManagerId",
+            "rl": "Manager ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ContactId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "CallCenter",
+            "rf": "CallCenterId",
+            "rl": "Call Center ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "IndividualId",
+            "rl": "Individual ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AcceptedEventRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AcceptedEventRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AcceptedEventRelation",
+            "rf": "RelationId",
+            "rl": "AcceptedEventRelations"
+        },
+        {
+            "n": "Account",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Account",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Account",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AccountChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AccountContactRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountContactRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountContactRoleChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountContactRoleChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountPartner",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountPartner",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AccountShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ActionLinkGroupTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ActionLinkGroupTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ActionLinkTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ActionLinkTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ActivityHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ActivityHistory",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ActivityHistory",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AdditionalNumber",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AdditionalNumber",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Announcement",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Announcement",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexClass",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexClass",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexComponent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexComponent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexEmailNotification",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexEmailNotification",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexEmailNotification",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ApexLog",
+            "rf": "LogUserId",
+            "rl": ""
+        },
+        {
+            "n": "ApexPage",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexPage",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestQueueItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestResultLimits",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestResultLimits",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestRunResult",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestRunResult",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestRunResult",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestSuite",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestSuite",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTrigger",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ApexTrigger",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AppAnalyticsQueryRequest",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AppAnalyticsQueryRequest",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AppMenuItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AppMenuItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Asset",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Asset",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Asset",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AssetChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AssetFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationshipFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationshipFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationshipHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AssetTokenEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssetTokenEvent",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "AssignmentRule",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssignmentRule",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AssociatedLocation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AssociatedLocation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AssociatedLocationHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AsyncApexJob",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AsyncOperationEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AsyncOperationStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Attachment",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Attachment",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AuraDefinition",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuraDefinition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuraDefinitionBundle",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuraDefinitionBundle",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthConfig",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthConfig",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthConfigProviders",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthConfigProviders",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "ExecutionUserId",
+            "rl": ""
+        },
+        {
+            "n": "AuthSession",
+            "rf": "UsersId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "ConsentGiverId",
+            "rl": "AuthorizationFormConsents"
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "ConsentGiverId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUse",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUse",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUse",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUseHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUseShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUseShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormText",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormText",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormTextFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormTextFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormTextHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BackgroundOperation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BackgroundOperation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "BatchApexErrorEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandingSet",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandingSet",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandingSetProperty",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BrandingSetProperty",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "BusinessHours",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BusinessHours",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "BusinessProcess",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "BusinessProcess",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Calendar",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Calendar",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Calendar",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "PublisherId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarViewShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CalendarViewShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CallCenter",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CallCenter",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CallCoachingMediaProvider",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CallCoachingMediaProvider",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Campaign",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Campaign",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Campaign",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignInfluenceModel",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignInfluenceModel",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "LeadOrContactOwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberStatusChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignMemberStatusChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CampaignShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Case",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Case",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Case",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CaseChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CaseComment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseComment",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseContactRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseContactRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CaseSolution",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseSubjectParticle",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseSubjectParticle",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamMember",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamMember",
+            "rf": "MemberId",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplateMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplateMember",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplateMember",
+            "rf": "MemberId",
+            "rl": ""
+        },
+        {
+            "n": "CaseTeamTemplateRecord",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CategoryData",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CategoryData",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CategoryNode",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CategoryNode",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ChatterActivity",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "ChatterExtension",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ChatterExtension",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ChatterExtensionConfig",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ChatterExtensionConfig",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ClientBrowser",
+            "rf": "UsersId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupMember",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupMember",
+            "rf": "MemberId",
+            "rl": "GroupMemberships"
+        },
+        {
+            "n": "CollaborationGroupMemberRequest",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupMemberRequest",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupMemberRequest",
+            "rf": "RequesterId",
+            "rl": "GroupMembershipRequests"
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "InviterId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "SharedEntityId",
+            "rl": ""
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "ConsentGiverId",
+            "rl": "CommSubscriptionConsents"
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "ConsentGiverId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTimingFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTimingFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTimingHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Community",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Community",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ConferenceNumber",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ConferenceNumber",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ConnectedApplication",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ConnectedApplication",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Contact",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Contact",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Contact",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddressShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhoneShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhoId",
+            "rl": "ContactRequests"
+        },
+        {
+            "n": "ContactRequestShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequestShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContactShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContactShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ContentAsset",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentAsset",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDistributionView",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "ArchivedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentDocumentSubscription",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolder",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolder",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolderItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolderItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolderMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolderMember",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentNotification",
+            "rf": "EntityIdentifierId",
+            "rl": ""
+        },
+        {
+            "n": "ContentNotification",
+            "rf": "UsersId",
+            "rl": ""
+        },
+        {
+            "n": "ContentTagSubscription",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ContentUserSubscription",
+            "rf": "SubscribedToUserId",
+            "rl": ""
+        },
+        {
+            "n": "ContentUserSubscription",
+            "rf": "SubscriberUserId",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "ContentModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersionHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentVersionRating",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspace",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspace",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspaceMember",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspaceMember",
+            "rf": "MemberId",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspacePermission",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspacePermission",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspaceSubscription",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "Contract",
+            "rf": "ActivatedById",
+            "rl": ""
+        },
+        {
+            "n": "Contract",
+            "rf": "CompanySignedId",
+            "rl": "ContractsSigned"
+        },
+        {
+            "n": "Contract",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Contract",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Contract",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContractChangeEvent",
+            "rf": "ActivatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractChangeEvent",
+            "rf": "CompanySignedId",
+            "rl": ""
+        },
+        {
+            "n": "ContractChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ContractContactRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractContactRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ContractStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CorsWhitelistEntry",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CorsWhitelistEntry",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CronTrigger",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CronTrigger",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CronTrigger",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "CspTrustedSite",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CspTrustedSite",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomBrand",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomBrand",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomBrandAsset",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomBrandAsset",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHelpMenuItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHelpMenuItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHelpMenuSection",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHelpMenuSection",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHttpHeader",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomHttpHeader",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomNotificationType",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomNotificationType",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomPermission",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomPermission",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomPermissionDependency",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "CustomPermissionDependency",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Dashboard",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Dashboard",
+            "rf": "FolderId",
+            "rl": ""
+        },
+        {
+            "n": "Dashboard",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Dashboard",
+            "rf": "RunningUserId",
+            "rl": ""
+        },
+        {
+            "n": "DashboardComponentFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DashboardComponentFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "DashboardFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DashboardFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentFieldMetric",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentFieldMetric",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentMetric",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentMetric",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentValueMetric",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentValueMetric",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataIntegrationRecordPurchasePermission",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataIntegrationRecordPurchasePermission",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataIntegrationRecordPurchasePermission",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "DataStatistics",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasis",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasis",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasis",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasisHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasisShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasisShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurpose",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurpose",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurpose",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurposeHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurposeShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurposeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "DeclinedEventRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DeclinedEventRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DeclinedEventRelation",
+            "rf": "RelationId",
+            "rl": "DeclinedEventRelations"
+        },
+        {
+            "n": "DeleteEvent",
+            "rf": "DeletedById",
+            "rl": ""
+        },
+        {
+            "n": "Document",
+            "rf": "AuthorId",
+            "rl": ""
+        },
+        {
+            "n": "Document",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Document",
+            "rf": "FolderId",
+            "rl": ""
+        },
+        {
+            "n": "Document",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DocumentAttachmentMap",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Domain",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Domain",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DomainSite",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DomainSite",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordSet",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordSet",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRule",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRule",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailCapture",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailCapture",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailDomainFilter",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailDomainFilter",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailDomainKey",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailDomainKey",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageRelation",
+            "rf": "RelationId",
+            "rl": "EmailMessageRelations"
+        },
+        {
+            "n": "EmailRelay",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailRelay",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesAddress",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesAddress",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesAddress",
+            "rf": "RunAsUserId",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesFunction",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesFunction",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "FolderId",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplateChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplateChangeEvent",
+            "rf": "FolderId",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplateChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EmailTemplateChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterheadFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterheadFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "EntityDefinition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "SubscriberId",
+            "rl": "FeedSubscriptions"
+        },
+        {
+            "n": "Event",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Event",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Event",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "EventFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EventFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "EventLogFile",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EventLogFile",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EventRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EventRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EventRelation",
+            "rf": "RelationId",
+            "rl": "EventRelations"
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataUserAuth",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataUserAuth",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataUserAuth",
+            "rf": "UserId",
+            "rl": "ExternalDataUserAuths"
+        },
+        {
+            "n": "ExternalEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMappingShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMappingShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalSocialAccount",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ExternalSocialAccount",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "LastEditById",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "LastEditById",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedLike",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedLike",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedPollChoice",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedPollVote",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedRevision",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedSignal",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FeedSignal",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "FieldDefinition",
+            "rf": "BusinessOwnerId",
+            "rl": ""
+        },
+        {
+            "n": "FieldDefinition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FieldSecurityClassification",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FieldSecurityClassification",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FileSearchActivity",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FileSearchActivity",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "InterviewStartedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterview",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterview",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterview",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLog",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLog",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLog",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogEntry",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogEntry",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowStageRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FlowStageRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Folder",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Folder",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "FolderedContentDocument",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "FolderedContentDocument",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "GrantedByLicense",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "GrantedByLicense",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Group",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Group",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Group",
+            "rf": "RelatedId",
+            "rl": ""
+        },
+        {
+            "n": "GroupMember",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Holiday",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Holiday",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "IPAddressRange",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "IPAddressRange",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Idea",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Idea",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "IdeaComment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "IdpEventLog",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "IframeWhiteListUrl",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "IframeWhiteListUrl",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Image",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Image",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Image",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ImageFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ImageFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ImageHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ImageShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ImageShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Individual",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Individual",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Individual",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "IndividualChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "IndividualChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "IndividualChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "IndividualHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "IndividualShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "IndividualShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "UserId",
+            "rl": "InstalledMobileApps"
+        },
+        {
+            "n": "KnowledgeableUser",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "Lead",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Lead",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Lead",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "LeadChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "LeadFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LeadStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LeadStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LightningExperienceTheme",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LightningExperienceTheme",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LightningOnboardingConfig",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LightningOnboardingConfig",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmail",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmail",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmail",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ListView",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListView",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListViewChart",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ListViewChart",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ListViewChart",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Location",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Location",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Location",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "LocationChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "LocationFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasure",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasure",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasure",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasureShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasureShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "LoginGeo",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LoginGeo",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "LoginHistory",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "LoginIp",
+            "rf": "UsersId",
+            "rl": ""
+        },
+        {
+            "n": "LogoutEventStream",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "LogoutEventStream",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "MailmergeTemplate",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MailmergeTemplate",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingInformation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingInformation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingInformation",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "MatchingRule",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingRule",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingRuleItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MatchingRuleItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MobileApplicationDetail",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MobileApplicationDetail",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MutingPermissionSet",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MutingPermissionSet",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MyDomainDiscoverableLogin",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MyDomainDiscoverableLogin",
+            "rf": "ExecuteApexHandlerAsId",
+            "rl": ""
+        },
+        {
+            "n": "MyDomainDiscoverableLogin",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "NamedCredential",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "NamedCredential",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OauthCustomScope",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OauthCustomScope",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OauthCustomScopeApp",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OauthCustomScopeApp",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OauthToken",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "ObjectPermissions",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ObjectPermissions",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OnboardingMetrics",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OnboardingMetrics",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OnboardingMetrics",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Opportunity",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Opportunity",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Opportunity",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityCompetitor",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityCompetitor",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityContactRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityContactRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityContactRoleChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityContactRoleChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityFieldHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityPartner",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityPartner",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityStage",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityStage",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "ActivatedById",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "CompanyAuthorizedById",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "ActivatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "CompanyAuthorizedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "OrderFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "OrderStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrderStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgLifecycleNotification",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanResult",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanResult",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgWideEmailAddress",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OrgWideEmailAddress",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Organization",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Organization",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OwnedContentDocument",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "OwnedContentDocument",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "OwnedContentDocument",
+            "rf": "OwnerId",
+            "rl": "OwnedContentDocuments"
+        },
+        {
+            "n": "Partner",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Partner",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PartnerRole",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PartnerRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Payment__History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Payment__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Payment__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSet",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSet",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetAssignment",
+            "rf": "AssigneeId",
+            "rl": "PermissionSetAssignments"
+        },
+        {
+            "n": "PermissionSetGroup",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetGroup",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetGroupComponent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetGroupComponent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetLicense",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetLicense",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetLicenseAssign",
+            "rf": "AssigneeId",
+            "rl": "PermissionSetLicenseAssignments"
+        },
+        {
+            "n": "PermissionSetLicenseAssign",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSetLicenseAssign",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformAction",
+            "rf": "InvokedByUserId",
+            "rl": ""
+        },
+        {
+            "n": "PlatformCachePartition",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformCachePartition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformCachePartitionType",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformCachePartitionType",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformStatusAlertEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PlatformStatusAlertEvent",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2ChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2ChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PricebookEntryHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessDefinition",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessDefinition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessException",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessException",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessException",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessExceptionEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessExceptionShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessExceptionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "LastActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "SubmittedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "ActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "OriginalActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "LastActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceStep",
+            "rf": "ActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceStep",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceStep",
+            "rf": "OriginalActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceWorkitem",
+            "rf": "ActorId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceWorkitem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceWorkitem",
+            "rf": "OriginalActorId",
+            "rl": ""
+        },
+        {
+            "n": "Product2",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2ChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2ChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2Feed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2Feed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "Product2History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Profile",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Profile",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "UserId",
+            "rl": "UserProfileSkillUserEndorsements"
+        },
+        {
+            "n": "ProfileSkillEndorsementFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsementFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsementHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "UserId",
+            "rl": "UserProfileSkillChildren"
+        },
+        {
+            "n": "ProfileSkillUserFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUserFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUserHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Prompt",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Prompt",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptAction",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptAction",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptAction",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "PromptAction",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "PromptActionShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptActionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "PromptError",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptError",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptError",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "PromptErrorShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptErrorShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "PromptVersion",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptVersion",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "PromptVersion",
+            "rf": "PublishedByUserId",
+            "rl": ""
+        },
+        {
+            "n": "PushTopic",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "PushTopic",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QueueSobject",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickText",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickText",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickText",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsageShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsageShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Quote",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Quote",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Quote",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteDocument",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteDocument",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItemChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItemChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteTemplateRichTextData",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "QuoteTemplateRichTextData",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Recommendation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Recommendation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "RecommendationChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "RecommendationChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "RecordType",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "RecordType",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "RedirectWhitelistUrl",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "RedirectWhitelistUrl",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Report",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Report",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Report",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "ReportFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "ReportFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "SPSamlAttributes",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SPSamlAttributes",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SamlSsoConfig",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SamlSsoConfig",
+            "rf": "ExecutionUserId",
+            "rl": ""
+        },
+        {
+            "n": "SamlSsoConfig",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Scontrol",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Scontrol",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SearchLayout",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SecureAgentsCluster",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SecureAgentsCluster",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SecurityCustomBaseline",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SecurityCustomBaseline",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SessionPermSetActivation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SessionPermSetActivation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SessionPermSetActivation",
+            "rf": "UserId",
+            "rl": "SessionPermSetActivations"
+        },
+        {
+            "n": "SetupAssistantStep",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SetupAssistantStep",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SetupAuditTrail",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Site",
+            "rf": "AdminId",
+            "rl": "UserSites"
+        },
+        {
+            "n": "Site",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Site",
+            "rf": "GuestRecordDefaultOwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Site",
+            "rf": "GuestUserId",
+            "rl": ""
+        },
+        {
+            "n": "Site",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteIframeWhiteListUrl",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteIframeWhiteListUrl",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteRedirectMapping",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SiteRedirectMapping",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPersonaHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "DeletedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "HiddenById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "DeletedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "HiddenById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Solution",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Solution",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Solution",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "SolutionFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SolutionFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "SolutionHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SolutionStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "SolutionStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Stamp",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Stamp",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "StampAssignment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "StampAssignment",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "StampAssignment",
+            "rf": "SubjectId",
+            "rl": ""
+        },
+        {
+            "n": "StaticResource",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "StaticResource",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannel",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannel",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannel",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannelShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannelShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription__History",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Task",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Task",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Task",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "TaskFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskPriority",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskPriority",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TaskStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TenantUsageEntitlement",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TenantUsageEntitlement",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "TestSuiteMembership",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TestSuiteMembership",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "ThirdPartyAccountLink",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoalShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoalShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Topic",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TopicFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "TopicFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "TopicUserEvent",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "Translation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Translation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UiFormulaCriterion",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UiFormulaCriterion",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UiFormulaRule",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UiFormulaRule",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UndecidedEventRelation",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UndecidedEventRelation",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UndecidedEventRelation",
+            "rf": "RelationId",
+            "rl": "UndecidedEventRelations"
+        },
+        {
+            "n": "Update_Data_1__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "DelegatedApproverId",
+            "rl": "DelegatedUsers"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "ManagerId",
+            "rl": "ManagedUsers"
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomizationShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomizationShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "DelegatedApproverId",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "ManagerId",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "PersonRecordId",
+            "rl": "PersonRecord"
+        },
+        {
+            "n": "UserEmailPreferredPersonShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPersonShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserEntityAccess",
+            "rf": "UserId",
+            "rl": "UserEntityAccessRights"
+        },
+        {
+            "n": "UserFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "UserFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "UserFieldAccess",
+            "rf": "UserId",
+            "rl": "UserFieldAccessRights"
+        },
+        {
+            "n": "UserListView",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserListView",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserListView",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserListViewCriterion",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserListViewCriterion",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserLogin",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserLogin",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserPackageLicense",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserPackageLicense",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserPackageLicense",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserPreference",
+            "rf": "UserId",
+            "rl": "UserPreferences"
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "SalesforceUserId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "SalesforceUserId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvMockTarget",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvMockTarget",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningConfig",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningConfig",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningLog",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningLog",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningLog",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "ManagerId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "SalesforceUserId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequestShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequestShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "UserRecordAccess",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "UserRole",
+            "rf": "ForecastUserId",
+            "rl": ""
+        },
+        {
+            "n": "UserRole",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserRole",
+            "rf": "PortalAccountOwnerId",
+            "rl": ""
+        },
+        {
+            "n": "UserShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "UserShare",
+            "rf": "UserId",
+            "rl": "Shares"
+        },
+        {
+            "n": "UserShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "VerificationHistory",
+            "rf": "UserId",
+            "rl": ""
+        },
+        {
+            "n": "Vote",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "Vote",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WebLink",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WebLink",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccess",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccess",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccess",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccessShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccessShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "GiverId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "RecipientId",
+            "rl": "Badges"
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinitionShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemChangeEvent",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemChangeEvent",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemFeed",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemFeed",
+            "rf": "InsertedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemHistory",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderStatus",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderStatus",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "GiverId",
+            "rl": "GivenThanks"
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "OwnerId",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanksShare",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanksShare",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__Share",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__Share",
+            "rf": "UserOrGroupId",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "CreatedById",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "LastModifiedById",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "OwnerId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User ID",
+            "t": "id"
+        },
+        {
+            "n": "Username",
+            "l": "Username",
+            "t": "string"
+        },
+        {
+            "n": "LastName",
+            "l": "Last Name",
+            "t": "string"
+        },
+        {
+            "n": "FirstName",
+            "l": "First Name",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Full Name",
+            "t": "string"
+        },
+        {
+            "n": "CompanyName",
+            "l": "Company Name",
+            "t": "string"
+        },
+        {
+            "n": "Division",
+            "l": "Division",
+            "t": "string"
+        },
+        {
+            "n": "Department",
+            "l": "Department",
+            "t": "string"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "Street",
+            "l": "Street",
+            "t": "textarea"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "State",
+            "l": "State\/Province",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "Zip\/Postal Code",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country",
+            "t": "string"
+        },
+        {
+            "n": "Latitude",
+            "l": "Latitude",
+            "t": "double"
+        },
+        {
+            "n": "Longitude",
+            "l": "Longitude",
+            "t": "double"
+        },
+        {
+            "n": "GeocodeAccuracy",
+            "l": "Geocode Accuracy",
+            "t": "picklist"
+        },
+        {
+            "n": "Address",
+            "l": "Address",
+            "t": "address"
+        },
+        {
+            "n": "Email",
+            "l": "Email",
+            "t": "email"
+        },
+        {
+            "n": "EmailPreferencesAutoBcc",
+            "l": "AutoBcc",
+            "t": "boolean"
+        },
+        {
+            "n": "EmailPreferencesAutoBccStayInTouch",
+            "l": "AutoBccStayInTouch",
+            "t": "boolean"
+        },
+        {
+            "n": "EmailPreferencesStayInTouchReminder",
+            "l": "StayInTouchReminder",
+            "t": "boolean"
+        },
+        {
+            "n": "SenderEmail",
+            "l": "Email Sender Address",
+            "t": "email"
+        },
+        {
+            "n": "SenderName",
+            "l": "Email Sender Name",
+            "t": "string"
+        },
+        {
+            "n": "Signature",
+            "l": "Email Signature",
+            "t": "textarea"
+        },
+        {
+            "n": "StayInTouchSubject",
+            "l": "Stay-in-Touch Email Subject",
+            "t": "string"
+        },
+        {
+            "n": "StayInTouchSignature",
+            "l": "Stay-in-Touch Email Signature",
+            "t": "textarea"
+        },
+        {
+            "n": "StayInTouchNote",
+            "l": "Stay-in-Touch Email Note",
+            "t": "string"
+        },
+        {
+            "n": "Phone",
+            "l": "Phone",
+            "t": "phone"
+        },
+        {
+            "n": "Fax",
+            "l": "Fax",
+            "t": "phone"
+        },
+        {
+            "n": "MobilePhone",
+            "l": "Mobile",
+            "t": "phone"
+        },
+        {
+            "n": "Alias",
+            "l": "Alias",
+            "t": "string"
+        },
+        {
+            "n": "CommunityNickname",
+            "l": "Nickname",
+            "t": "string"
+        },
+        {
+            "n": "BadgeText",
+            "l": "User Photo badge text overlay",
+            "t": "string"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "TimeZoneSidKey",
+            "l": "Time Zone",
+            "t": "picklist"
+        },
+        {
+            "n": "UserRoleId",
+            "l": "Role ID",
+            "t": "reference"
+        },
+        {
+            "n": "LocaleSidKey",
+            "l": "Locale",
+            "t": "picklist"
+        },
+        {
+            "n": "ReceivesInfoEmails",
+            "l": "Info Emails",
+            "t": "boolean"
+        },
+        {
+            "n": "ReceivesAdminInfoEmails",
+            "l": "Admin Info Emails",
+            "t": "boolean"
+        },
+        {
+            "n": "EmailEncodingKey",
+            "l": "Email Encoding",
+            "t": "picklist"
+        },
+        {
+            "n": "ProfileId",
+            "l": "Profile ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserType",
+            "l": "User Type",
+            "t": "picklist"
+        },
+        {
+            "n": "LanguageLocaleKey",
+            "l": "Language",
+            "t": "picklist"
+        },
+        {
+            "n": "EmployeeNumber",
+            "l": "Employee Number",
+            "t": "string"
+        },
+        {
+            "n": "DelegatedApproverId",
+            "l": "Delegated Approver ID",
+            "t": "reference"
+        },
+        {
+            "n": "ManagerId",
+            "l": "Manager ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastLoginDate",
+            "l": "Last Login",
+            "t": "datetime"
+        },
+        {
+            "n": "LastPasswordChangeDate",
+            "l": "Last Password Change or Reset",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "NumberOfFailedLogins",
+            "l": "Failed Login Attempts",
+            "t": "int"
+        },
+        {
+            "n": "OfflineTrialExpirationDate",
+            "l": "Offline Edition Trial Expiration Date",
+            "t": "datetime"
+        },
+        {
+            "n": "OfflinePdaTrialExpirationDate",
+            "l": "Sales Anywhere Trial Expiration Date",
+            "t": "datetime"
+        },
+        {
+            "n": "UserPermissionsMarketingUser",
+            "l": "Marketing User",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPermissionsOfflineUser",
+            "l": "Offline User",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPermissionsAvantgoUser",
+            "l": "AvantGo User",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPermissionsCallCenterAutoLogin",
+            "l": "Auto-login To Call Center",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPermissionsSFContentUser",
+            "l": "Salesforce CRM Content User",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPermissionsInteractionUser",
+            "l": "Flow User",
+            "t": "boolean"
+        },
+        {
+            "n": "ForecastEnabled",
+            "l": "Allow Forecasting",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesActivityRemindersPopup",
+            "l": "ActivityRemindersPopup",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesEventRemindersCheckboxDefault",
+            "l": "EventRemindersCheckboxDefault",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesTaskRemindersCheckboxDefault",
+            "l": "TaskRemindersCheckboxDefault",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesReminderSoundOff",
+            "l": "ReminderSoundOff",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableAllFeedsEmail",
+            "l": "DisableAllFeedsEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableFollowersEmail",
+            "l": "DisableFollowersEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableProfilePostEmail",
+            "l": "DisableProfilePostEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableChangeCommentEmail",
+            "l": "DisableChangeCommentEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableLaterCommentEmail",
+            "l": "DisableLaterCommentEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisProfPostCommentEmail",
+            "l": "DisProfPostCommentEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesContentNoEmail",
+            "l": "ContentNoEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesContentEmailAsAndWhen",
+            "l": "ContentEmailAsAndWhen",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesApexPagesDeveloperMode",
+            "l": "ApexPagesDeveloperMode",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesReceiveNoNotificationsAsApprover",
+            "l": "ReceiveNoNotificationsAsApprover",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesReceiveNotificationsAsDelegatedApprover",
+            "l": "ReceiveNotificationsAsDelegatedApprover",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideCSNGetChatterMobileTask",
+            "l": "HideCSNGetChatterMobileTask",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableMentionsPostEmail",
+            "l": "DisableMentionsPostEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisMentionsCommentEmail",
+            "l": "DisMentionsCommentEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideCSNDesktopTask",
+            "l": "HideCSNDesktopTask",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideChatterOnboardingSplash",
+            "l": "HideChatterOnboardingSplash",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideSecondChatterOnboardingSplash",
+            "l": "HideSecondChatterOnboardingSplash",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisCommentAfterLikeEmail",
+            "l": "DisCommentAfterLikeEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableLikeEmail",
+            "l": "DisableLikeEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesSortFeedByComment",
+            "l": "SortFeedByComment",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableMessageEmail",
+            "l": "DisableMessageEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableBookmarkEmail",
+            "l": "DisableBookmarkEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableSharePostEmail",
+            "l": "DisableSharePostEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesEnableAutoSubForFeeds",
+            "l": "EnableAutoSubForFeeds",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableFileShareNotificationsForApi",
+            "l": "DisableFileShareNotificationsForApi",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowTitleToExternalUsers",
+            "l": "ShowTitleToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowManagerToExternalUsers",
+            "l": "ShowManagerToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowEmailToExternalUsers",
+            "l": "ShowEmailToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowWorkPhoneToExternalUsers",
+            "l": "ShowWorkPhoneToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowMobilePhoneToExternalUsers",
+            "l": "ShowMobilePhoneToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowFaxToExternalUsers",
+            "l": "ShowFaxToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowStreetAddressToExternalUsers",
+            "l": "ShowStreetAddressToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowCityToExternalUsers",
+            "l": "ShowCityToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowStateToExternalUsers",
+            "l": "ShowStateToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowPostalCodeToExternalUsers",
+            "l": "ShowPostalCodeToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowCountryToExternalUsers",
+            "l": "ShowCountryToExternalUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowProfilePicToGuestUsers",
+            "l": "ShowProfilePicToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowTitleToGuestUsers",
+            "l": "ShowTitleToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowCityToGuestUsers",
+            "l": "ShowCityToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowStateToGuestUsers",
+            "l": "ShowStateToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowPostalCodeToGuestUsers",
+            "l": "ShowPostalCodeToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowCountryToGuestUsers",
+            "l": "ShowCountryToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideInvoicesRedirectConfirmation",
+            "l": "HideInvoicesRedirectConfirmation",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideStatementsRedirectConfirmation",
+            "l": "HideStatementsRedirectConfirmation",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideS1BrowserUI",
+            "l": "HideS1BrowserUI",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesDisableEndorsementEmail",
+            "l": "DisableEndorsementEmail",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesPathAssistantCollapsed",
+            "l": "PathAssistantCollapsed",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesCacheDiagnostics",
+            "l": "CacheDiagnostics",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowEmailToGuestUsers",
+            "l": "ShowEmailToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowManagerToGuestUsers",
+            "l": "ShowManagerToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowWorkPhoneToGuestUsers",
+            "l": "ShowWorkPhoneToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowMobilePhoneToGuestUsers",
+            "l": "ShowMobilePhoneToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowFaxToGuestUsers",
+            "l": "ShowFaxToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesShowStreetAddressToGuestUsers",
+            "l": "ShowStreetAddressToGuestUsers",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesLightningExperiencePreferred",
+            "l": "LightningExperiencePreferred",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesPreviewLightning",
+            "l": "PreviewLightning",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideEndUserOnboardingAssistantModal",
+            "l": "HideEndUserOnboardingAssistantModal",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideLightningMigrationModal",
+            "l": "HideLightningMigrationModal",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideSfxWelcomeMat",
+            "l": "HideSfxWelcomeMat",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideBiggerPhotoCallout",
+            "l": "HideBiggerPhotoCallout",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesGlobalNavBarWTShown",
+            "l": "GlobalNavBarWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesGlobalNavGridMenuWTShown",
+            "l": "GlobalNavGridMenuWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesCreateLEXAppsWTShown",
+            "l": "CreateLEXAppsWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesFavoritesWTShown",
+            "l": "FavoritesWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesRecordHomeSectionCollapseWTShown",
+            "l": "RecordHomeSectionCollapseWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesRecordHomeReservedWTShown",
+            "l": "RecordHomeReservedWTShown",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesFavoritesShowTopFavorites",
+            "l": "FavoritesShowTopFavorites",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesExcludeMailAppAttachments",
+            "l": "ExcludeMailAppAttachments",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesSuppressTaskSFXReminders",
+            "l": "SuppressTaskSFXReminders",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesSuppressEventSFXReminders",
+            "l": "SuppressEventSFXReminders",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesPreviewCustomTheme",
+            "l": "PreviewCustomTheme",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHasCelebrationBadge",
+            "l": "HasCelebrationBadge",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesUserDebugModePref",
+            "l": "UserDebugModePref",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesSRHOverrideActivities",
+            "l": "SRHOverrideActivities",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesNewLightningReportRunPageEnabled",
+            "l": "NewLightningReportRunPageEnabled",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideBrowseProductRedirectConfirmation",
+            "l": "HideBrowseProductRedirectConfirmation",
+            "t": "boolean"
+        },
+        {
+            "n": "UserPreferencesHideOnlineSalesAppWelcomeMat",
+            "l": "HideOnlineSalesAppWelcomeMat",
+            "t": "boolean"
+        },
+        {
+            "n": "ContactId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "CallCenterId",
+            "l": "Call Center ID",
+            "t": "reference"
+        },
+        {
+            "n": "Extension",
+            "l": "Extension",
+            "t": "phone"
+        },
+        {
+            "n": "FederationIdentifier",
+            "l": "SAML Federation ID",
+            "t": "string"
+        },
+        {
+            "n": "AboutMe",
+            "l": "About Me",
+            "t": "textarea"
+        },
+        {
+            "n": "FullPhotoUrl",
+            "l": "Url for full-sized Photo",
+            "t": "url"
+        },
+        {
+            "n": "SmallPhotoUrl",
+            "l": "Photo",
+            "t": "url"
+        },
+        {
+            "n": "IsExtIndicatorVisible",
+            "l": "Show external indicator",
+            "t": "boolean"
+        },
+        {
+            "n": "OutOfOfficeMessage",
+            "l": "Out of office message",
+            "t": "string"
+        },
+        {
+            "n": "MediumPhotoUrl",
+            "l": "Url for medium profile photo",
+            "t": "url"
+        },
+        {
+            "n": "DigestFrequency",
+            "l": "Chatter Email Highlights Frequency",
+            "t": "picklist"
+        },
+        {
+            "n": "DefaultGroupNotificationFrequency",
+            "l": "Default Notification Frequency when Joining Groups",
+            "t": "picklist"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "BannerPhotoUrl",
+            "l": "Url for banner photo",
+            "t": "url"
+        },
+        {
+            "n": "SmallBannerPhotoUrl",
+            "l": "Url for IOS banner photo",
+            "t": "url"
+        },
+        {
+            "n": "MediumBannerPhotoUrl",
+            "l": "Url for Android banner photo",
+            "t": "url"
+        },
+        {
+            "n": "IsProfilePhotoActive",
+            "l": "Has Profile Photo",
+            "t": "boolean"
+        },
+        {
+            "n": "IndividualId",
+            "l": "Individual ID",
+            "t": "reference"
+        },
+        {
+            "n": "Bypass_Apex_Triggers__c",
+            "l": "Bypass Apex Triggers",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_Assignment_Rules__c",
+            "l": "Bypass Assignment Rules",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_AutoResponse_Rules__c",
+            "l": "Bypass AutoResponse Rules",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_Escalation_Rules__c",
+            "l": "Bypass Escalation Rules",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_Flow_Rules__c",
+            "l": "Bypass Flow Rules",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_Validation_Rules__c",
+            "l": "Bypass Validation Rules",
+            "t": "boolean"
+        },
+        {
+            "n": "Bypass_Workflow_Rules__c",
+            "l": "Bypass Workflow Rules",
+            "t": "boolean"
+        }
+    ]
+}

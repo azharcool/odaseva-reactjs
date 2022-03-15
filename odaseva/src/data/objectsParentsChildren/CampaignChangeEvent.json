@@ -1,0 +1,1 @@
+{"l":"Campaign Change Event","p":{"Campaign":[{"rf":"ParentId","rl":"Parent Campaign ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"RecordType":[{"rf":"CampaignMemberRecordTypeId","rl":"Record Type ID"}]},"c":{}}

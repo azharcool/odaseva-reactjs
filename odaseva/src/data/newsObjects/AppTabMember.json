@@ -1,0 +1,37 @@
+{
+    "l": "App Tab Member",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "App Tab Member ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "AppDefinitionId",
+            "l": "App Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "TabDefinitionId",
+            "l": "Tab Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "SortOrder",
+            "l": "Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "WorkspaceDriverField",
+            "l": "Workspace Driver Field",
+            "t": "string"
+        }
+    ]
+}

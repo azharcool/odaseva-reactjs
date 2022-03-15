@@ -1,0 +1,1 @@
+{"l":"Custom Brand","p":{"Organization":[{"rf":"ParentId","rl":"Branded Entity ID"}],"Stamp":[{"rf":"ParentId","rl":"Branded Entity ID"}],"Topic":[{"rf":"ParentId","rl":"Branded Entity ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"CustomBrandAsset":[{"rf":"CustomBrandId","rl":"CustomBrandAssets"}]}}

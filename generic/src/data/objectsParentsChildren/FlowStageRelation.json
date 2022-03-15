@@ -1,0 +1,1 @@
+{"l":"Flow Interview Stage Relation","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"FlowInterview":[{"rf":"ParentId","rl":"Flow Interview ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

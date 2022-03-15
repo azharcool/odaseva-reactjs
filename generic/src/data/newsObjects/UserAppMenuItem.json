@@ -1,0 +1,87 @@
+{
+    "l": "Application",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Application ID",
+            "t": "id"
+        },
+        {
+            "n": "AppMenuItemId",
+            "l": "AppMenuItem ID",
+            "t": "string"
+        },
+        {
+            "n": "ApplicationId",
+            "l": "Application ID",
+            "t": "reference"
+        },
+        {
+            "n": "Label",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "UserSortOrder",
+            "l": "User Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "SortOrder",
+            "l": "Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "Type",
+            "l": "App Type",
+            "t": "picklist"
+        },
+        {
+            "n": "LogoUrl",
+            "l": "Logo Image URL",
+            "t": "url"
+        },
+        {
+            "n": "IconUrl",
+            "l": "Icon Url",
+            "t": "url"
+        },
+        {
+            "n": "InfoUrl",
+            "l": "Info URL",
+            "t": "url"
+        },
+        {
+            "n": "StartUrl",
+            "l": "Start Url",
+            "t": "url"
+        },
+        {
+            "n": "MobileStartUrl",
+            "l": "Mobile Start Url",
+            "t": "url"
+        },
+        {
+            "n": "IsVisible",
+            "l": "Is Visible",
+            "t": "boolean"
+        },
+        {
+            "n": "IsUsingAdminAuthorization",
+            "l": "IsUsingAdminAuthorization",
+            "t": "boolean"
+        }
+    ]
+}

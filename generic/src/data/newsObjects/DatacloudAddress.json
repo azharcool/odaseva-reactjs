@@ -1,0 +1,67 @@
+{
+    "l": "Data.com Address",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Data.com System ID",
+            "t": "id"
+        },
+        {
+            "n": "ExternalId",
+            "l": "Data.com Address ID",
+            "t": "string"
+        },
+        {
+            "n": "AddressLine1",
+            "l": " Address Line 1 ",
+            "t": "string"
+        },
+        {
+            "n": "AddressLine2",
+            "l": " Address Line 2 ",
+            "t": "string"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "State",
+            "l": "State",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country\/Territory",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "PostalCode",
+            "t": "string"
+        },
+        {
+            "n": "Latitude",
+            "l": " Latitude ",
+            "t": "string"
+        },
+        {
+            "n": "Longitude",
+            "l": "Longitude ",
+            "t": "string"
+        },
+        {
+            "n": "GeoAccuracyCode",
+            "l": " GeoAccuracy Code",
+            "t": "string"
+        },
+        {
+            "n": "GeoAccuracyNum",
+            "l": " GeoAccuracy Num",
+            "t": "string"
+        }
+    ]
+}

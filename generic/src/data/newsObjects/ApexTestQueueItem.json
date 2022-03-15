@@ -1,0 +1,94 @@
+{
+    "l": "Apex Test Queue Item",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "ApexClass",
+            "rf": "ApexClassId",
+            "rl": "Class ID"
+        },
+        {
+            "n": "AsyncApexJob",
+            "rf": "ParentJobId",
+            "rl": "Apex Job ID"
+        },
+        {
+            "n": "ApexTestRunResult",
+            "rf": "TestRunResultId",
+            "rl": "ApexTestRunResult ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ApexTestResult",
+            "rf": "QueueItemId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Apex Test Queue Item ID",
+            "t": "id"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ApexClassId",
+            "l": "Class ID",
+            "t": "reference"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "ExtendedStatus",
+            "l": "Status Detail",
+            "t": "string"
+        },
+        {
+            "n": "ParentJobId",
+            "l": "Apex Job ID",
+            "t": "reference"
+        },
+        {
+            "n": "TestRunResultId",
+            "l": "ApexTestRunResult ID",
+            "t": "reference"
+        },
+        {
+            "n": "ShouldSkipCodeCoverage",
+            "l": "Should Skip Code Coverage",
+            "t": "boolean"
+        }
+    ]
+}

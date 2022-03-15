@@ -1,0 +1,84 @@
+{
+    "l": "Domain",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "DomainSite",
+            "rf": "DomainId",
+            "rl": "DomainSites"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Domain ID",
+            "t": "id"
+        },
+        {
+            "n": "DomainType",
+            "l": "Domain Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Domain",
+            "l": "Domain Name",
+            "t": "string"
+        },
+        {
+            "n": "OptionsHstsHeaders",
+            "l": "Enable Strict Transport Security headers",
+            "t": "boolean"
+        },
+        {
+            "n": "OptionsHstsPreload",
+            "l": "Allow Strict Transport Security preloading",
+            "t": "boolean"
+        },
+        {
+            "n": "CnameTarget",
+            "l": "CNAME Target",
+            "t": "string"
+        },
+        {
+            "n": "HttpsOption",
+            "l": "Current HTTPS Option",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

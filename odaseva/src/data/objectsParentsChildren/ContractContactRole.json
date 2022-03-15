@@ -1,0 +1,1 @@
+{"l":"Contract Contact Role","p":{"Contract":[{"rf":"ContractId","rl":"Contract ID"}],"Contact":[{"rf":"ContactId","rl":"Contact ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

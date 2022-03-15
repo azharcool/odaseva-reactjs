@@ -1,0 +1,189 @@
+{
+    "l": "Authorization Form Text",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "AuthorizationFormId",
+            "rl": "Authorization Form ID"
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "ContentDocumentId",
+            "rl": "Content Document ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "DefaultAuthFormTextId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "AuthorizationFormTextId",
+            "rl": "AuthorizationFormConsents"
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "AuthorizationFormTextId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormTextFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "AuthorizationFormTextHistory",
+            "rf": "AuthorizationFormTextId",
+            "rl": "Histories"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Authorization Form Text ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "AuthorizationFormId",
+            "l": "Authorization Form ID",
+            "t": "reference"
+        },
+        {
+            "n": "FullAuthorizationFormUrl",
+            "l": "Full Authorization Form Url",
+            "t": "string"
+        },
+        {
+            "n": "SummaryAuthFormText",
+            "l": "Summary Auth Form Text",
+            "t": "string"
+        },
+        {
+            "n": "Locale",
+            "l": "Locale",
+            "t": "picklist"
+        },
+        {
+            "n": "LocaleSelection",
+            "l": "Locale",
+            "t": "picklist"
+        },
+        {
+            "n": "ContentDocumentId",
+            "l": "Content Document ID",
+            "t": "reference"
+        }
+    ]
+}

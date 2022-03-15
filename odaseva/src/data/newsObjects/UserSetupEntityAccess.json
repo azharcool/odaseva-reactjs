@@ -1,0 +1,42 @@
+{
+    "l": "User Setup Entity Access",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "UserSetupEntityAccess ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "User Setup Entity Access Key",
+            "t": "string"
+        },
+        {
+            "n": "SetupEntityId",
+            "l": "Setup Entity Id",
+            "t": "string"
+        },
+        {
+            "n": "KeyPrefix",
+            "l": "Key Prefix",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "LastCacheUpdate",
+            "l": "Last Cache Update",
+            "t": "datetime"
+        }
+    ]
+}

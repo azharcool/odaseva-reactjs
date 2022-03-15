@@ -1,0 +1,114 @@
+{
+    "l": "Record Type",
+    "p": [
+        {
+            "n": "BusinessProcess",
+            "rf": "BusinessProcessId",
+            "rl": "Business Process ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "Campaign",
+            "rf": "CampaignMemberRecordTypeId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignChangeEvent",
+            "rf": "CampaignMemberRecordTypeId",
+            "rl": ""
+        },
+        {
+            "n": "ContentWorkspace",
+            "rf": "DefaultRecordTypeId",
+            "rl": ""
+        },
+        {
+            "n": "Name",
+            "rf": "RecordTypeId",
+            "rl": ""
+        },
+        {
+            "n": "RecentlyViewed",
+            "rf": "RecordTypeId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Record Type ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Record Type Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "BusinessProcessId",
+            "l": "Business Process ID",
+            "t": "reference"
+        },
+        {
+            "n": "SobjectType",
+            "l": "SObject Type Name",
+            "t": "picklist"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

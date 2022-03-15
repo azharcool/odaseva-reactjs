@@ -1,0 +1,354 @@
+{
+    "l": "Individual",
+    "p": [
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "MasterRecordId",
+            "rl": "Master Record ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "ConsentGiverId",
+            "rl": "AuthorizationFormConsents"
+        },
+        {
+            "n": "AuthorizationFormConsentChangeEvent",
+            "rf": "ConsentGiverId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "ConsentGiverId",
+            "rl": "CommSubscriptionConsents"
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "ConsentGiverId",
+            "rl": ""
+        },
+        {
+            "n": "Contact",
+            "rf": "IndividualId",
+            "rl": "Contacts"
+        },
+        {
+            "n": "ContactChangeEvent",
+            "rf": "IndividualId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "ParentId",
+            "rl": "ContactPointAddresses"
+        },
+        {
+            "n": "ContactPointAddressChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "ParentId",
+            "rl": "ContactPointEmails"
+        },
+        {
+            "n": "ContactPointEmailChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "ParentId",
+            "rl": "ContactPointPhones"
+        },
+        {
+            "n": "ContactPointPhoneChangeEvent",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "PartyId",
+            "rl": "Individuals"
+        },
+        {
+            "n": "ContactPointTypeConsentChangeEvent",
+            "rf": "PartyId",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "RecordId",
+            "rl": "DuplicateRecordItems"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "IndividualHistory",
+            "rf": "IndividualId",
+            "rl": "Histories"
+        },
+        {
+            "n": "IndividualShare",
+            "rf": "IndividualId",
+            "rl": "Shares"
+        },
+        {
+            "n": "Lead",
+            "rf": "IndividualId",
+            "rl": "Leads"
+        },
+        {
+            "n": "LeadChangeEvent",
+            "rf": "IndividualId",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "OdasevaRoa__Individual__c",
+            "rl": "OdasevaRoa__RoaRequests__r"
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "PartyId",
+            "rl": "PartyConsents"
+        },
+        {
+            "n": "PartyConsentChangeEvent",
+            "rf": "PartyId",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "IndividualId",
+            "rl": ""
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "IndividualId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Individual ID",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "LastName",
+            "l": "Last Name",
+            "t": "string"
+        },
+        {
+            "n": "FirstName",
+            "l": "First Name",
+            "t": "string"
+        },
+        {
+            "n": "Salutation",
+            "l": "Salutation",
+            "t": "picklist"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "HasOptedOutTracking",
+            "l": "Don't Track",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutProfiling",
+            "l": "Don't Profile",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutProcessing",
+            "l": "Don't Process",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutSolicit",
+            "l": "Don't Market",
+            "t": "boolean"
+        },
+        {
+            "n": "ShouldForget",
+            "l": "Forget this Individual",
+            "t": "boolean"
+        },
+        {
+            "n": "SendIndividualData",
+            "l": "Export Individual's Data",
+            "t": "boolean"
+        },
+        {
+            "n": "CanStorePiiElsewhere",
+            "l": "OK to Store PII Data Elsewhere",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOptedOutGeoTracking",
+            "l": "Block Geolocation Tracking",
+            "t": "boolean"
+        },
+        {
+            "n": "BirthDate",
+            "l": "Birth Date",
+            "t": "date"
+        },
+        {
+            "n": "DeathDate",
+            "l": "Death Date",
+            "t": "date"
+        },
+        {
+            "n": "ConvictionsCount",
+            "l": "Conviction Count",
+            "t": "int"
+        },
+        {
+            "n": "ChildrenCount",
+            "l": "Number of Children",
+            "t": "int"
+        },
+        {
+            "n": "MilitaryService",
+            "l": "Military Service",
+            "t": "picklist"
+        },
+        {
+            "n": "IsHomeOwner",
+            "l": "Is Homeowner",
+            "t": "boolean"
+        },
+        {
+            "n": "Occupation",
+            "l": "Occupation",
+            "t": "string"
+        },
+        {
+            "n": "Website",
+            "l": "Website",
+            "t": "url"
+        },
+        {
+            "n": "IndividualsAge",
+            "l": "Individual's Age",
+            "t": "picklist"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "MasterRecordId",
+            "l": "Master Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "ConsumerCreditScore",
+            "l": "Consumer Credit Score",
+            "t": "int"
+        },
+        {
+            "n": "ConsumerCreditScoreProviderName",
+            "l": "Consumer Credit Score Provider Name",
+            "t": "string"
+        },
+        {
+            "n": "InfluencerRating",
+            "l": "Influencer Rating",
+            "t": "int"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "OdasevaDL__ActualProcessingDate__c",
+            "l": "DataLifecycle actual processing date",
+            "t": "date"
+        },
+        {
+            "n": "OdasevaDL__IsRequestedProcessingDateReached__c",
+            "l": "DataLifecycle is processing date reached",
+            "t": "boolean"
+        },
+        {
+            "n": "OdasevaDL__ProcessingJob__c",
+            "l": "DataLifecycle processing job",
+            "t": "string"
+        },
+        {
+            "n": "OdasevaDL__ProcessingMessage__c",
+            "l": "DataLifecycle processing message",
+            "t": "string"
+        },
+        {
+            "n": "OdasevaDL__RequestedProcessingDate__c",
+            "l": "DataLifecycle requested processing date",
+            "t": "date"
+        }
+    ]
+}

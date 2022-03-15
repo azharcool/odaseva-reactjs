@@ -1,0 +1,1 @@
+{"l":"Process Instance Node","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"LastActorId","rl":"User ID"}],"ProcessInstance":[{"rf":"ProcessInstanceId","rl":"Process Instance ID"}],"ProcessNode":[{"rf":"ProcessNodeId","rl":"Process Node ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

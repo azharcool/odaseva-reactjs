@@ -1,0 +1,1 @@
+{"l":"Permission Set Assignment","p":{"PermissionSet":[{"rf":"PermissionSetId","rl":"PermissionSet ID"}],"PermissionSetGroup":[{"rf":"PermissionSetGroupId","rl":"PermissionSetGroup ID"}],"User":[{"rf":"AssigneeId","rl":"Assignee ID"}]},"c":{}}

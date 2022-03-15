@@ -1,0 +1,109 @@
+{
+    "l": "Opportunity History",
+    "p": [
+        {
+            "n": "Opportunity",
+            "rf": "OpportunityId",
+            "rl": "Opportunity ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "Opportunity",
+            "rf": "LastAmountChangedHistoryId",
+            "rl": "OpportunitiesAmountChanged"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "LastCloseDateChangedHistoryId",
+            "rl": "OpportunitiesCloseDateChanged"
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "LastAmountChangedHistoryId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityChangeEvent",
+            "rf": "LastCloseDateChangedHistoryId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Opportunity History ID",
+            "t": "id"
+        },
+        {
+            "n": "OpportunityId",
+            "l": "Opportunity ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "StageName",
+            "l": "Stage Name",
+            "t": "picklist"
+        },
+        {
+            "n": "Amount",
+            "l": "Amount",
+            "t": "currency"
+        },
+        {
+            "n": "ExpectedRevenue",
+            "l": "Expected Revenue",
+            "t": "currency"
+        },
+        {
+            "n": "CloseDate",
+            "l": "Close Date",
+            "t": "date"
+        },
+        {
+            "n": "Probability",
+            "l": "Probability",
+            "t": "percent"
+        },
+        {
+            "n": "ForecastCategory",
+            "l": "To ForecastCategory",
+            "t": "picklist"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "PrevAmount",
+            "l": "Previous Amount",
+            "t": "currency"
+        },
+        {
+            "n": "PrevCloseDate",
+            "l": "Previous Close Date",
+            "t": "date"
+        }
+    ]
+}

@@ -1,0 +1,167 @@
+{
+    "l": "Embedded Service",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Embedded Service ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Embedded Service Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "Site",
+            "l": "Site",
+            "t": "string"
+        },
+        {
+            "n": "PrimaryColor",
+            "l": "Primary Color",
+            "t": "string"
+        },
+        {
+            "n": "SecondaryColor",
+            "l": "Secondary Color",
+            "t": "string"
+        },
+        {
+            "n": "ContrastPrimaryColor",
+            "l": "Contrast Primary Color",
+            "t": "string"
+        },
+        {
+            "n": "ContrastInvertedColor",
+            "l": "Contrast Inverted Color",
+            "t": "string"
+        },
+        {
+            "n": "NavBarColor",
+            "l": "NavBar Color",
+            "t": "string"
+        },
+        {
+            "n": "NavBarTextColor",
+            "l": "NavBar Text Color",
+            "t": "string"
+        },
+        {
+            "n": "SecondaryNavBarColor",
+            "l": "Secondary NavBar Color",
+            "t": "string"
+        },
+        {
+            "n": "Font",
+            "l": "Font",
+            "t": "string"
+        },
+        {
+            "n": "IsLiveAgentEnabled",
+            "l": "Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "IsFieldServiceEnabled",
+            "l": "Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "Width",
+            "l": "Width",
+            "t": "int"
+        },
+        {
+            "n": "Height",
+            "l": "Height",
+            "t": "int"
+        },
+        {
+            "n": "IsPrechatEnabled",
+            "l": "Pre-Chat Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "CustomPrechatComponent",
+            "l": "Custom Prechat Component Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "AvatarImg",
+            "l": "Avatar Image URL",
+            "t": "string"
+        },
+        {
+            "n": "SmallCompanyLogoImg",
+            "l": "Small Company Logo Image URL",
+            "t": "string"
+        },
+        {
+            "n": "PrechatBackgroundImg",
+            "l": "Pre-Chat Background Image URL",
+            "t": "string"
+        },
+        {
+            "n": "WaitingStateBackgroundImg",
+            "l": "Waiting State Background Image URL",
+            "t": "string"
+        },
+        {
+            "n": "FontSize",
+            "l": "Font Size",
+            "t": "picklist"
+        },
+        {
+            "n": "OfflineCaseBackgroundImg",
+            "l": "Offline Case Background Image URL",
+            "t": "string"
+        },
+        {
+            "n": "IsOfflineCaseEnabled",
+            "l": "Offline Case Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "IsQueuePositionEnabled",
+            "l": "Queue Position Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "ShouldShowNewAppointment",
+            "l": "Show New Appointment",
+            "t": "boolean"
+        },
+        {
+            "n": "ShouldShowExistingAppointment",
+            "l": "Show Existing Appointment",
+            "t": "boolean"
+        },
+        {
+            "n": "FieldServiceHomeImg",
+            "l": "Field Service Home Image URL",
+            "t": "string"
+        },
+        {
+            "n": "FieldServiceLogoImg",
+            "l": "Field Service Logo Image URL",
+            "t": "string"
+        },
+        {
+            "n": "FieldServiceConfirmCardImg",
+            "l": "Field Service Confirmation Card Image URL",
+            "t": "string"
+        },
+        {
+            "n": "ShouldHideAuthDialog",
+            "l": "Hide Authentication Dialog",
+            "t": "boolean"
+        },
+        {
+            "n": "CustomMinimizedComponent",
+            "l": "Custom Minimized Component Developer Name",
+            "t": "string"
+        }
+    ]
+}

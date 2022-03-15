@@ -1,0 +1,47 @@
+{
+    "l": "Picklist Value Info",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Picklist Value Info ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "Value",
+            "l": "Value",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "IsDefaultValue",
+            "l": "Is Default Value",
+            "t": "boolean"
+        },
+        {
+            "n": "IsActive",
+            "l": "Is Active",
+            "t": "boolean"
+        },
+        {
+            "n": "ValidFor",
+            "l": "Valid For",
+            "t": "string"
+        },
+        {
+            "n": "EntityParticleId",
+            "l": "Entity Particle ID",
+            "t": "string"
+        }
+    ]
+}

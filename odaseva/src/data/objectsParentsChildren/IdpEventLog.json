@@ -1,0 +1,1 @@
+{"l":"Identity Provider Event Log","p":{"User":[{"rf":"UserId","rl":"User ID"}],"AuthSession":[{"rf":"AuthSessionId","rl":"Auth Session ID"}],"ConnectedApplication":[{"rf":"AppId","rl":"Connected App ID"}]},"c":{}}

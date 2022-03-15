@@ -1,0 +1,89 @@
+{
+    "l": "Group Member Request",
+    "p": [
+        {
+            "n": "CollaborationGroup",
+            "rf": "CollaborationGroupId",
+            "rl": "CollaborationGroup ID"
+        },
+        {
+            "n": "User",
+            "rf": "RequesterId",
+            "rl": "User ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Group Member Request Id",
+            "t": "id"
+        },
+        {
+            "n": "CollaborationGroupId",
+            "l": "CollaborationGroup ID",
+            "t": "reference"
+        },
+        {
+            "n": "RequesterId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "ResponseMessage",
+            "l": "Response Message",
+            "t": "string"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

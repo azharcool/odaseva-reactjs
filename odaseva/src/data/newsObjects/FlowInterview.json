@@ -1,0 +1,129 @@
+{
+    "l": "Flow Interview",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowInterviewShare",
+            "rf": "ParentId",
+            "rl": "Shares"
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "ParentId",
+            "rl": "RecordRelations"
+        },
+        {
+            "n": "FlowStageRelation",
+            "rf": "ParentId",
+            "rl": "StageRelations"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "FlowInterviewId",
+            "rl": "RecordActions"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Flow Interview Id",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "CurrentElement",
+            "l": "Current Element",
+            "t": "string"
+        },
+        {
+            "n": "InterviewLabel",
+            "l": "Interview Label",
+            "t": "string"
+        },
+        {
+            "n": "PauseLabel",
+            "l": "Pause Reason",
+            "t": "string"
+        },
+        {
+            "n": "Guid",
+            "l": "Flow Interview Guid",
+            "t": "string"
+        },
+        {
+            "n": "WasPausedFromScreen",
+            "l": "Was Paused From Screen",
+            "t": "boolean"
+        },
+        {
+            "n": "FlowVersionViewId",
+            "l": "Flow Version View ID",
+            "t": "string"
+        },
+        {
+            "n": "InterviewStatus",
+            "l": "Interview Status",
+            "t": "picklist"
+        }
+    ]
+}

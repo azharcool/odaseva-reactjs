@@ -1,0 +1,123 @@
+{
+    "l": "Apex Test Result Limit",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "ApexTestResult",
+            "rf": "ApexTestResultId",
+            "rl": "Apex Test Result ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ApexTestResultLimits ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ApexTestResultId",
+            "l": "Apex Test Result ID",
+            "t": "reference"
+        },
+        {
+            "n": "Soql",
+            "l": "Total number of SOQL queries issued",
+            "t": "int"
+        },
+        {
+            "n": "QueryRows",
+            "l": "Total number of records retrieved by SOQL queries",
+            "t": "int"
+        },
+        {
+            "n": "Sosl",
+            "l": "Total number of SOSL queries issued",
+            "t": "int"
+        },
+        {
+            "n": "Dml",
+            "l": "Total number of DML statements issued",
+            "t": "int"
+        },
+        {
+            "n": "DmlRows",
+            "l": "Total number of records processed as a result of DML statements",
+            "t": "int"
+        },
+        {
+            "n": "Cpu",
+            "l": "Maximum CPU time on the Salesforce servers",
+            "t": "int"
+        },
+        {
+            "n": "Callouts",
+            "l": "Total number of callouts",
+            "t": "int"
+        },
+        {
+            "n": "Email",
+            "l": "Total number of sendEmail methods allowed",
+            "t": "int"
+        },
+        {
+            "n": "AsyncCalls",
+            "l": "Total number of async calls",
+            "t": "int"
+        },
+        {
+            "n": "MobilePush",
+            "l": "Maximum number of push notification method calls allowed per Apex transaction",
+            "t": "int"
+        },
+        {
+            "n": "LimitContext",
+            "l": "LimitContext",
+            "t": "string"
+        },
+        {
+            "n": "LimitExceptions",
+            "l": "LimitExceptions",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,1249 @@
+{
+    "l": "Profile",
+    "p": [
+        {
+            "n": "UserLicense",
+            "rf": "UserLicenseId",
+            "rl": "User License ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ActiveProfileMetric",
+            "rf": "ProfileId",
+            "rl": ""
+        },
+        {
+            "n": "Name",
+            "rf": "ProfileId",
+            "rl": ""
+        },
+        {
+            "n": "PermissionSet",
+            "rf": "ProfileId",
+            "rl": ""
+        },
+        {
+            "n": "RecentlyViewed",
+            "rf": "ProfileId",
+            "rl": ""
+        },
+        {
+            "n": "User",
+            "rf": "ProfileId",
+            "rl": "Users"
+        },
+        {
+            "n": "UserChangeEvent",
+            "rf": "ProfileId",
+            "rl": ""
+        },
+        {
+            "n": "VisualforceAccessMetrics",
+            "rf": "ProfileId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Profile ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "PermissionsEmailSingle",
+            "l": "Send Email",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEmailMass",
+            "l": "Mass Email",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditTask",
+            "l": "Edit Tasks",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditEvent",
+            "l": "Edit Events",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsExportReport",
+            "l": "Export Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsImportPersonal",
+            "l": "Import Personal Contacts",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsDataExport",
+            "l": "Weekly Data Export",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageUsers",
+            "l": "Manage Users",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditPublicFilters",
+            "l": "Manage Public List Views",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditPublicTemplates",
+            "l": "Manage Public Classic Email Templates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsModifyAllData",
+            "l": "Modify All Data",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCases",
+            "l": "Manage Cases",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsMassInlineEdit",
+            "l": "Mass Edits from Lists",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSolutions",
+            "l": "Manage Published Solutions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCustomizeApplication",
+            "l": "Customize Application",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditReadonlyFields",
+            "l": "Edit Read Only Fields",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsRunReports",
+            "l": "Run Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewSetup",
+            "l": "View Setup and Configuration",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTransferAnyEntity",
+            "l": "Transfer Record",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsNewReportBuilder",
+            "l": "Report Builder",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsActivateContract",
+            "l": "Activate Contracts",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsActivateOrder",
+            "l": "Activate Orders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsImportLeads",
+            "l": "Import Leads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageLeads",
+            "l": "Manage Leads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTransferAnyLead",
+            "l": "Transfer Leads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllData",
+            "l": "View All Data",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditPublicDocuments",
+            "l": "Manage Public Documents",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewEncryptedData",
+            "l": "View Encrypted Data",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditBrandTemplates",
+            "l": "Manage Letterheads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditHtmlTemplates",
+            "l": "Edit HTML Templates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterInternalUser",
+            "l": "Chatter Internal User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsDeleteActivatedContract",
+            "l": "Delete Activated Contracts",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterInviteExternalUsers",
+            "l": "Invite Customers To Chatter",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSendSitRequests",
+            "l": "Send Stay-in-Touch Requests",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsApiUserOnly",
+            "l": "Api Only User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageRemoteAccess",
+            "l": "Manage Connected Apps",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCanUseNewDashboardBuilder",
+            "l": "Drag-and-Drop Dashboard Builder",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCategories",
+            "l": "Manage Categories",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsConvertLeads",
+            "l": "Convert Leads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPasswordNeverExpires",
+            "l": "Password Never Expires",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsUseTeamReassignWizards",
+            "l": "Use Team Reassignment Wizards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditActivatedOrders",
+            "l": "Edit Activated Orders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsInstallMultiforce",
+            "l": "Download AppExchange Packages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPublishMultiforce",
+            "l": "Upload AppExchange Packages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterOwnGroups",
+            "l": "Create and Own New Chatter Groups",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditOppLineItemUnitPrice",
+            "l": "Edit Opportunity Product Sales Price",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateMultiforce",
+            "l": "Create AppExchange Packages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsBulkApiHardDelete",
+            "l": "Bulk API Hard Delete",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsInboundMigrationToolsUser",
+            "l": "Deploy Change Sets",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSolutionImport",
+            "l": "Import Solutions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCallCenters",
+            "l": "Manage Call Centers",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSynonyms",
+            "l": "Manage Synonyms",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsOutboundMigrationToolsUser",
+            "l": "Create and Upload Change Sets",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewContent",
+            "l": "View Content in Portals",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageEmailClientConfig",
+            "l": "Manage Email Client Configurations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEnableNotifications",
+            "l": "Send Outbound Messages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIsSsoEnabled",
+            "l": "Is Single Sign-On Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageDataIntegrations",
+            "l": "Manage Data Integrations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsDistributeFromPersWksp",
+            "l": "Create Content Deliveries",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewDataCategories",
+            "l": "View Data Categories in Setup",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageDataCategories",
+            "l": "Manage Data Categories",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAuthorApex",
+            "l": "Author Apex",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageMobile",
+            "l": "Manage Mobile Configurations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsApiEnabled",
+            "l": "API Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCustomReportTypes",
+            "l": "Manage Custom Report Types",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditCaseComments",
+            "l": "Edit Case Comments",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTransferAnyCase",
+            "l": "Transfer Cases",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsContentAdministrator",
+            "l": "Manage Salesforce CRM Content",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateWorkspaces",
+            "l": "Create Libraries",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageContentPermissions",
+            "l": "Manage Content Permissions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageContentProperties",
+            "l": "Manage Content Properties",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageContentTypes",
+            "l": "Manage record types and layouts for Files",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsScheduleJob",
+            "l": "Schedule Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageExchangeConfig",
+            "l": "Manage Lightning Sync",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageAnalyticSnapshots",
+            "l": "Manage Reporting Snapshots",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsScheduleReports",
+            "l": "Schedule Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageBusinessHourHolidays",
+            "l": "Manage Business Hours Holidays",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCustomSidebarOnAllPages",
+            "l": "Show Custom Sidebar On All Pages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageInteraction",
+            "l": "Manage Flow",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewMyTeamsDashboards",
+            "l": "View My Team's Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsModerateChatter",
+            "l": "Moderate Chatter",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsResetPasswords",
+            "l": "Reset User Passwords and Unlock Users",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsFlowUFLRequired",
+            "l": "Require Flow User Feature License",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCanInsertFeedSystemFields",
+            "l": "Insert System Field Values for Chatter Feeds",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsActivitiesAccess",
+            "l": "Access Activities",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEmailTemplateManagement",
+            "l": "Manage Email Templates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEmailAdministration",
+            "l": "Email Administration",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageChatterMessages",
+            "l": "Manage Chatter Messages and Direct Messages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAllowEmailIC",
+            "l": "Email-Based Identity Verification Option",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterFileLink",
+            "l": "Create Public Links",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsForceTwoFactor",
+            "l": "Multi-Factor Authentication for User Interface Logins",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewEventLogFiles",
+            "l": "View Event Log Files",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageNetworks",
+            "l": "Create and Set Up Experiences",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageAuthProviders",
+            "l": "Manage Auth. Providers",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsRunFlow",
+            "l": "Run Flows",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateCustomizeDashboards",
+            "l": "Create and Customize Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateDashboardFolders",
+            "l": "Create Dashboard Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewPublicDashboards",
+            "l": "View Dashboards in Public Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageDashbdsInPubFolders",
+            "l": "Manage Dashboards in Public Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateCustomizeReports",
+            "l": "Create and Customize Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateReportFolders",
+            "l": "Create Report Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewPublicReports",
+            "l": "View Reports in Public Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageReportsInPubFolders",
+            "l": "Manage Reports in Public Folders",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditMyDashboards",
+            "l": "Edit My Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditMyReports",
+            "l": "Edit My Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllUsers",
+            "l": "View All Users",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsConnectOrgToEnvironmentHub",
+            "l": "Connect Organization to Environment Hub",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateCustomizeFilters",
+            "l": "Create and Customize List Views",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsContentHubUser",
+            "l": "Files Connect Cloud",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsGovernNetworks",
+            "l": "Manage Experiences",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTwoFactorApi",
+            "l": "Multi-Factor Authentication for API Logins",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsDeleteTopics",
+            "l": "Delete Topics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEditTopics",
+            "l": "Edit Topics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateTopics",
+            "l": "Create Topics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAssignTopics",
+            "l": "Assign Topics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIdentityEnabled",
+            "l": "Use Identity Features",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIdentityConnect",
+            "l": "Use Identity Connect",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsContentWorkspaces",
+            "l": "Access Libraries",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateWorkBadgeDefinition",
+            "l": "Create custom Badge Definitions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCustomMobileAppsAccess",
+            "l": "Access Custom Mobile Apps",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewHelpLink",
+            "l": "View Help Link",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageProfilesPermissionsets",
+            "l": "Manage Profiles and Permission Sets",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAssignPermissionSets",
+            "l": "Assign Permission Sets",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageRoles",
+            "l": "Manage Roles",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageIpAddresses",
+            "l": "Manage IP Addresses",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSharing",
+            "l": "Manage Sharing",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageInternalUsers",
+            "l": "Manage Internal Users",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManagePasswordPolicies",
+            "l": "Manage Password Policies",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageLoginAccessPolicies",
+            "l": "Manage Login Access Policies",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCustomPermissions",
+            "l": "Manage Custom Permissions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCanVerifyComment",
+            "l": "Verify Answers to Chatter Questions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageUnlistedGroups",
+            "l": "Manage Unlisted Groups",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageTwoFactor",
+            "l": "Manage Multi-Factor Authentication in API",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsLightningExperienceUser",
+            "l": "Lightning Experience User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsConfigCustomRecs",
+            "l": "Configure Custom Recommendations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSessionPermissionSets",
+            "l": "Manage Session Permission Set Activations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSendAnnouncementEmails",
+            "l": "Send announcement emails",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterEditOwnPost",
+            "l": "Edit My Own Posts",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterEditOwnRecordPost",
+            "l": "Edit Posts on Records I Own",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSandboxes",
+            "l": "Manage Sandboxes",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsImportCustomObjects",
+            "l": "Import Custom Objects",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsDelegatedTwoFactor",
+            "l": "Manage Multi-Factor Authentication in User Interface",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChatterComposeUiCodesnippet",
+            "l": "Allow Inclusion of Code Snippets from UI",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSelectFilesFromSalesforce",
+            "l": "Select Files from Salesforce",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsModerateNetworkUsers",
+            "l": "Moderate Experience Cloud Site Users",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsMergeTopics",
+            "l": "Merge Topics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeToLightningReports",
+            "l": "Subscribe to Reports",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManagePvtRptsAndDashbds",
+            "l": "Manage All Private Reports and Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAllowLightningLogin",
+            "l": "Lightning Login User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCampaignInfluence2",
+            "l": "Campaign Influence",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewDataAssessment",
+            "l": "Access to view Data Assessment",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsRemoveDirectMessageMembers",
+            "l": "Remove People from Direct Messages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCanApproveFeedPost",
+            "l": "Can Approve Feed Post and Comment",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAddDirectMessageMembers",
+            "l": "Add People to Direct Messages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAllowViewEditConvertedLeads",
+            "l": "View and Edit Converted Leads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsShowCompanyNameAsUserBadge",
+            "l": "Show Company Name as Site Role",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAccessCMC",
+            "l": "Access Experience Management",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewHealthCheck",
+            "l": "View Health Check",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageHealthCheck",
+            "l": "Manage Health Check",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPackaging2",
+            "l": "Create and Update Second-Generation Packages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCertificates",
+            "l": "Manage Certificates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateReportInLightning",
+            "l": "Report Builder (Lightning Experience)",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPreventClassicExperience",
+            "l": "Hide Option to Switch to Salesforce Classic",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsHideReadByList",
+            "l": "Hide the Seen By List",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsListEmailSend",
+            "l": "Allow sending of List Emails",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsFeedPinning",
+            "l": "Pin Posts in Feeds",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsChangeDashboardColors",
+            "l": "Change Dashboard Colors",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageRecommendationStrategies",
+            "l": "Manage Next Best Action Strategies",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManagePropositions",
+            "l": "Manage Next Best Action Recommendations",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCloseConversations",
+            "l": "Close Conversation Threads",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeReportRolesGrps",
+            "l": "Subscribe to Reports: Send to Groups and Roles",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeDashboardRolesGrps",
+            "l": "Subscribe to Dashboards: Send to Groups and Roles",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsUseWebLink",
+            "l": "Allow Access to Customized Actions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsHasUnlimitedNBAExecutions",
+            "l": "User Has Unlimited Next Best Action Strategy Executions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllActivities",
+            "l": "View All Activities",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeReportToOtherUsers",
+            "l": "Subscribe to Reports: Add Recipients",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsLightningConsoleAllowedForUser",
+            "l": "Lightning Console User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeReportsRunAsUser",
+            "l": "Subscribe to Reports: Set Running User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeToLightningDashboards",
+            "l": "Subscribe to Dashboards",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSubscribeDashboardToOtherUsers",
+            "l": "Subscribe to Dashboards: Add Recipients",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateLtngTempInPub",
+            "l": "Manage Public Lightning Email Templates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTransactionalEmailSend",
+            "l": "Send Non-Commercial Email",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewPrivateStaticResources",
+            "l": "View Private Static Resources",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCreateLtngTempFolder",
+            "l": "Create Folders for Lightning Email Templates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsApexRestServices",
+            "l": "Apex REST Services",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsEnableCommunityAppLauncher",
+            "l": "Show App Launcher in Experience Cloud Sites",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsGiveRecognitionBadge",
+            "l": "Give Recognition Badges in Experience Builder Sites",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsLtngPromoReserved01UserPerm",
+            "l": "Remain in Salesforce Classic",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSubscriptions",
+            "l": "Manage Tableau CRM Subscriptions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageSurveys",
+            "l": "Manage Surveys",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewRoles",
+            "l": "View Roles and Role Hierarchy",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsLMOutboundMessagingUserPerm",
+            "l": "Agent Initiated Outbound Messaging",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsModifyDataClassification",
+            "l": "Modify Data Classification",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPrivacyDataAccess",
+            "l": "Allow user to access privacy data",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsQueryAllFiles",
+            "l": "Query All Files",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsModifyMetadata",
+            "l": "Modify Metadata Through Metadata API Functions",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageCMS",
+            "l": "Create CMS Workspaces and Channels",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSandboxTestingInCommunityApp",
+            "l": "Test Sandboxes in Mobile Publisher for Experience Cloud",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsCanEditPrompts",
+            "l": "Manage Prompts",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewUserPII",
+            "l": "View User Records with PII",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageHubConnections",
+            "l": "Connect Org to Customer 360 Data Manager",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsB2BMarketingAnalyticsUser",
+            "l": "Create B2B Marketing Analytics Apps",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsTraceXdsQueries",
+            "l": "Access Tracer for External Data Sources",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllCustomSettings",
+            "l": "View All Custom Settings",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllForeignKeyNames",
+            "l": "View All Lookup Record Names",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsHeadlessCMSAccess",
+            "l": "Enable Salesforce CMS Integration",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsLMEndMessagingSessionUserPerm",
+            "l": "End Messaging Session",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsConsentApiUpdate",
+            "l": "Update Consent Preferences Using REST API",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAccessContentBuilder",
+            "l": "Access drag-and-drop content builder",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsAccountSwitcherUser",
+            "l": "Account Switcher User",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageC360AConnections",
+            "l": "Connect Org to Salesforce CDP",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageReleaseUpdates",
+            "l": "Manage Release Updates",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewAllProfiles",
+            "l": "View All Profiles",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSkipIdentityConfirmation",
+            "l": "Skip Device Activation at Login",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsSendCustomNotifications",
+            "l": "Send Custom Notifications",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsPackaging2Delete",
+            "l": "Delete Second-Generation Packages",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageTrustMeasures",
+            "l": "Manage Trust Measures",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsViewTrustMeasures",
+            "l": "View Trust Measures",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIsotopeCToCUser",
+            "l": "Salesforce Anywhere Integration Access",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIsotopeAccess",
+            "l": "Salesforce Anywhere on Mobile",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsIsotopeLEX",
+            "l": "Salesforce Anywhere in Lightning Experience",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsQuipMetricsAccess",
+            "l": "Quip Metrics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsQuipUserEngagementMetrics",
+            "l": "Quip User Engagement Metrics",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsManageExternalConnections",
+            "l": "Allow user to modify Private Connections",
+            "t": "boolean"
+        },
+        {
+            "n": "PermissionsNativeWebviewScrolling",
+            "l": "Salesforce Mobile App: Native scrolling on webviews",
+            "t": "boolean"
+        },
+        {
+            "n": "UserLicenseId",
+            "l": "User License ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserType",
+            "l": "User Type",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "IsSsoEnabled",
+            "l": "Is Single Sign-On Enabled",
+            "t": "boolean"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        }
+    ]
+}

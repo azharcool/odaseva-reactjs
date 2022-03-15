@@ -1,0 +1,918 @@
+{
+    "l": "Flow Record Relation",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "FlowInterview",
+            "rf": "ParentId",
+            "rl": "Flow Interview ID"
+        },
+        {
+            "n": "Account",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AccountContactRole",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AccountPartner",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Announcement",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ApexTestQueueItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AppAnalyticsQueryRequest",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AssociatedLocation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AsyncApexJob",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Attachment",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AuthorizationFormDataUse",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "AuthorizationFormText",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "BackgroundOperation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CalendarView",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Case",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CaseContactRole",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CaseSolution",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CollaborationGroupMember",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CollaborationGroupMemberRequest",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ConferenceNumber",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentDocumentSubscription",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentFolder",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentFolderLink",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentFolderMember",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentNotification",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentVersionComment",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentVersionRating",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContentWorkspaceDoc",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Contract",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ContractContactRole",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Dashboard",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DashboardComponent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DataAssessmentFieldMetric",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DataAssessmentMetric",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DataAssessmentValueMetric",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DataUseLegalBasis",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DataUsePurpose",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DeleteEvent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Document",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "DuplicateRecordSet",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EmailMessageRelation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Event",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "EventRelation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ExternalEvent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedAttachment",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedPollChoice",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedPollVote",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FeedRevision",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FileSearchActivity",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FlowInterviewLog",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FlowInterviewLogEntry",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "FlowStageRelation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Idea",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Image",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ListEmail",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Location",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "LocationTrustMeasure",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "MatchingInformation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "NadraCustomSetting__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Note",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaSettings__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OpportunityContactRole",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OpportunityPartner",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Order",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OrderItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OrgMetricScanResult",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Partner",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProcessException",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "PromptAction",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "PromptError",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "PushTopic",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "QuickText",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "QuoteDocument",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Recommendation",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Report",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "SetupAssistantStep",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Solution",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "StreamingChannel",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Task",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Topic",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserProvMockTarget",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserProvisioningLog",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkAccess",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "RelatedRecordId",
+            "rl": "Record ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Flow Record Relation ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ParentId",
+            "l": "Flow Interview ID",
+            "t": "reference"
+        },
+        {
+            "n": "RelatedRecordId",
+            "l": "Record ID",
+            "t": "reference"
+        }
+    ]
+}

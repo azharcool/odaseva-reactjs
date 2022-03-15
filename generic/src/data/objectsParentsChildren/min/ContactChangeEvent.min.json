@@ -1,0 +1,1 @@
+{"l":"Contact Change Event","p":{"Account":[{"rf":"AccountId","rl":"Account ID"}],"Contact":[{"rf":"ReportsToId","rl":"Reports To ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Individual":[{"rf":"IndividualId","rl":"Individual ID"}]},"c":{}}

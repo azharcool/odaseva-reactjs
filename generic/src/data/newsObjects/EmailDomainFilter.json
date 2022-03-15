@@ -1,0 +1,83 @@
+{
+    "l": "Email Domain Filter",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "EmailRelay",
+            "rf": "EmailRelayId",
+            "rl": "Email Relay ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Email Domain Filter ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "PriorityNumber",
+            "l": "Priority",
+            "t": "int"
+        },
+        {
+            "n": "EmailRelayId",
+            "l": "Email Relay ID",
+            "t": "reference"
+        },
+        {
+            "n": "ToDomain",
+            "l": "Recipient Domain",
+            "t": "textarea"
+        },
+        {
+            "n": "FromDomain",
+            "l": "Sender Domain",
+            "t": "textarea"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        }
+    ]
+}

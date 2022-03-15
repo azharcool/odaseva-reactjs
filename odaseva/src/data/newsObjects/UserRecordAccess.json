@@ -1,0 +1,654 @@
+{
+    "l": "User Record Access",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "Account",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Announcement",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AppAnalyticsQueryRequest",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Asset",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AssociatedLocation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationForm",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormConsent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormDataUse",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormText",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "BackgroundOperation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Campaign",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Case",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ConferenceNumber",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Contact",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointAddress",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmail",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointPhone",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ContentFolder",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Contract",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentFieldMetric",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentMetric",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DataAssessmentValueMetric",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DataUseLegalBasis",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DataUsePurpose",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordItem",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "DuplicateRecordSet",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEvent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FileSearchActivity",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterview",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLog",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FlowInterviewLogEntry",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "FlowStageRelation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Folder",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Idea",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Image",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "InstalledMobileApp",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Lead",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmail",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailIndividualRecipient",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Location",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "LocationTrustMeasure",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "MatchingInformation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Opportunity",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Order",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OrderItem",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetric",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanResult",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Payment__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessException",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Product2",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "PromptAction",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "PromptError",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "QuickText",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "QuickTextUsage",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Quote",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteTemplateRichTextData",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Recommendation",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "SetupAssistantStep",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPost",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Solution",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "StreamingChannel",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "TodayGoal",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserAppMenuCustomization",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserEmailPreferredPerson",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccount",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvAccountStaging",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvMockTarget",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningLog",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "UserProvisioningRequest",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkAccess",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanks",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "UserRecordAccessId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Record Access ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "RecordId",
+            "l": "Record ID",
+            "t": "picklist"
+        },
+        {
+            "n": "HasReadAccess",
+            "l": "Has Read Access",
+            "t": "boolean"
+        },
+        {
+            "n": "HasEditAccess",
+            "l": "Has Edit Access",
+            "t": "boolean"
+        },
+        {
+            "n": "HasDeleteAccess",
+            "l": "Has Delete Access",
+            "t": "boolean"
+        },
+        {
+            "n": "HasTransferAccess",
+            "l": "Has Transfer Access",
+            "t": "boolean"
+        },
+        {
+            "n": "HasAllAccess",
+            "l": "Has All Access",
+            "t": "boolean"
+        },
+        {
+            "n": "MaxAccessLevel",
+            "l": "Maximum Access Level",
+            "t": "picklist"
+        }
+    ]
+}

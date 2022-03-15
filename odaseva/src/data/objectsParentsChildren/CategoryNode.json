@@ -1,0 +1,1 @@
+{"l":"Category Node","p":{"CategoryNode":[{"rf":"ParentId","rl":"Parent Category Node ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"CategoryData":[{"rf":"CategoryNodeId","rl":null}],"CategoryNode":[{"rf":"ParentId","rl":null}]}}

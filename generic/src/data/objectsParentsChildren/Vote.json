@@ -1,0 +1,1 @@
+{"l":"Vote","p":{"Idea":[{"rf":"ParentId","rl":"Parent ID"}],"IdeaComment":[{"rf":"ParentId","rl":"Parent ID"}],"Solution":[{"rf":"ParentId","rl":"Parent ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

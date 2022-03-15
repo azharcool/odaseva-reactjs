@@ -1,0 +1,94 @@
+{
+    "l": "Email Message Relation",
+    "p": [
+        {
+            "n": "EmailMessage",
+            "rf": "EmailMessageId",
+            "rl": "Email Message ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "RelationId",
+            "rl": "Relation ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "RelationId",
+            "rl": "Relation ID"
+        },
+        {
+            "n": "User",
+            "rf": "RelationId",
+            "rl": "Relation ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Email Message Relation ID",
+            "t": "id"
+        },
+        {
+            "n": "EmailMessageId",
+            "l": "Email Message ID",
+            "t": "reference"
+        },
+        {
+            "n": "RelationId",
+            "l": "Relation ID",
+            "t": "reference"
+        },
+        {
+            "n": "RelationType",
+            "l": "Relation Type",
+            "t": "picklist"
+        },
+        {
+            "n": "RelationAddress",
+            "l": "Relation Address",
+            "t": "string"
+        },
+        {
+            "n": "RelationObjectType",
+            "l": "Relation Object Type",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        }
+    ]
+}

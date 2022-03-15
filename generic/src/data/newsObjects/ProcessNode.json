@@ -1,0 +1,59 @@
+{
+    "l": "Process Node",
+    "p": [
+        {
+            "n": "ProcessDefinition",
+            "rf": "ProcessDefinitionId",
+            "rl": "Approval Process ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "ProcessNodeId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceNode",
+            "rf": "ProcessNodeId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstanceStep",
+            "rf": "StepNodeId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Process Node ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Unique Name",
+            "t": "string"
+        },
+        {
+            "n": "ProcessDefinitionId",
+            "l": "Approval Process ID",
+            "t": "reference"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

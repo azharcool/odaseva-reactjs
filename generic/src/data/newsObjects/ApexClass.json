@@ -1,0 +1,159 @@
+{
+    "l": "Apex Class",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ApexTestQueueItem",
+            "rf": "ApexClassId",
+            "rl": ""
+        },
+        {
+            "n": "ApexTestResult",
+            "rf": "ApexClassId",
+            "rl": ""
+        },
+        {
+            "n": "AsyncApexJob",
+            "rf": "ApexClassId",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "ExternalDataSourceType",
+            "rl": ""
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "PluginId",
+            "rl": ""
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "RegistrationHandlerId",
+            "rl": ""
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ExternalDataSourceType",
+            "rl": ""
+        },
+        {
+            "n": "EmailServicesFunction",
+            "rf": "ApexClassId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "Type",
+            "rl": ""
+        },
+        {
+            "n": "MyDomainDiscoverableLogin",
+            "rf": "ApexHandlerId",
+            "rl": ""
+        },
+        {
+            "n": "OwnedContentDocument",
+            "rf": "ExternalDataSourceType",
+            "rl": ""
+        },
+        {
+            "n": "SamlSsoConfig",
+            "rf": "SamlJitHandlerId",
+            "rl": ""
+        },
+        {
+            "n": "SetupEntityAccess",
+            "rf": "SetupEntityId",
+            "rl": "SetupEntityAccessItems"
+        },
+        {
+            "n": "TestSuiteMembership",
+            "rf": "ApexClassId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Class ID",
+            "t": "id"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "Api Version",
+            "t": "double"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "IsValid",
+            "l": "Is Valid",
+            "t": "boolean"
+        },
+        {
+            "n": "BodyCrc",
+            "l": "Body CRC",
+            "t": "double"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "textarea"
+        },
+        {
+            "n": "LengthWithoutComments",
+            "l": "Size Without Comments",
+            "t": "int"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

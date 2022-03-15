@@ -1,0 +1,1 @@
+{"l":"Email Service","p":{"ApexClass":[{"rf":"ApexClassId","rl":"Class ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"EmailServicesAddress":[{"rf":"FunctionId","rl":"Addresses"}]}}

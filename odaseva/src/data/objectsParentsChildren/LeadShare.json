@@ -1,0 +1,1 @@
+{"l":"Lead Share","p":{"Lead":[{"rf":"LeadId","rl":"Lead ID"}],"Group":[{"rf":"UserOrGroupId","rl":"User/Group ID"}],"User":[{"rf":"UserOrGroupId","rl":"User/Group ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

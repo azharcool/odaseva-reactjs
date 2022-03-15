@@ -1,0 +1,1 @@
+{"l":"Change Event: Right of Access Settings","p":{"Organization":[{"rf":"SetupOwnerId","rl":"Location"}],"Profile":[{"rf":"SetupOwnerId","rl":"Location"}],"User":[{"rf":"SetupOwnerId","rl":"Location"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

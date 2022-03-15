@@ -1,0 +1,48 @@
+{
+    "l": "User Login",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Login ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsFrozen",
+            "l": "Is Frozen",
+            "t": "boolean"
+        },
+        {
+            "n": "IsPasswordLocked",
+            "l": "Is Password Locked",
+            "t": "boolean"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        }
+    ]
+}

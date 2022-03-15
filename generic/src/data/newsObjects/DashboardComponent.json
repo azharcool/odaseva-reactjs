@@ -1,0 +1,89 @@
+{
+    "l": "Dashboard Component",
+    "p": [
+        {
+            "n": "Dashboard",
+            "rf": "DashboardId",
+            "rl": "Dashboard ID"
+        },
+        {
+            "n": "Report",
+            "rf": "CustomReportId",
+            "rl": "Report ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "DashboardComponentFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Dashboard Component ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Dashboard Component Name",
+            "t": "string"
+        },
+        {
+            "n": "DashboardId",
+            "l": "Dashboard ID",
+            "t": "reference"
+        },
+        {
+            "n": "CustomReportId",
+            "l": "Report ID",
+            "t": "reference"
+        }
+    ]
+}

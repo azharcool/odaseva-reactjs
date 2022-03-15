@@ -1,0 +1,1 @@
+{"l":"Data Assessment Metric","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"DataAssessmentFieldMetric":[{"rf":"DataAssessmentMetricId","rl":"DataAssessmentMetrics"}],"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

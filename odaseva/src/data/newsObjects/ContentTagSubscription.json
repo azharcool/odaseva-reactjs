@@ -1,0 +1,23 @@
+{
+    "l": "Content Tag Subscription",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ContentTagSubscription ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        }
+    ]
+}

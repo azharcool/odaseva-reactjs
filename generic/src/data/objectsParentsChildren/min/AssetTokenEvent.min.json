@@ -1,0 +1,1 @@
+{"l":"Asset Token Event","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"UserId","rl":"User ID"}],"ConnectedApplication":[{"rf":"ConnectedAppId","rl":"Connected App ID"}],"Asset":[{"rf":"AssetId","rl":"Asset ID"}]},"c":{}}

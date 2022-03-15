@@ -1,0 +1,98 @@
+{
+    "l": "List View Chart Instance",
+    "p": [
+        {
+            "n": "ListViewChart",
+            "rf": "ListViewChartId",
+            "rl": "List View Chart ID"
+        },
+        {
+            "n": "ListView",
+            "rf": "ListViewContextId",
+            "rl": "List View ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "List View Chart Instance ID",
+            "t": "id"
+        },
+        {
+            "n": "ExternalId",
+            "l": "ListView Chart Instance ID",
+            "t": "string"
+        },
+        {
+            "n": "ListViewChartId",
+            "l": "List View Chart ID",
+            "t": "reference"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "API Name",
+            "t": "string"
+        },
+        {
+            "n": "SourceEntity",
+            "l": "Entity",
+            "t": "string"
+        },
+        {
+            "n": "ListViewContextId",
+            "l": "List View ID",
+            "t": "reference"
+        },
+        {
+            "n": "ChartType",
+            "l": "TODO, use alias",
+            "t": "picklist"
+        },
+        {
+            "n": "IsLastViewed",
+            "l": "Last Viewed",
+            "t": "boolean"
+        },
+        {
+            "n": "DataQuery",
+            "l": "SOQL Query for Chart Data",
+            "t": "textarea"
+        },
+        {
+            "n": "DataQueryWithoutUserFilters",
+            "l": "SOQL Query for Desktop Chart Data without S1 User Filters",
+            "t": "textarea"
+        },
+        {
+            "n": "IsEditable",
+            "l": "Editable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeletable",
+            "l": "Deletable",
+            "t": "boolean"
+        },
+        {
+            "n": "GroupingField",
+            "l": "Grouping Field",
+            "t": "string"
+        },
+        {
+            "n": "AggregateField",
+            "l": "Aggregate Field",
+            "t": "string"
+        },
+        {
+            "n": "AggregateType",
+            "l": "Aggregate Type",
+            "t": "picklist"
+        }
+    ]
+}

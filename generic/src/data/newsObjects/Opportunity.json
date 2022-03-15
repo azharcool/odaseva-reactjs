@@ -1,0 +1,469 @@
+{
+    "l": "Opportunity",
+    "p": [
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "CampaignId",
+            "rl": "Campaign ID"
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "Pricebook2Id",
+            "rl": "Price Book ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ContactId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "SyncedQuoteId",
+            "rl": "Quote ID"
+        },
+        {
+            "n": "OpportunityHistory",
+            "rf": "LastAmountChangedHistoryId",
+            "rl": "Opportunity History ID"
+        },
+        {
+            "n": "OpportunityHistory",
+            "rf": "LastCloseDateChangedHistoryId",
+            "rl": "Opportunity History ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AccountPartner",
+            "rf": "OpportunityId",
+            "rl": "AccountPartners"
+        },
+        {
+            "n": "ActivityHistory",
+            "rf": "WhatId",
+            "rl": "ActivityHistories"
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "RecordId",
+            "rl": "RecordAssociatedGroups"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhatId",
+            "rl": "ContactRequests"
+        },
+        {
+            "n": "ContentDistribution",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedToId",
+            "rl": "Emails"
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "RelatedToId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "WhatId",
+            "rl": "Events"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "Lead",
+            "rf": "ConvertedOpportunityId",
+            "rl": ""
+        },
+        {
+            "n": "LeadChangeEvent",
+            "rf": "ConvertedOpportunityId",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "ParentId",
+            "rl": "Notes"
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "ParentId",
+            "rl": "NotesAndAttachments"
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "WhatId",
+            "rl": "OpenActivities"
+        },
+        {
+            "n": "OpportunityCompetitor",
+            "rf": "OpportunityId",
+            "rl": "OpportunityCompetitors"
+        },
+        {
+            "n": "OpportunityContactRole",
+            "rf": "OpportunityId",
+            "rl": "OpportunityContactRoles"
+        },
+        {
+            "n": "OpportunityContactRoleChangeEvent",
+            "rf": "OpportunityId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "OpportunityFieldHistory",
+            "rf": "OpportunityId",
+            "rl": "Histories"
+        },
+        {
+            "n": "OpportunityHistory",
+            "rf": "OpportunityId",
+            "rl": "OpportunityHistories"
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "OpportunityId",
+            "rl": "OpportunityLineItems"
+        },
+        {
+            "n": "OpportunityPartner",
+            "rf": "OpportunityId",
+            "rl": "OpportunityPartnersFrom"
+        },
+        {
+            "n": "OpportunityShare",
+            "rf": "OpportunityId",
+            "rl": "Shares"
+        },
+        {
+            "n": "Partner",
+            "rf": "OpportunityId",
+            "rl": "Partners"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "Quote",
+            "rf": "OpportunityId",
+            "rl": "Quotes"
+        },
+        {
+            "n": "QuoteChangeEvent",
+            "rf": "OpportunityId",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "Task",
+            "rf": "WhatId",
+            "rl": "Tasks"
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "EntityId",
+            "rl": "TopicAssignments"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Opportunity ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "StageName",
+            "l": "Stage",
+            "t": "picklist"
+        },
+        {
+            "n": "Amount",
+            "l": "Amount",
+            "t": "currency"
+        },
+        {
+            "n": "Probability",
+            "l": "Probability (%)",
+            "t": "percent"
+        },
+        {
+            "n": "CloseDate",
+            "l": "Close Date",
+            "t": "date"
+        },
+        {
+            "n": "Type",
+            "l": "Opportunity Type",
+            "t": "picklist"
+        },
+        {
+            "n": "NextStep",
+            "l": "Next Step",
+            "t": "string"
+        },
+        {
+            "n": "LeadSource",
+            "l": "Lead Source",
+            "t": "picklist"
+        },
+        {
+            "n": "IsClosed",
+            "l": "Closed",
+            "t": "boolean"
+        },
+        {
+            "n": "IsWon",
+            "l": "Won",
+            "t": "boolean"
+        },
+        {
+            "n": "ForecastCategory",
+            "l": "Forecast Category",
+            "t": "picklist"
+        },
+        {
+            "n": "ForecastCategoryName",
+            "l": "Forecast Category",
+            "t": "picklist"
+        },
+        {
+            "n": "CampaignId",
+            "l": "Campaign ID",
+            "t": "reference"
+        },
+        {
+            "n": "HasOpportunityLineItem",
+            "l": "Has Line Item",
+            "t": "boolean"
+        },
+        {
+            "n": "Pricebook2Id",
+            "l": "Price Book ID",
+            "t": "reference"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastActivityDate",
+            "l": "Last Activity",
+            "t": "date"
+        },
+        {
+            "n": "LastStageChangeDate",
+            "l": "Last Stage Change Date",
+            "t": "datetime"
+        },
+        {
+            "n": "FiscalQuarter",
+            "l": "Fiscal Quarter",
+            "t": "int"
+        },
+        {
+            "n": "FiscalYear",
+            "l": "Fiscal Year",
+            "t": "int"
+        },
+        {
+            "n": "Fiscal",
+            "l": "Fiscal Period",
+            "t": "string"
+        },
+        {
+            "n": "ContactId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SyncedQuoteId",
+            "l": "Quote ID",
+            "t": "reference"
+        },
+        {
+            "n": "HasOpenActivity",
+            "l": "Has Open Activity",
+            "t": "boolean"
+        },
+        {
+            "n": "HasOverdueTask",
+            "l": "Has Overdue Task",
+            "t": "boolean"
+        },
+        {
+            "n": "LastAmountChangedHistoryId",
+            "l": "Opportunity History ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastCloseDateChangedHistoryId",
+            "l": "Opportunity History ID",
+            "t": "reference"
+        }
+    ]
+}

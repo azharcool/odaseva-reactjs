@@ -1,0 +1,109 @@
+{
+    "l": "List View",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "CalendarView",
+            "rf": "ListViewFilterId",
+            "rl": ""
+        },
+        {
+            "n": "CalendarView",
+            "rf": "PublisherId",
+            "rl": ""
+        },
+        {
+            "n": "ListEmailRecipientSource",
+            "rf": "SourceListId",
+            "rl": "ListEmailRecipientSources"
+        },
+        {
+            "n": "ListViewChartInstance",
+            "rf": "ListViewContextId",
+            "rl": ""
+        },
+        {
+            "n": "UserListView",
+            "rf": "ListViewId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "List View ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "View Name",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "View Unique Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "SobjectType",
+            "l": "Custom Object Definition ID",
+            "t": "picklist"
+        },
+        {
+            "n": "IsSoqlCompatible",
+            "l": "Is SOQL Compatible",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        }
+    ]
+}

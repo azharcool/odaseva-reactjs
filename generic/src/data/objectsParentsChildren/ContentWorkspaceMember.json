@@ -1,0 +1,1 @@
+{"l":"Library Member","p":{"ContentWorkspace":[{"rf":"ContentWorkspaceId","rl":"Library ID"}],"ContentWorkspacePermission":[{"rf":"ContentWorkspacePermissionId","rl":"Library Permission ID"}],"Group":[{"rf":"MemberId","rl":"Member ID"}],"User":[{"rf":"MemberId","rl":"Member ID"},{"rf":"CreatedById","rl":"Created By ID"}]},"c":{}}

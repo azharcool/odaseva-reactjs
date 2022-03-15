@@ -1,0 +1,63 @@
+{
+    "l": "Contact Point Type Consent  History",
+    "p": [
+        {
+            "n": "ContactPointTypeConsent",
+            "rf": "ContactPointTypeConsentId",
+            "rl": "Contact Point Type Consent ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Contact Point Type Consent  History ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "ContactPointTypeConsentId",
+            "l": "Contact Point Type Consent ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Field",
+            "l": "Changed Field",
+            "t": "picklist"
+        },
+        {
+            "n": "DataType",
+            "l": "Datatype",
+            "t": "picklist"
+        },
+        {
+            "n": "OldValue",
+            "l": "Old Value",
+            "t": "anyType"
+        },
+        {
+            "n": "NewValue",
+            "l": "New Value",
+            "t": "anyType"
+        }
+    ]
+}

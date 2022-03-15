@@ -1,0 +1,1 @@
+{"l":"Scheduled Jobs","p":{"CronJobDetail":[{"rf":"CronJobDetailId","rl":"Job ID"}],"User":[{"rf":"OwnerId","rl":"User ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"CreatedById","rl":"Created By ID"}]},"c":{}}

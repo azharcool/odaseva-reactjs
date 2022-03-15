@@ -1,0 +1,103 @@
+{
+    "l": "Campaign Influence Model",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Campaign Influence Model ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Unique Name",
+            "t": "string"
+        },
+        {
+            "n": "Language",
+            "l": "Master Language",
+            "t": "picklist"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Model Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ModelType",
+            "l": "Model Type",
+            "t": "picklist"
+        },
+        {
+            "n": "ModelDescription",
+            "l": "Model Description",
+            "t": "string"
+        },
+        {
+            "n": "IsDefaultModel",
+            "l": "Default Model",
+            "t": "boolean"
+        },
+        {
+            "n": "IsModelLocked",
+            "l": "Locked",
+            "t": "boolean"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "RecordPreference",
+            "l": "Record Preference",
+            "t": "picklist"
+        }
+    ]
+}

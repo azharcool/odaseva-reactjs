@@ -1,0 +1,149 @@
+{
+    "l": "App Analytics Query Request",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "App Analytics Query Request ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Number",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "DataType",
+            "l": "Data Type",
+            "t": "picklist"
+        },
+        {
+            "n": "StartTime",
+            "l": "Start Time",
+            "t": "datetime"
+        },
+        {
+            "n": "EndTime",
+            "l": "End Time",
+            "t": "datetime"
+        },
+        {
+            "n": "RequestState",
+            "l": "Request State",
+            "t": "picklist"
+        },
+        {
+            "n": "DownloadUrl",
+            "l": "Download URL",
+            "t": "textarea"
+        },
+        {
+            "n": "DownloadExpirationTime",
+            "l": "Download Expiration Time",
+            "t": "datetime"
+        },
+        {
+            "n": "ErrorMessage",
+            "l": "Error Message",
+            "t": "string"
+        },
+        {
+            "n": "QuerySubmittedTime",
+            "l": "Query Submitted Time",
+            "t": "datetime"
+        },
+        {
+            "n": "PackageIds",
+            "l": "Package IDs",
+            "t": "string"
+        },
+        {
+            "n": "OrganizationIds",
+            "l": "Organization IDs",
+            "t": "string"
+        },
+        {
+            "n": "DownloadSize",
+            "l": "Download File Size",
+            "t": "long"
+        },
+        {
+            "n": "FileCompression",
+            "l": "File Compression",
+            "t": "picklist"
+        },
+        {
+            "n": "AvailableSince",
+            "l": "Available Since",
+            "t": "datetime"
+        },
+        {
+            "n": "FileType",
+            "l": "File Type",
+            "t": "picklist"
+        }
+    ]
+}

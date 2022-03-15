@@ -1,0 +1,1 @@
+{"l":"Visualforce Page","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"SetupEntityAccess":[{"rf":"SetupEntityId","rl":"SetupEntityAccessItems"}],"VisualforceAccessMetrics":[{"rf":"ApexPageId","rl":null}],"WebLink":[{"rf":"ScontrolId","rl":null}]}}

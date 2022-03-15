@@ -1,0 +1,1 @@
+{"l":"Order Product Change Event","p":{"Order":[{"rf":"OrderId","rl":"Order ID"}],"PricebookEntry":[{"rf":"PricebookEntryId","rl":"Price Book Entry ID"}],"OrderItem":[{"rf":"OriginalOrderItemId","rl":"Original Order Item ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

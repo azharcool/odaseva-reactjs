@@ -1,0 +1,73 @@
+{
+    "l": "Permission Set License Assignment",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "PermissionSetLicense",
+            "rf": "PermissionSetLicenseId",
+            "rl": "Permission Set License ID"
+        },
+        {
+            "n": "User",
+            "rf": "AssigneeId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Permission Set License Assignment ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "Date Assigned",
+            "t": "datetime"
+        },
+        {
+            "n": "PermissionSetLicenseId",
+            "l": "Permission Set License ID",
+            "t": "reference"
+        },
+        {
+            "n": "AssigneeId",
+            "l": "User ID",
+            "t": "reference"
+        }
+    ]
+}

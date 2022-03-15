@@ -1,0 +1,254 @@
+{
+    "l": "Group",
+    "p": [
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Announcement",
+            "rf": "AnnouncementId",
+            "rl": "Announcement ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "Announcement",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "CollaborationGroupFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "CollaborationGroupMember",
+            "rf": "CollaborationGroupId",
+            "rl": "GroupMembers"
+        },
+        {
+            "n": "CollaborationGroupMemberRequest",
+            "rf": "CollaborationGroupId",
+            "rl": "GroupMemberRequests"
+        },
+        {
+            "n": "CollaborationGroupRecord",
+            "rf": "CollaborationGroupId",
+            "rl": "CollaborationGroupRecords"
+        },
+        {
+            "n": "CollaborationInvitation",
+            "rf": "SharedEntityId",
+            "rl": ""
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "LightningOnboardingConfig",
+            "rf": "CollaborationGroupId",
+            "rl": "ChatterGroup"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Group Id",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "MemberCount",
+            "l": "Member Count",
+            "t": "int"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "CollaborationType",
+            "l": "Access Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "FullPhotoUrl",
+            "l": "Url for full-sized Photo",
+            "t": "url"
+        },
+        {
+            "n": "MediumPhotoUrl",
+            "l": "Url for medium profile photo",
+            "t": "url"
+        },
+        {
+            "n": "SmallPhotoUrl",
+            "l": "Photo",
+            "t": "url"
+        },
+        {
+            "n": "LastFeedModifiedDate",
+            "l": "Last Feed Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "InformationTitle",
+            "l": "Information Title",
+            "t": "string"
+        },
+        {
+            "n": "InformationBody",
+            "l": "Information",
+            "t": "textarea"
+        },
+        {
+            "n": "HasPrivateFieldsAccess",
+            "l": "Has Private Fields Access",
+            "t": "boolean"
+        },
+        {
+            "n": "CanHaveGuests",
+            "l": "Allow customers",
+            "t": "boolean"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "IsArchived",
+            "l": "Archive",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAutoArchiveDisabled",
+            "l": "Disable automatic archiving",
+            "t": "boolean"
+        },
+        {
+            "n": "AnnouncementId",
+            "l": "Announcement ID",
+            "t": "reference"
+        },
+        {
+            "n": "GroupEmail",
+            "l": "Group Email",
+            "t": "email"
+        },
+        {
+            "n": "BannerPhotoUrl",
+            "l": "Banner Photo Url",
+            "t": "url"
+        },
+        {
+            "n": "IsBroadcast",
+            "l": "Broadcast Only",
+            "t": "boolean"
+        }
+    ]
+}

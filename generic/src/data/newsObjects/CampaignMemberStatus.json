@@ -1,0 +1,83 @@
+{
+    "l": "Campaign Member Status",
+    "p": [
+        {
+            "n": "Campaign",
+            "rf": "CampaignId",
+            "rl": "Campaign ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Campaign Member Status ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CampaignId",
+            "l": "Campaign ID",
+            "t": "reference"
+        },
+        {
+            "n": "Label",
+            "l": "Member Status",
+            "t": "string"
+        },
+        {
+            "n": "SortOrder",
+            "l": "Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "IsDefault",
+            "l": "Is Default",
+            "t": "boolean"
+        },
+        {
+            "n": "HasResponded",
+            "l": "Responded",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

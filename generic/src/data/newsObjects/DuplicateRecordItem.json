@@ -1,0 +1,214 @@
+{
+    "l": "Duplicate Record Item",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "DuplicateRecordSet",
+            "rf": "DuplicateRecordSetId",
+            "rl": "Duplicate Record Set ID"
+        },
+        {
+            "n": "Account",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "NadraCustomSetting__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaSettings__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "RecordId",
+            "rl": "Record ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Duplicate Record Item ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Duplicate Record Item Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "DuplicateRecordSetId",
+            "l": "Duplicate Record Set ID",
+            "t": "reference"
+        },
+        {
+            "n": "RecordId",
+            "l": "Record ID",
+            "t": "reference"
+        }
+    ]
+}

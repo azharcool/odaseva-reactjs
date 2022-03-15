@@ -1,0 +1,108 @@
+{
+    "l": "App Definition",
+    "p": [],
+    "c": [
+        {
+            "n": "AppTabMember",
+            "rf": "AppDefinitionId",
+            "rl": "AppTabs"
+        },
+        {
+            "n": "UserAppInfo",
+            "rf": "AppDefinitionId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "App Definition ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Master Label",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "LogoUrl",
+            "l": "Logo URL",
+            "t": "url"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "UiType",
+            "l": "UI Type",
+            "t": "picklist"
+        },
+        {
+            "n": "NavType",
+            "l": "Navigation Type",
+            "t": "picklist"
+        },
+        {
+            "n": "UtilityBar",
+            "l": "Utility Bar Name",
+            "t": "string"
+        },
+        {
+            "n": "HeaderColor",
+            "l": "Header Color",
+            "t": "string"
+        },
+        {
+            "n": "IsOverrideOrgTheme",
+            "l": "Is Org Theme Overridden",
+            "t": "boolean"
+        },
+        {
+            "n": "IsSmallFormFactorSupported",
+            "l": "Is Small Form Factor Supported",
+            "t": "boolean"
+        },
+        {
+            "n": "IsMediumFormFactorSupported",
+            "l": "Is Medium Form Factor Supported",
+            "t": "boolean"
+        },
+        {
+            "n": "IsLargeFormFactorSupported",
+            "l": "Is Large Form Factor Supported",
+            "t": "boolean"
+        },
+        {
+            "n": "IsNavPersonalizationDisabled",
+            "l": "Is Navigation Menu Personalization Disabled",
+            "t": "boolean"
+        },
+        {
+            "n": "IsNavAutoTempTabsDisabled",
+            "l": "Is Navigation Menu Automatically Create Temporary Tabs Disabled",
+            "t": "boolean"
+        }
+    ]
+}

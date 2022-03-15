@@ -1,0 +1,293 @@
+{
+    "l": "Entity Particle",
+    "p": [],
+    "c": [
+        {
+            "n": "PicklistValueInfo",
+            "rf": "EntityParticleId",
+            "rl": "PicklistValues"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Entity Particle ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "QualifiedApiName",
+            "l": "Qualified API Name",
+            "t": "string"
+        },
+        {
+            "n": "EntityDefinitionId",
+            "l": "Entity Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "FieldDefinitionId",
+            "l": "Field Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Master Label",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "Length",
+            "l": "Length",
+            "t": "int"
+        },
+        {
+            "n": "DataType",
+            "l": "Data Type",
+            "t": "string"
+        },
+        {
+            "n": "ServiceDataTypeId",
+            "l": "Data Type ID",
+            "t": "string"
+        },
+        {
+            "n": "ValueTypeId",
+            "l": "Data Type ID",
+            "t": "string"
+        },
+        {
+            "n": "ExtraTypeInfo",
+            "l": "Extra Type Info",
+            "t": "string"
+        },
+        {
+            "n": "IsAutonumber",
+            "l": "Is Field an Autonumber?",
+            "t": "boolean"
+        },
+        {
+            "n": "ByteLength",
+            "l": "Byte Length",
+            "t": "int"
+        },
+        {
+            "n": "IsCaseSensitive",
+            "l": "Is Field Case Sensitive?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsUnique",
+            "l": "Is Field Unique?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCreatable",
+            "l": "Is Field Creatable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsUpdatable",
+            "l": "Is Field Updatable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDefaultedOnCreate",
+            "l": "Is Field Defaulted On Create?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsWriteRequiresMasterRead",
+            "l": "Does Write Require Master Read?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCalculated",
+            "l": "Is Field calculated?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsHighScaleNumber",
+            "l": "Is Field a high scale number?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsHtmlFormatted",
+            "l": "Is Field a HTML formatted?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsNameField",
+            "l": "Is Field a Name field?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsNillable",
+            "l": "Is Field a nillable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsPermissionable",
+            "l": "Is Field Permissionable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsEncrypted",
+            "l": "Is Field Encrypted?",
+            "t": "boolean"
+        },
+        {
+            "n": "Digits",
+            "l": "Digits",
+            "t": "int"
+        },
+        {
+            "n": "InlineHelpText",
+            "l": "Inline Help Text",
+            "t": "string"
+        },
+        {
+            "n": "RelationshipName",
+            "l": "Relationship Name",
+            "t": "string"
+        },
+        {
+            "n": "ReferenceTargetField",
+            "l": "Reference Target Field",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Mask",
+            "l": "Mask",
+            "t": "string"
+        },
+        {
+            "n": "MaskType",
+            "l": "Mask Type",
+            "t": "string"
+        },
+        {
+            "n": "IsWorkflowFilterable",
+            "l": "Is Workflow Filterable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCompactLayoutable",
+            "l": "Is Compact Layout Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "Precision",
+            "l": "Precision",
+            "t": "int"
+        },
+        {
+            "n": "Scale",
+            "l": "Scale",
+            "t": "int"
+        },
+        {
+            "n": "IsFieldHistoryTracked",
+            "l": "Is Field History Tracked",
+            "t": "boolean"
+        },
+        {
+            "n": "IsApiFilterable",
+            "l": "Is Field Filterable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsApiSortable",
+            "l": "Is Field Sortable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsApiGroupable",
+            "l": "Is Field Groupable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsListVisible",
+            "l": "Is Field visible in Lists?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsLayoutable",
+            "l": "Is Layout Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDependentPicklist",
+            "l": "Is Field a Dependent Picklist?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeprecatedAndHidden",
+            "l": "Is Field a Deprecated and Hidden?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDisplayLocationInDecimal",
+            "l": "Is Field Displays Location in Decimals?",
+            "t": "boolean"
+        },
+        {
+            "n": "DefaultValueFormula",
+            "l": "Default Value if Formula is Not Used",
+            "t": "string"
+        },
+        {
+            "n": "IsIdLookup",
+            "l": "Can this Field be Used to Specify a Record in Upsert?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsNamePointing",
+            "l": "Does this Field Contain the Name of the Parent?",
+            "t": "boolean"
+        },
+        {
+            "n": "RelationshipOrder",
+            "l": "Type of Relationship for a Master-Detail Relationship",
+            "t": "int"
+        },
+        {
+            "n": "ReferenceTo",
+            "l": "Entities Referenced by Relationship",
+            "t": "complexvalue"
+        },
+        {
+            "n": "IsComponent",
+            "l": "Is Field a component of a compound field",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCompound",
+            "l": "Is Field a compound field",
+            "t": "boolean"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "l": "Content Folder Link",
+    "p": [
+        {
+            "n": "ContentWorkspace",
+            "rf": "ParentEntityId",
+            "rl": "Parent Entity ID"
+        },
+        {
+            "n": "ContentFolder",
+            "rf": "ContentFolderId",
+            "rl": "Content Folder ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Content Folder Link ID",
+            "t": "id"
+        },
+        {
+            "n": "ParentEntityId",
+            "l": "Parent Entity ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentFolderId",
+            "l": "Content Folder ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Is Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "EnableFolderStatus",
+            "l": "Enable Folder Status",
+            "t": "picklist"
+        }
+    ]
+}

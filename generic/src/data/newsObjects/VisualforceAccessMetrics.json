@@ -1,0 +1,53 @@
+{
+    "l": "Visualforce Access Metric",
+    "p": [
+        {
+            "n": "ApexPage",
+            "rf": "ApexPageId",
+            "rl": "Page ID"
+        },
+        {
+            "n": "Profile",
+            "rf": "ProfileId",
+            "rl": "Profile ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Visualforce Access Metric Id",
+            "t": "id"
+        },
+        {
+            "n": "MetricsDate",
+            "l": "Metrics Date",
+            "t": "date"
+        },
+        {
+            "n": "ApexPageId",
+            "l": "Page ID",
+            "t": "reference"
+        },
+        {
+            "n": "ProfileId",
+            "l": "Profile ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "DailyPageViewCount",
+            "l": "Daily Page View Count",
+            "t": "int"
+        },
+        {
+            "n": "LogDate",
+            "l": "Log Date",
+            "t": "date"
+        }
+    ]
+}

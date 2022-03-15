@@ -1,0 +1,68 @@
+{
+    "l": "Campaign Share",
+    "p": [
+        {
+            "n": "Campaign",
+            "rf": "CampaignId",
+            "rl": "Campaign ID"
+        },
+        {
+            "n": "Group",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Campaign Share ID",
+            "t": "id"
+        },
+        {
+            "n": "CampaignId",
+            "l": "Campaign ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserOrGroupId",
+            "l": "User\/Group ID",
+            "t": "reference"
+        },
+        {
+            "n": "CampaignAccessLevel",
+            "l": "Campaign Access",
+            "t": "picklist"
+        },
+        {
+            "n": "RowCause",
+            "l": "Row Cause",
+            "t": "picklist"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        }
+    ]
+}

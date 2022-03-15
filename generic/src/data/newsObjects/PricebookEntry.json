@@ -1,0 +1,164 @@
+{
+    "l": "Price Book Entry",
+    "p": [
+        {
+            "n": "Pricebook2",
+            "rf": "Pricebook2Id",
+            "rl": "Price Book ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "Product2Id",
+            "rl": "Product ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityLineItem",
+            "rf": "PricebookEntryId",
+            "rl": "OpportunityLineItems"
+        },
+        {
+            "n": "OrderItem",
+            "rf": "PricebookEntryId",
+            "rl": "OrderItems"
+        },
+        {
+            "n": "OrderItemChangeEvent",
+            "rf": "PricebookEntryId",
+            "rl": ""
+        },
+        {
+            "n": "PricebookEntryHistory",
+            "rf": "PricebookEntryId",
+            "rl": "Histories"
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "PricebookEntryId",
+            "rl": "QuoteLineItems"
+        },
+        {
+            "n": "QuoteLineItemChangeEvent",
+            "rf": "PricebookEntryId",
+            "rl": ""
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "PricebookEntryId",
+            "rl": "WorkOrderLineItems"
+        },
+        {
+            "n": "WorkOrderLineItemChangeEvent",
+            "rf": "PricebookEntryId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Price Book Entry ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Product Name",
+            "t": "string"
+        },
+        {
+            "n": "Pricebook2Id",
+            "l": "Price Book ID",
+            "t": "reference"
+        },
+        {
+            "n": "Product2Id",
+            "l": "Product ID",
+            "t": "reference"
+        },
+        {
+            "n": "UnitPrice",
+            "l": "List Price",
+            "t": "currency"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "UseStandardPrice",
+            "l": "Use Standard Price",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ProductCode",
+            "l": "Product Code",
+            "t": "string"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "IsArchived",
+            "l": "Archived",
+            "t": "boolean"
+        }
+    ]
+}

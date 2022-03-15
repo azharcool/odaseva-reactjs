@@ -1,0 +1,1 @@
+{"l":"Idea Comment","p":{"Idea":[{"rf":"IdeaId","rl":"Idea ID"}],"Community":[{"rf":"CommunityId","rl":"Zone ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"}]},"c":{"Idea":[{"rf":"LastCommentId","rl":null}],"Vote":[{"rf":"ParentId","rl":"Votes"}]}}

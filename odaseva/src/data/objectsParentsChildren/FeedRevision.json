@@ -1,0 +1,1 @@
+{"l":"Feed Revision","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"}],"FeedComment":[{"rf":"FeedEntityId","rl":"Feed Entity ID"}],"FeedItem":[{"rf":"FeedEntityId","rl":"Feed Entity ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

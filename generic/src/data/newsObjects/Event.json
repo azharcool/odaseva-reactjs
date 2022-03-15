@@ -1,0 +1,494 @@
+{
+    "l": "Event",
+    "p": [
+        {
+            "n": "Contact",
+            "rf": "WhoId",
+            "rl": "Name ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "WhoId",
+            "rl": "Name ID"
+        },
+        {
+            "n": "Account",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Case",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Contract",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Image",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "ListEmail",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Location",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Order",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "ProcessException",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Solution",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "WhatId",
+            "rl": "Related To ID"
+        },
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "Calendar",
+            "rf": "OwnerId",
+            "rl": "Assigned To ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Assigned To ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Event",
+            "rf": "RecurrenceActivityId",
+            "rl": "Recurrence Activity ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AcceptedEventRelation",
+            "rf": "EventId",
+            "rl": "AcceptedEventRelations"
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "DeclinedEventRelation",
+            "rf": "EventId",
+            "rl": "DeclinedEventRelations"
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "RecurrenceActivityId",
+            "rl": "RecurringEvents"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "RecurrenceActivityId",
+            "rl": ""
+        },
+        {
+            "n": "EventFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "EventRelation",
+            "rf": "EventId",
+            "rl": "EventRelations"
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "EventId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalEventMapping",
+            "rf": "EventId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "EntityId",
+            "rl": "TopicAssignments"
+        },
+        {
+            "n": "UndecidedEventRelation",
+            "rf": "EventId",
+            "rl": "UndecidedEventRelations"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Activity ID",
+            "t": "id"
+        },
+        {
+            "n": "WhoId",
+            "l": "Name ID",
+            "t": "reference"
+        },
+        {
+            "n": "WhatId",
+            "l": "Related To ID",
+            "t": "reference"
+        },
+        {
+            "n": "Subject",
+            "l": "Subject",
+            "t": "combobox"
+        },
+        {
+            "n": "Location",
+            "l": "Location",
+            "t": "string"
+        },
+        {
+            "n": "IsAllDayEvent",
+            "l": "All-Day Event",
+            "t": "boolean"
+        },
+        {
+            "n": "ActivityDateTime",
+            "l": "Due Date Time",
+            "t": "datetime"
+        },
+        {
+            "n": "ActivityDate",
+            "l": "Due Date Only",
+            "t": "date"
+        },
+        {
+            "n": "DurationInMinutes",
+            "l": "Duration",
+            "t": "int"
+        },
+        {
+            "n": "StartDateTime",
+            "l": "Start Date Time",
+            "t": "datetime"
+        },
+        {
+            "n": "EndDateTime",
+            "l": "End Date Time",
+            "t": "datetime"
+        },
+        {
+            "n": "EndDate",
+            "l": "End Date",
+            "t": "date"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Assigned To ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsPrivate",
+            "l": "Private",
+            "t": "boolean"
+        },
+        {
+            "n": "ShowAs",
+            "l": "Show Time As",
+            "t": "picklist"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "IsChild",
+            "l": "Is Child",
+            "t": "boolean"
+        },
+        {
+            "n": "IsGroupEvent",
+            "l": "Is Group Event",
+            "t": "boolean"
+        },
+        {
+            "n": "GroupEventType",
+            "l": "Group Event Type",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "IsArchived",
+            "l": "Archived",
+            "t": "boolean"
+        },
+        {
+            "n": "RecurrenceActivityId",
+            "l": "Recurrence Activity ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsRecurrence",
+            "l": "Create Recurring Series of Events",
+            "t": "boolean"
+        },
+        {
+            "n": "RecurrenceStartDateTime",
+            "l": "Recurrence Start",
+            "t": "datetime"
+        },
+        {
+            "n": "RecurrenceEndDateOnly",
+            "l": "Recurrence End",
+            "t": "date"
+        },
+        {
+            "n": "RecurrenceTimeZoneSidKey",
+            "l": "Recurrence Time Zone",
+            "t": "picklist"
+        },
+        {
+            "n": "RecurrenceType",
+            "l": "Recurrence Type",
+            "t": "picklist"
+        },
+        {
+            "n": "RecurrenceInterval",
+            "l": "Recurrence Interval",
+            "t": "int"
+        },
+        {
+            "n": "RecurrenceDayOfWeekMask",
+            "l": "Recurrence Day of Week Mask",
+            "t": "int"
+        },
+        {
+            "n": "RecurrenceDayOfMonth",
+            "l": "Recurrence Day of Month",
+            "t": "int"
+        },
+        {
+            "n": "RecurrenceInstance",
+            "l": "Recurrence Instance",
+            "t": "picklist"
+        },
+        {
+            "n": "RecurrenceMonthOfYear",
+            "l": "Recurrence Month of Year",
+            "t": "picklist"
+        },
+        {
+            "n": "ReminderDateTime",
+            "l": "Reminder Date\/Time",
+            "t": "datetime"
+        },
+        {
+            "n": "IsReminderSet",
+            "l": "Reminder Set",
+            "t": "boolean"
+        },
+        {
+            "n": "EventSubtype",
+            "l": "Event Subtype",
+            "t": "picklist"
+        },
+        {
+            "n": "IsRecurrence2Exclusion",
+            "l": "Historical Event, Not Following Recurrence",
+            "t": "boolean"
+        },
+        {
+            "n": "Recurrence2PatternText",
+            "l": "Recurrence Pattern",
+            "t": "textarea"
+        },
+        {
+            "n": "Recurrence2PatternVersion",
+            "l": "Pattern Version",
+            "t": "picklist"
+        },
+        {
+            "n": "IsRecurrence2",
+            "l": "Repeat",
+            "t": "boolean"
+        },
+        {
+            "n": "IsRecurrence2Exception",
+            "l": "Is Exception",
+            "t": "boolean"
+        },
+        {
+            "n": "Recurrence2PatternStartDate",
+            "l": "Recurrence Pattern Start Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Recurrence2PatternTimeZone",
+            "l": "Recurrence Pattern Time Zone Reference",
+            "t": "string"
+        }
+    ]
+}

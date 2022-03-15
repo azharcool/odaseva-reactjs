@@ -1,0 +1,384 @@
+{
+    "l": "Content Document Link",
+    "p": [
+        {
+            "n": "Account",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "AuthorizationFormText",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Case",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ContentWorkspace",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Contract",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Dashboard",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "DashboardComponent",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Event",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Image",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ListEmail",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Location",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "NadraCustomSetting__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaSettings__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Order",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "OrderItem",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Organization",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "PartyConsent",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ProfileSkill",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ProfileSkillEndorsement",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ProfileSkillUser",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Report",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Site",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Solution",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Task",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Topic",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "User",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "WorkBadgeDefinition",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "LinkedEntityId",
+            "rl": "Linked Entity ID"
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "ContentDocumentId",
+            "rl": "ContentDocument ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ContentDocumentLink ID",
+            "t": "id"
+        },
+        {
+            "n": "LinkedEntityId",
+            "l": "Linked Entity ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentDocumentId",
+            "l": "ContentDocument ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Is Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ShareType",
+            "l": "Share Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Visibility",
+            "l": "Visibility",
+            "t": "picklist"
+        }
+    ]
+}

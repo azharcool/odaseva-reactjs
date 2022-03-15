@@ -1,0 +1,1 @@
+{"l":"Change Event: Subscription Order","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Subscription__c":[{"rf":"Subscription__c","rl":"Subscription"}],"Subscription_Product__c":[{"rf":"Subscription_Product__c","rl":"Subscription Product"}]},"c":{}}

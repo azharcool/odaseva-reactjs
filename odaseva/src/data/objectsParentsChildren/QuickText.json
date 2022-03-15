@@ -1,0 +1,1 @@
+{"l":"Quick Text","p":{"Group":[{"rf":"OwnerId","rl":"Owner ID"}],"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}],"QuickTextHistory":[{"rf":"QuickTextId","rl":"Histories"}],"QuickTextShare":[{"rf":"ParentId","rl":"Shares"}]}}

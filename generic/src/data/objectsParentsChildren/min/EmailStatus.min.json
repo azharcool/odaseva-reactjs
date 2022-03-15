@@ -1,0 +1,1 @@
+{"l":"Email Status","p":{"Task":[{"rf":"TaskId","rl":"Activity ID"}],"Contact":[{"rf":"WhoId","rl":"Name ID"}],"Lead":[{"rf":"WhoId","rl":"Name ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

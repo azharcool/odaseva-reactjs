@@ -1,0 +1,53 @@
+{
+    "l": "Predefined Case Team Record",
+    "p": [
+        {
+            "n": "Case",
+            "rf": "ParentId",
+            "rl": "Case ID"
+        },
+        {
+            "n": "CaseTeamTemplate",
+            "rf": "TeamTemplateId",
+            "rl": "Team Template ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Predefined Team Record Id",
+            "t": "id"
+        },
+        {
+            "n": "ParentId",
+            "l": "Case ID",
+            "t": "reference"
+        },
+        {
+            "n": "TeamTemplateId",
+            "l": "Team Template ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

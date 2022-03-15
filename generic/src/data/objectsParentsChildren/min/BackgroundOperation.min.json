@@ -1,0 +1,1 @@
+{"l":"Background Operation","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"BackgroundOperation":[{"rf":"GroupLeaderId","rl":"Background Operation ID"}]},"c":{"BackgroundOperation":[{"rf":"GroupLeaderId","rl":"MergedOperations"}],"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

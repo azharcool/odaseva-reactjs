@@ -1,0 +1,1 @@
+{"l":"Content Delivery View","p":{"ContentDistribution":[{"rf":"DistributionId","rl":"Content Delivery ID"}],"ContentDistributionView":[{"rf":"ParentViewId","rl":"Content Delivery View ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"}]},"c":{"ContentDistributionView":[{"rf":"ParentViewId","rl":null}]}}

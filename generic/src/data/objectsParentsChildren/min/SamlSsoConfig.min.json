@@ -1,0 +1,1 @@
+{"l":"SAML Single Sign-On Setting","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"ExecutionUserId","rl":"User ID"}],"ApexClass":[{"rf":"SamlJitHandlerId","rl":"Class ID"}]},"c":{"AuthConfigProviders":[{"rf":"AuthProviderId","rl":null}],"LoginHistory":[{"rf":"AuthenticationServiceId","rl":null}]}}

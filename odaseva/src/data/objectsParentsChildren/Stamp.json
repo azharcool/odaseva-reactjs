@@ -1,0 +1,1 @@
+{"l":"Stamp","p":{"Organization":[{"rf":"ParentId","rl":"Parent ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"CustomBrand":[{"rf":"ParentId","rl":"CustomBrands"}],"StampAssignment":[{"rf":"StampId","rl":null}]}}

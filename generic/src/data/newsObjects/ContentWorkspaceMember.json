@@ -1,0 +1,68 @@
+{
+    "l": "Library Member",
+    "p": [
+        {
+            "n": "ContentWorkspace",
+            "rf": "ContentWorkspaceId",
+            "rl": "Library ID"
+        },
+        {
+            "n": "ContentWorkspacePermission",
+            "rf": "ContentWorkspacePermissionId",
+            "rl": "Library Permission ID"
+        },
+        {
+            "n": "Group",
+            "rf": "MemberId",
+            "rl": "Member ID"
+        },
+        {
+            "n": "User",
+            "rf": "MemberId",
+            "rl": "Member ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Library Member ID",
+            "t": "id"
+        },
+        {
+            "n": "ContentWorkspaceId",
+            "l": "Library ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentWorkspacePermissionId",
+            "l": "Library Permission ID",
+            "t": "reference"
+        },
+        {
+            "n": "MemberId",
+            "l": "Member ID",
+            "t": "reference"
+        },
+        {
+            "n": "MemberType",
+            "l": "Member Type",
+            "t": "picklist"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        }
+    ]
+}

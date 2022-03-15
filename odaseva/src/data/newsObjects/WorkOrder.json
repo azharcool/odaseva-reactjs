@@ -1,0 +1,489 @@
+{
+    "l": "Work Order",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Account",
+            "rf": "AccountId",
+            "rl": "Account ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ContactId",
+            "rl": "Contact ID"
+        },
+        {
+            "n": "Case",
+            "rf": "CaseId",
+            "rl": "Case ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "AssetId",
+            "rl": "Asset ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "RootWorkOrderId",
+            "rl": "Root Work Order ID"
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "Pricebook2Id",
+            "rl": "Price Book ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "ParentWorkOrderId",
+            "rl": "Parent Work Order ID"
+        },
+        {
+            "n": "BusinessHours",
+            "rf": "BusinessHoursId",
+            "rl": "Business Hours ID"
+        },
+        {
+            "n": "Location",
+            "rf": "LocationId",
+            "rl": "Location ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ActivityHistory",
+            "rf": "WhatId",
+            "rl": "ActivityHistories"
+        },
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "WhatId",
+            "rl": "ContactRequests"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "RelatedToId",
+            "rl": "Emails"
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "RelatedToId",
+            "rl": ""
+        },
+        {
+            "n": "EntitySubscription",
+            "rf": "ParentId",
+            "rl": "FeedSubscriptionsForEntity"
+        },
+        {
+            "n": "Event",
+            "rf": "WhatId",
+            "rl": "Events"
+        },
+        {
+            "n": "EventChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "EventRelationChangeEvent",
+            "rf": "RelationId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "Note",
+            "rf": "ParentId",
+            "rl": "Notes"
+        },
+        {
+            "n": "NoteAndAttachment",
+            "rf": "ParentId",
+            "rl": "NotesAndAttachments"
+        },
+        {
+            "n": "OpenActivity",
+            "rf": "WhatId",
+            "rl": "OpenActivities"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        },
+        {
+            "n": "RecordAction",
+            "rf": "RecordId",
+            "rl": "RecordActions"
+        },
+        {
+            "n": "RecordActionHistory",
+            "rf": "ParentRecordId",
+            "rl": "RecordActionHistories"
+        },
+        {
+            "n": "Task",
+            "rf": "WhatId",
+            "rl": "Tasks"
+        },
+        {
+            "n": "TaskChangeEvent",
+            "rf": "WhatId",
+            "rl": ""
+        },
+        {
+            "n": "TopicAssignment",
+            "rf": "EntityId",
+            "rl": "TopicAssignments"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "ParentWorkOrderId",
+            "rl": "ChildWorkOrders"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "RootWorkOrderId",
+            "rl": "DescendantWorkOrders"
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "ParentWorkOrderId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "RootWorkOrderId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderFeed",
+            "rf": "ParentId",
+            "rl": "Feeds"
+        },
+        {
+            "n": "WorkOrderHistory",
+            "rf": "WorkOrderId",
+            "rl": "Histories"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "WorkOrderId",
+            "rl": "WorkOrderLineItems"
+        },
+        {
+            "n": "WorkOrderLineItemChangeEvent",
+            "rf": "WorkOrderId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderShare",
+            "rf": "ParentId",
+            "rl": "Shares"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Work Order ID",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "WorkOrderNumber",
+            "l": "Work Order Number",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "AccountId",
+            "l": "Account ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContactId",
+            "l": "Contact ID",
+            "t": "reference"
+        },
+        {
+            "n": "CaseId",
+            "l": "Case ID",
+            "t": "reference"
+        },
+        {
+            "n": "AssetId",
+            "l": "Asset ID",
+            "t": "reference"
+        },
+        {
+            "n": "Street",
+            "l": "Street",
+            "t": "textarea"
+        },
+        {
+            "n": "City",
+            "l": "City",
+            "t": "string"
+        },
+        {
+            "n": "State",
+            "l": "State\/Province",
+            "t": "string"
+        },
+        {
+            "n": "PostalCode",
+            "l": "Zip\/Postal Code",
+            "t": "string"
+        },
+        {
+            "n": "Country",
+            "l": "Country",
+            "t": "string"
+        },
+        {
+            "n": "Latitude",
+            "l": "Latitude",
+            "t": "double"
+        },
+        {
+            "n": "Longitude",
+            "l": "Longitude",
+            "t": "double"
+        },
+        {
+            "n": "GeocodeAccuracy",
+            "l": "Geocode Accuracy",
+            "t": "picklist"
+        },
+        {
+            "n": "Address",
+            "l": "Address",
+            "t": "address"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "StartDate",
+            "l": "Start Date",
+            "t": "datetime"
+        },
+        {
+            "n": "EndDate",
+            "l": "End Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Subject",
+            "l": "Subject",
+            "t": "string"
+        },
+        {
+            "n": "RootWorkOrderId",
+            "l": "Root Work Order ID",
+            "t": "reference"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "Priority",
+            "l": "Priority",
+            "t": "picklist"
+        },
+        {
+            "n": "Tax",
+            "l": "Tax",
+            "t": "currency"
+        },
+        {
+            "n": "Subtotal",
+            "l": "Subtotal",
+            "t": "currency"
+        },
+        {
+            "n": "TotalPrice",
+            "l": "Total Price",
+            "t": "currency"
+        },
+        {
+            "n": "LineItemCount",
+            "l": "Line Items",
+            "t": "int"
+        },
+        {
+            "n": "Pricebook2Id",
+            "l": "Price Book ID",
+            "t": "reference"
+        },
+        {
+            "n": "Discount",
+            "l": "Discount",
+            "t": "percent"
+        },
+        {
+            "n": "GrandTotal",
+            "l": "Grand Total",
+            "t": "currency"
+        },
+        {
+            "n": "ParentWorkOrderId",
+            "l": "Parent Work Order ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsClosed",
+            "l": "Is Closed",
+            "t": "boolean"
+        },
+        {
+            "n": "BusinessHoursId",
+            "l": "Business Hours ID",
+            "t": "reference"
+        },
+        {
+            "n": "Duration",
+            "l": "Duration",
+            "t": "double"
+        },
+        {
+            "n": "DurationType",
+            "l": "Duration Type",
+            "t": "picklist"
+        },
+        {
+            "n": "DurationInMinutes",
+            "l": "Duration in Minutes",
+            "t": "double"
+        },
+        {
+            "n": "ServiceAppointmentCount",
+            "l": "Service Appointment Count",
+            "t": "int"
+        },
+        {
+            "n": "StatusCategory",
+            "l": "Status Category",
+            "t": "picklist"
+        },
+        {
+            "n": "LocationId",
+            "l": "Location ID",
+            "t": "reference"
+        }
+    ]
+}

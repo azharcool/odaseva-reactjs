@@ -1,0 +1,48 @@
+{
+    "l": "Formula Function",
+    "p": [],
+    "c": [
+        {
+            "n": "FormulaFunctionAllowedType",
+            "rf": "FunctionId",
+            "rl": "Types"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Formula Function ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Formula Function Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "CategoryId",
+            "l": "Formula Function Category ID",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "ExampleString",
+            "l": "Example String",
+            "t": "string"
+        }
+    ]
+}

@@ -1,0 +1,234 @@
+{
+    "l": "Email Template",
+    "p": [
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "Folder",
+            "rf": "FolderId",
+            "rl": "Folder ID"
+        },
+        {
+            "n": "Organization",
+            "rf": "FolderId",
+            "rl": "Folder ID"
+        },
+        {
+            "n": "User",
+            "rf": "FolderId",
+            "rl": "Folder ID"
+        },
+        {
+            "n": "BrandTemplate",
+            "rf": "BrandTemplateId",
+            "rl": "Letterhead ID"
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "EnhancedLetterheadId",
+            "rl": "Enhanced Letterhead ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AttachedContentDocument",
+            "rf": "LinkedEntityId",
+            "rl": "AttachedContentDocuments"
+        },
+        {
+            "n": "Attachment",
+            "rf": "ParentId",
+            "rl": "Attachments"
+        },
+        {
+            "n": "CombinedAttachment",
+            "rf": "ParentId",
+            "rl": "CombinedAttachments"
+        },
+        {
+            "n": "ContentDocumentLink",
+            "rf": "LinkedEntityId",
+            "rl": "ContentDocumentLinks"
+        },
+        {
+            "n": "ContentVersion",
+            "rf": "FirstPublishLocationId",
+            "rl": ""
+        },
+        {
+            "n": "DocumentAttachmentMap",
+            "rf": "ParentId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "EmailTemplateId",
+            "rl": ""
+        },
+        {
+            "n": "EmailMessageChangeEvent",
+            "rf": "EmailTemplateId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Email Template ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Email Template Name",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Template Unique Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "FolderId",
+            "l": "Folder ID",
+            "t": "reference"
+        },
+        {
+            "n": "FolderName",
+            "l": "Folder Name",
+            "t": "string"
+        },
+        {
+            "n": "BrandTemplateId",
+            "l": "Letterhead ID",
+            "t": "reference"
+        },
+        {
+            "n": "EnhancedLetterheadId",
+            "l": "Enhanced Letterhead ID",
+            "t": "reference"
+        },
+        {
+            "n": "TemplateStyle",
+            "l": "Style",
+            "t": "picklist"
+        },
+        {
+            "n": "IsActive",
+            "l": "Available For Use",
+            "t": "boolean"
+        },
+        {
+            "n": "TemplateType",
+            "l": "Template Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Encoding",
+            "l": "Encoding",
+            "t": "picklist"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "Subject",
+            "l": "Subject",
+            "t": "string"
+        },
+        {
+            "n": "HtmlValue",
+            "l": "HTML Value",
+            "t": "textarea"
+        },
+        {
+            "n": "Body",
+            "l": "Email Body",
+            "t": "textarea"
+        },
+        {
+            "n": "TimesUsed",
+            "l": "Times Used",
+            "t": "int"
+        },
+        {
+            "n": "LastUsedDate",
+            "l": "Last Used Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "API Version",
+            "t": "double"
+        },
+        {
+            "n": "Markup",
+            "l": "Markup",
+            "t": "textarea"
+        },
+        {
+            "n": "UiType",
+            "l": "UI Type",
+            "t": "picklist"
+        },
+        {
+            "n": "RelatedEntityType",
+            "l": "Custom Object Definition ID",
+            "t": "picklist"
+        },
+        {
+            "n": "IsBuilderContent",
+            "l": "Made in Email Template Builder",
+            "t": "boolean"
+        }
+    ]
+}

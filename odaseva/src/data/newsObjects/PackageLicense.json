@@ -1,0 +1,63 @@
+{
+    "l": "Package License",
+    "p": [],
+    "c": [
+        {
+            "n": "UserPackageLicense",
+            "rf": "PackageLicenseId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Package License ID",
+            "t": "id"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "IsProvisioned",
+            "l": "Is Provisioned",
+            "t": "boolean"
+        },
+        {
+            "n": "AllowedLicenses",
+            "l": "Allowed Licenses",
+            "t": "int"
+        },
+        {
+            "n": "UsedLicenses",
+            "l": "Used Licenses",
+            "t": "int"
+        },
+        {
+            "n": "ExpirationDate",
+            "l": "Expiration Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        }
+    ]
+}

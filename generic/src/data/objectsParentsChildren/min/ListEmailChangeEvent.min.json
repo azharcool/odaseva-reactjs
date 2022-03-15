@@ -1,0 +1,1 @@
+{"l":"List Email Change Event","p":{"User":[{"rf":"OwnerId","rl":"Owner ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"Campaign":[{"rf":"CampaignId","rl":"Campaign ID"}]},"c":{}}

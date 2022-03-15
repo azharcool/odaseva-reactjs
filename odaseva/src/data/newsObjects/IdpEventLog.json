@@ -1,0 +1,78 @@
+{
+    "l": "Identity Provider Event Log",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "AuthSession",
+            "rf": "AuthSessionId",
+            "rl": "Auth Session ID"
+        },
+        {
+            "n": "ConnectedApplication",
+            "rf": "AppId",
+            "rl": "Connected App ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Event Log Entry ID",
+            "t": "id"
+        },
+        {
+            "n": "InitiatedBy",
+            "l": "Usage Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Timestamp",
+            "l": "Timestamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ErrorCode",
+            "l": "Status",
+            "t": "picklist"
+        },
+        {
+            "n": "SamlEntityUrl",
+            "l": "Entity ID",
+            "t": "string"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "AuthSessionId",
+            "l": "Auth Session ID",
+            "t": "reference"
+        },
+        {
+            "n": "SsoType",
+            "l": "SSO Type",
+            "t": "picklist"
+        },
+        {
+            "n": "AppId",
+            "l": "Connected App ID",
+            "t": "reference"
+        },
+        {
+            "n": "IdentityUsed",
+            "l": "Identity Used",
+            "t": "string"
+        },
+        {
+            "n": "OptionsHasLogoutUrl",
+            "l": "Has Logout URL",
+            "t": "boolean"
+        }
+    ]
+}

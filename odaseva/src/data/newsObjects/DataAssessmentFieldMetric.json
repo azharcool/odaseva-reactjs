@@ -1,0 +1,109 @@
+{
+    "l": "Data Assessment Field Metric",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "DataAssessmentMetric",
+            "rf": "DataAssessmentMetricId",
+            "rl": "Data Assessment Metric ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "DataAssessmentValueMetric",
+            "rf": "DataAssessmentFieldMetricId",
+            "rl": "DataAssessmentValueMetrics"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Data Assessment Field Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Data Assessment Field Metric",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "DataAssessmentMetricId",
+            "l": "Data Assessment Metric ID",
+            "t": "reference"
+        },
+        {
+            "n": "FieldName",
+            "l": "Field Name",
+            "t": "string"
+        },
+        {
+            "n": "NumMatchedInSync",
+            "l": "Number of Matched Records that have the same value for this field as Data.com",
+            "t": "int"
+        },
+        {
+            "n": "NumMatchedDifferent",
+            "l": "Number of Matched Records that have different value for this field than Data.com",
+            "t": "int"
+        },
+        {
+            "n": "NumMatchedBlanks",
+            "l": "Number of Matched Records that have blanks for this field",
+            "t": "int"
+        },
+        {
+            "n": "NumUnmatchedBlanks",
+            "l": "Number of Unmatched Records that have blanks for this field",
+            "t": "int"
+        }
+    ]
+}

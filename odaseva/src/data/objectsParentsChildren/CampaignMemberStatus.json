@@ -1,0 +1,1 @@
+{"l":"Campaign Member Status","p":{"Campaign":[{"rf":"CampaignId","rl":"Campaign ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{}}

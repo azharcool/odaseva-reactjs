@@ -1,0 +1,1 @@
+{"l":"User Provisioning Config","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"ConnectedApplication":[{"rf":"ConnectedAppId","rl":"Connected App ID"}],"NamedCredential":[{"rf":"NamedCredentialId","rl":"Named Credential ID"}]},"c":{"UserProvisioningRequest":[{"rf":"UserProvConfigId","rl":null}]}}

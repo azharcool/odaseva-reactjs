@@ -1,0 +1,94 @@
+{
+    "l": "Static Resource",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "ExternalDataSource",
+            "rf": "LargeIconId",
+            "rl": ""
+        },
+        {
+            "n": "ExternalDataSource",
+            "rf": "SmallIconId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Static Resource ID",
+            "t": "id"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "ContentType",
+            "l": "MIME Type",
+            "t": "string"
+        },
+        {
+            "n": "BodyLength",
+            "l": "Size",
+            "t": "int"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "base64"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "CacheControl",
+            "l": "Cache Control",
+            "t": "picklist"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "l": "Active Feature License Metric",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Active Feature License Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "MetricsDate",
+            "l": "Metrics Date",
+            "t": "date"
+        },
+        {
+            "n": "FeatureType",
+            "l": "Primary Grain",
+            "t": "picklist"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "AssignedUserCount",
+            "l": "Assigned User Count",
+            "t": "int"
+        },
+        {
+            "n": "ActiveUserCount",
+            "l": "Active User Count",
+            "t": "int"
+        },
+        {
+            "n": "TotalLicenseCount",
+            "l": "Total License Count",
+            "t": "int"
+        }
+    ]
+}

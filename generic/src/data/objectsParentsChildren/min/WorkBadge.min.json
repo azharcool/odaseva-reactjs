@@ -1,0 +1,1 @@
+{"l":"Badge Received","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"},{"rf":"RecipientId","rl":"User ID"},{"rf":"GiverId","rl":"User ID"}],"WorkThanks":[{"rf":"SourceId","rl":"Thanks ID"}],"WorkBadgeDefinition":[{"rf":"DefinitionId","rl":"Badge ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

@@ -1,0 +1,84 @@
+{
+    "l": "User Entity Access",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "EntityDefinition",
+            "rf": "RunningUserEntityAccessId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Entity Access ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsMergeable",
+            "l": "Is Mergeable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsUpdatable",
+            "l": "Is Updatable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsActivateable",
+            "l": "Is Activateable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsReadable",
+            "l": "Is Readable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCreatable",
+            "l": "Is Creatable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsEditable",
+            "l": "Is Editable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeletable",
+            "l": "Is Deletable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsUndeletable",
+            "l": "Is Undeletable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsFlsUpdatable",
+            "l": "Is Field-level Security Updatable?",
+            "t": "boolean"
+        },
+        {
+            "n": "EntityDefinitionId",
+            "l": "Entity Definition ID",
+            "t": "string"
+        }
+    ]
+}

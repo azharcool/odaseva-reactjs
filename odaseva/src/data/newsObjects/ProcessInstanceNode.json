@@ -1,0 +1,124 @@
+{
+    "l": "Process Instance Node",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "ProcessInstanceId",
+            "rl": "Process Instance ID"
+        },
+        {
+            "n": "ProcessNode",
+            "rf": "ProcessNodeId",
+            "rl": "Process Node ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastActorId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Process Instance Node ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ProcessInstanceId",
+            "l": "Process Instance ID",
+            "t": "reference"
+        },
+        {
+            "n": "ProcessNodeId",
+            "l": "Process Node ID",
+            "t": "reference"
+        },
+        {
+            "n": "NodeStatus",
+            "l": "Node Status",
+            "t": "picklist"
+        },
+        {
+            "n": "CompletedDate",
+            "l": "Completed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastActorId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "ProcessNodeName",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "ElapsedTimeInDays",
+            "l": "Elapsed Time in Days",
+            "t": "double"
+        },
+        {
+            "n": "ElapsedTimeInHours",
+            "l": "Elapsed Time in Hours",
+            "t": "double"
+        },
+        {
+            "n": "ElapsedTimeInMinutes",
+            "l": "Elapsed Time in Minutes",
+            "t": "double"
+        }
+    ]
+}

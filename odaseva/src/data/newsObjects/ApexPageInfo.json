@@ -1,0 +1,57 @@
+{
+    "l": "Apex Page Info",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Entity Id",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "ApexPageId",
+            "l": "Apex Page ID",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "NameSpacePrefix",
+            "l": "Name Space Prefix",
+            "t": "string"
+        },
+        {
+            "n": "ApiVersion",
+            "l": "API Version",
+            "t": "double"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        },
+        {
+            "n": "IsAvailableInTouch",
+            "l": "Is Available In Touch",
+            "t": "boolean"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Master Label",
+            "t": "string"
+        },
+        {
+            "n": "IsShowHeader",
+            "l": "Show Header",
+            "t": "string"
+        }
+    ]
+}

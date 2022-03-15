@@ -1,0 +1,1 @@
+{"l":"Authentication Configuration","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"AuthConfigProviders":[{"rf":"AuthConfigId","rl":"AuthProvidersForConfig"}]}}

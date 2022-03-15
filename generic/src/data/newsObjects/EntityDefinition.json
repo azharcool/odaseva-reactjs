@@ -1,0 +1,319 @@
+{
+    "l": "Entity Definition",
+    "p": [
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "User ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "EntityParticle",
+            "rf": "EntityDefinitionId",
+            "rl": "Particles"
+        },
+        {
+            "n": "FieldDefinition",
+            "rf": "EntityDefinitionId",
+            "rl": "Fields"
+        },
+        {
+            "n": "OwnerChangeOptionInfo",
+            "rf": "EntityDefinitionId",
+            "rl": "OwnerChangeOptions"
+        },
+        {
+            "n": "RelationshipDomain",
+            "rf": "ChildSobjectId",
+            "rl": ""
+        },
+        {
+            "n": "RelationshipDomain",
+            "rf": "ParentSobjectId",
+            "rl": "RelationshipDomains"
+        },
+        {
+            "n": "RelationshipInfo",
+            "rf": "ChildSobjectId",
+            "rl": "ChildRelationships"
+        },
+        {
+            "n": "SearchLayout",
+            "rf": "EntityDefinitionId",
+            "rl": "SearchLayouts"
+        },
+        {
+            "n": "UserEntityAccess",
+            "rf": "EntityDefinitionId",
+            "rl": ""
+        },
+        {
+            "n": "UserFieldAccess",
+            "rf": "EntityDefinitionId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Entity Definition ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "QualifiedApiName",
+            "l": "Qualified API Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "DeveloperName",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Master Label",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "PluralLabel",
+            "l": "Plural Label",
+            "t": "string"
+        },
+        {
+            "n": "DefaultCompactLayoutId",
+            "l": "Compact Layout ID",
+            "t": "string"
+        },
+        {
+            "n": "IsCustomizable",
+            "l": "Is Customizable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsApexTriggerable",
+            "l": "Is Apex Triggerable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsWorkflowEnabled",
+            "l": "Is Workflow Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsProcessEnabled",
+            "l": "Is Approval Process Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsCompactLayoutable",
+            "l": "Is Compact Layout Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "KeyPrefix",
+            "l": "Key Prefix",
+            "t": "string"
+        },
+        {
+            "n": "IsCustomSetting",
+            "l": "Is Custom Setting?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeprecatedAndHidden",
+            "l": "Is Deprecated And Hidden?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsReplicateable",
+            "l": "Is Replicateable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsRetrieveable",
+            "l": "Is Retrieveable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsSearchLayoutable",
+            "l": "Is Search Layoutable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsSearchable",
+            "l": "Is Searchable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsTriggerable",
+            "l": "Is Triggerable?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsIdEnabled",
+            "l": "Is Id Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsEverCreatable",
+            "l": "Is Ever Creatable via API?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsEverUpdatable",
+            "l": "Is Ever Updatable via API?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsEverDeletable",
+            "l": "Is Ever Deletable via API?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsFeedEnabled",
+            "l": "Is Feed Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsQueryable",
+            "l": "Queryable",
+            "t": "boolean"
+        },
+        {
+            "n": "IsMruEnabled",
+            "l": "Is MRU List Functionality Enabled for This Object?",
+            "t": "boolean"
+        },
+        {
+            "n": "DetailUrl",
+            "l": "Detail URL",
+            "t": "url"
+        },
+        {
+            "n": "EditUrl",
+            "l": "Edit URL",
+            "t": "url"
+        },
+        {
+            "n": "NewUrl",
+            "l": "New URL",
+            "t": "url"
+        },
+        {
+            "n": "EditDefinitionUrl",
+            "l": "Edit Definition URL",
+            "t": "url"
+        },
+        {
+            "n": "HelpSettingPageName",
+            "l": "Help Setting Page Name",
+            "t": "string"
+        },
+        {
+            "n": "HelpSettingPageUrl",
+            "l": "Help Setting Page URL",
+            "t": "url"
+        },
+        {
+            "n": "RunningUserEntityAccessId",
+            "l": "User Entity Access ID",
+            "t": "string"
+        },
+        {
+            "n": "PublisherId",
+            "l": "Publisher ID",
+            "t": "string"
+        },
+        {
+            "n": "IsLayoutable",
+            "l": "Is Layout Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "RecordTypesSupported",
+            "l": "Record Types Supported",
+            "t": "complexvalue"
+        },
+        {
+            "n": "InternalSharingModel",
+            "l": "Internal Sharing Model",
+            "t": "picklist"
+        },
+        {
+            "n": "ExternalSharingModel",
+            "l": "External sharing Model",
+            "t": "picklist"
+        },
+        {
+            "n": "HasSubtypes",
+            "l": "Has Subtypes?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsSubtype",
+            "l": "Is Subtype?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAutoActivityCaptureEnabled",
+            "l": "Is Einstein Activity Capture Enabled?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsInterface",
+            "l": "Is Interface?",
+            "t": "boolean"
+        },
+        {
+            "n": "ImplementsInterfaces",
+            "l": "Interfaces Implemented",
+            "t": "string"
+        },
+        {
+            "n": "ImplementedBy",
+            "l": "Implemented By",
+            "t": "string"
+        },
+        {
+            "n": "ExtendsInterfaces",
+            "l": "Interfaces Extended",
+            "t": "string"
+        },
+        {
+            "n": "ExtendedBy",
+            "l": "Extended By",
+            "t": "string"
+        },
+        {
+            "n": "DefaultImplementation",
+            "l": "Default Implementation",
+            "t": "string"
+        }
+    ]
+}

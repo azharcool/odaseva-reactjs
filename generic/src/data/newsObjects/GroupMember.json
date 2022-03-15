@@ -1,0 +1,43 @@
+{
+    "l": "Group Member",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "GroupId",
+            "rl": "Group ID"
+        },
+        {
+            "n": "Group",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Group Member ID",
+            "t": "id"
+        },
+        {
+            "n": "GroupId",
+            "l": "Group ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserOrGroupId",
+            "l": "User\/Group ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "l": "Library Document",
+    "p": [
+        {
+            "n": "ContentWorkspace",
+            "rf": "ContentWorkspaceId",
+            "rl": "Library ID"
+        },
+        {
+            "n": "ContentDocument",
+            "rf": "ContentDocumentId",
+            "rl": "ContentDocument ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Library Document ID",
+            "t": "id"
+        },
+        {
+            "n": "ContentWorkspaceId",
+            "l": "Library ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentDocumentId",
+            "l": "ContentDocument ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "IsOwner",
+            "l": "Is Owning Library",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Is Deleted",
+            "t": "boolean"
+        }
+    ]
+}

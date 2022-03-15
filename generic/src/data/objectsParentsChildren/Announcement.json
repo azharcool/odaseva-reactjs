@@ -1,0 +1,1 @@
+{"l":"Announcement","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"FeedItem":[{"rf":"FeedItemId","rl":"Feed Item ID"}],"CollaborationGroup":[{"rf":"ParentId","rl":"Parent ID"}]},"c":{"CollaborationGroup":[{"rf":"AnnouncementId","rl":null}],"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

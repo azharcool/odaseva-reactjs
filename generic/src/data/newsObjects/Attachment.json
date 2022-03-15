@@ -1,0 +1,334 @@
+{
+    "l": "Attachment",
+    "p": [
+        {
+            "n": "Account",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Case",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "CommSubscription",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "CommSubscriptionChannelType",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "CommSubscriptionTiming",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Contract",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "EmailMessage",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "EmailTemplate",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "EngagementChannelType",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Event",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Image",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Location",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Order",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Solution",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Task",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Calendar",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Attachment ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "Name",
+            "l": "File Name",
+            "t": "string"
+        },
+        {
+            "n": "IsPrivate",
+            "l": "Private",
+            "t": "boolean"
+        },
+        {
+            "n": "ContentType",
+            "l": "Content Type",
+            "t": "string"
+        },
+        {
+            "n": "BodyLength",
+            "l": "Body Length",
+            "t": "int"
+        },
+        {
+            "n": "Body",
+            "l": "Body",
+            "t": "base64"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "textarea"
+        }
+    ]
+}

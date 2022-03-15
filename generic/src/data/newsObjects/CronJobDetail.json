@@ -1,0 +1,28 @@
+{
+    "l": "Cron Job",
+    "p": [],
+    "c": [
+        {
+            "n": "CronTrigger",
+            "rf": "CronJobDetailId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Job ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Job Name",
+            "t": "string"
+        },
+        {
+            "n": "JobType",
+            "l": "Type",
+            "t": "picklist"
+        }
+    ]
+}

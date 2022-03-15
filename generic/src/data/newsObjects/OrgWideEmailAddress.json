@@ -1,0 +1,68 @@
+{
+    "l": "Organization-wide From Email Address",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Organization-wide From Email Address ID",
+            "t": "id"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "Address",
+            "l": "Email Address",
+            "t": "email"
+        },
+        {
+            "n": "DisplayName",
+            "l": "Display Name",
+            "t": "string"
+        },
+        {
+            "n": "IsAllowAllProfiles",
+            "l": "Allow All Profiles",
+            "t": "boolean"
+        },
+        {
+            "n": "Purpose",
+            "l": "Purpose",
+            "t": "picklist"
+        }
+    ]
+}

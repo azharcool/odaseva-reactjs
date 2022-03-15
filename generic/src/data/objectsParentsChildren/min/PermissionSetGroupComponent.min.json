@@ -1,0 +1,1 @@
+{"l":"Permission Set Group Component","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"PermissionSetGroup":[{"rf":"PermissionSetGroupId","rl":"PermissionSetGroup ID"}],"PermissionSet":[{"rf":"PermissionSetId","rl":"PermissionSet ID or MutingPermissionSet ID"}]},"c":{}}

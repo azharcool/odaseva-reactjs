@@ -1,0 +1,1 @@
+{"l":"Identity Verification History","p":{"User":[{"rf":"UserId","rl":"User ID"},{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}],"LoginHistory":[{"rf":"LoginHistoryId","rl":"Login History ID"}],"LoginGeo":[{"rf":"LoginGeoId","rl":"Login Geo Data ID"}],"ConnectedApplication":[{"rf":"ResourceId","rl":"Connected App ID"}]},"c":{}}

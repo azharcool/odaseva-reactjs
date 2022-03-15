@@ -1,0 +1,33 @@
+{
+    "l": "Content User Subscription",
+    "p": [
+        {
+            "n": "User",
+            "rf": "SubscriberUserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "User",
+            "rf": "SubscribedToUserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ContentUserSubscription ID",
+            "t": "id"
+        },
+        {
+            "n": "SubscriberUserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "SubscribedToUserId",
+            "l": "User ID",
+            "t": "reference"
+        }
+    ]
+}

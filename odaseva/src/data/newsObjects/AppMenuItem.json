@@ -1,0 +1,214 @@
+{
+    "l": "AppMenuItem",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "OauthToken",
+            "rf": "AppMenuItemId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "AppMenuItem ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "SortOrder",
+            "l": "Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "Name",
+            "l": "Developer Name",
+            "t": "string"
+        },
+        {
+            "n": "NamespacePrefix",
+            "l": "Namespace Prefix",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "Description",
+            "l": "Description",
+            "t": "string"
+        },
+        {
+            "n": "StartUrl",
+            "l": "Start Url",
+            "t": "url"
+        },
+        {
+            "n": "MobileStartUrl",
+            "l": "Mobile Start Url",
+            "t": "url"
+        },
+        {
+            "n": "LogoUrl",
+            "l": "Logo Image URL",
+            "t": "url"
+        },
+        {
+            "n": "IconUrl",
+            "l": "Icon Url",
+            "t": "url"
+        },
+        {
+            "n": "InfoUrl",
+            "l": "Info URL",
+            "t": "url"
+        },
+        {
+            "n": "IsUsingAdminAuthorization",
+            "l": "IsUsingAdminAuthorization",
+            "t": "boolean"
+        },
+        {
+            "n": "MobilePlatform",
+            "l": "Mobile device OS platform",
+            "t": "picklist"
+        },
+        {
+            "n": "MobileMinOsVer",
+            "l": "Minimum required mobile device OS version",
+            "t": "string"
+        },
+        {
+            "n": "MobileDeviceType",
+            "l": "Type of mobile device",
+            "t": "string"
+        },
+        {
+            "n": "IsRegisteredDeviceOnly",
+            "l": "App requires a registered mobile device",
+            "t": "boolean"
+        },
+        {
+            "n": "MobileAppVer",
+            "l": "Version of the mobile app",
+            "t": "string"
+        },
+        {
+            "n": "MobileAppInstalledDate",
+            "l": "Date the mobile app was most recently installed",
+            "t": "datetime"
+        },
+        {
+            "n": "MobileAppInstalledVersion",
+            "l": "Most recently installed version of the mobile app",
+            "t": "string"
+        },
+        {
+            "n": "MobileAppBinaryId",
+            "l": "ID for the related mobile app binary",
+            "t": "string"
+        },
+        {
+            "n": "MobileAppInstallUrl",
+            "l": "URL to install the mobile app",
+            "t": "url"
+        },
+        {
+            "n": "CanvasEnabled",
+            "l": "Is this a canvas-enabled application",
+            "t": "boolean"
+        },
+        {
+            "n": "CanvasReferenceId",
+            "l": "The identifier used to render the canvas application.",
+            "t": "string"
+        },
+        {
+            "n": "CanvasUrl",
+            "l": "The canvas url for the canvas application",
+            "t": "url"
+        },
+        {
+            "n": "CanvasAccessMethod",
+            "l": "The configured access method for the canvas application",
+            "t": "picklist"
+        },
+        {
+            "n": "CanvasSelectedLocations",
+            "l": "The selected\/supported locations of the canvas application",
+            "t": "string"
+        },
+        {
+            "n": "CanvasOptions",
+            "l": "The options to hide publisher header or publisher share button",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "App Type",
+            "t": "picklist"
+        },
+        {
+            "n": "ApplicationId",
+            "l": "Application ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserSortOrder",
+            "l": "User Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "IsVisible",
+            "l": "Is Visible",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAccessible",
+            "l": "Is Accessible",
+            "t": "boolean"
+        }
+    ]
+}

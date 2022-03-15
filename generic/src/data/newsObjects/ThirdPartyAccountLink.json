@@ -1,0 +1,63 @@
+{
+    "l": "Third Party Account Link",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "AuthProvider",
+            "rf": "SsoProviderId",
+            "rl": "Auth. Provider ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Third Party Account Link ID",
+            "t": "id"
+        },
+        {
+            "n": "ThirdPartyAccountLinkKey",
+            "l": "Third Party Account Link Unique Key",
+            "t": "string"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "SsoProviderId",
+            "l": "Auth. Provider ID",
+            "t": "reference"
+        },
+        {
+            "n": "Handle",
+            "l": "External User Handle",
+            "t": "string"
+        },
+        {
+            "n": "RemoteIdentifier",
+            "l": "External User Id",
+            "t": "string"
+        },
+        {
+            "n": "Provider",
+            "l": "Provider",
+            "t": "string"
+        },
+        {
+            "n": "SsoProviderName",
+            "l": "Single Sign-On Provider Name",
+            "t": "string"
+        },
+        {
+            "n": "IsNotSsoUsable",
+            "l": "Is Not SSO Usable",
+            "t": "boolean"
+        }
+    ]
+}

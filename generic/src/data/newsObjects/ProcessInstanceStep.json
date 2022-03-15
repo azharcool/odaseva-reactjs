@@ -1,0 +1,108 @@
+{
+    "l": "Process Instance Step",
+    "p": [
+        {
+            "n": "ProcessInstance",
+            "rf": "ProcessInstanceId",
+            "rl": "Process Instance ID"
+        },
+        {
+            "n": "Group",
+            "rf": "OriginalActorId",
+            "rl": "Original Actor ID"
+        },
+        {
+            "n": "User",
+            "rf": "OriginalActorId",
+            "rl": "Original Actor ID"
+        },
+        {
+            "n": "Group",
+            "rf": "ActorId",
+            "rl": "Actor ID"
+        },
+        {
+            "n": "User",
+            "rf": "ActorId",
+            "rl": "Actor ID"
+        },
+        {
+            "n": "ProcessNode",
+            "rf": "StepNodeId",
+            "rl": "Process Node ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Process Instance Step ID",
+            "t": "id"
+        },
+        {
+            "n": "ProcessInstanceId",
+            "l": "Process Instance ID",
+            "t": "reference"
+        },
+        {
+            "n": "StepStatus",
+            "l": "Step Status",
+            "t": "picklist"
+        },
+        {
+            "n": "OriginalActorId",
+            "l": "Original Actor ID",
+            "t": "reference"
+        },
+        {
+            "n": "ActorId",
+            "l": "Actor ID",
+            "t": "reference"
+        },
+        {
+            "n": "Comments",
+            "l": "Comments",
+            "t": "string"
+        },
+        {
+            "n": "StepNodeId",
+            "l": "Process Node ID",
+            "t": "reference"
+        },
+        {
+            "n": "ElapsedTimeInDays",
+            "l": "Elapsed Time in Days",
+            "t": "double"
+        },
+        {
+            "n": "ElapsedTimeInHours",
+            "l": "Elapsed Time in Hours",
+            "t": "double"
+        },
+        {
+            "n": "ElapsedTimeInMinutes",
+            "l": "Elapsed Time in Minutes",
+            "t": "double"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"l":"Opportunity Contact Role","p":{"Opportunity":[{"rf":"OpportunityId","rl":"Opportunity ID"}],"Contact":[{"rf":"ContactId","rl":"Contact ID"}],"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

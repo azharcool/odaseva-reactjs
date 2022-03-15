@@ -1,0 +1,62 @@
+{
+    "l": "Relationship Domain",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Relationship Domain ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Relationship Domain Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "ParentSobjectId",
+            "l": "Entity Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "ChildSobjectId",
+            "l": "Entity Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "FieldId",
+            "l": "Field Definition ID",
+            "t": "string"
+        },
+        {
+            "n": "RelationshipInfoId",
+            "l": "Relationship Info ID",
+            "t": "string"
+        },
+        {
+            "n": "RelationshipName",
+            "l": "Relationship Name",
+            "t": "string"
+        },
+        {
+            "n": "IsCascadeDelete",
+            "l": "Is Cascade Delete?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDeprecatedAndHidden",
+            "l": "Is Deprecated And Hidden?",
+            "t": "boolean"
+        },
+        {
+            "n": "IsRestrictedDelete",
+            "l": "Is Restricted Delete?",
+            "t": "boolean"
+        },
+        {
+            "n": "JunctionIdListNames",
+            "l": "Names of the Junction Id Lists",
+            "t": "complexvalue"
+        }
+    ]
+}

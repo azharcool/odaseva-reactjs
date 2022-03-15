@@ -1,0 +1,204 @@
+{
+    "l": "Contact Point Email",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Account",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        },
+        {
+            "n": "Individual",
+            "rf": "ParentId",
+            "rl": "Parent ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "CommSubscriptionConsent",
+            "rf": "ContactPointId",
+            "rl": "CommSubscriptionConsents"
+        },
+        {
+            "n": "CommSubscriptionConsentChangeEvent",
+            "rf": "ContactPointId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointConsent",
+            "rf": "ContactPointId",
+            "rl": "ContactPointConsents"
+        },
+        {
+            "n": "ContactPointConsentChangeEvent",
+            "rf": "ContactPointId",
+            "rl": ""
+        },
+        {
+            "n": "ContactPointEmailHistory",
+            "rf": "ContactPointEmailId",
+            "rl": "Histories"
+        },
+        {
+            "n": "ContactPointEmailShare",
+            "rf": "ParentId",
+            "rl": "Shares"
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProcessInstance",
+            "rf": "TargetObjectId",
+            "rl": "ProcessInstances"
+        },
+        {
+            "n": "ProcessInstanceHistory",
+            "rf": "TargetObjectId",
+            "rl": "ProcessSteps"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Contact Point Email ID",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "ParentId",
+            "l": "Parent ID",
+            "t": "reference"
+        },
+        {
+            "n": "ActiveFromDate",
+            "l": "Active from Date",
+            "t": "date"
+        },
+        {
+            "n": "ActiveToDate",
+            "l": "Active to Date",
+            "t": "date"
+        },
+        {
+            "n": "BestTimeToContactEndTime",
+            "l": "Best time to contact end time",
+            "t": "time"
+        },
+        {
+            "n": "BestTimeToContactStartTime",
+            "l": "Best time to contact start time",
+            "t": "time"
+        },
+        {
+            "n": "BestTimeToContactTimezone",
+            "l": "Best time to contact time zone",
+            "t": "picklist"
+        },
+        {
+            "n": "IsPrimary",
+            "l": "Is Primary",
+            "t": "boolean"
+        },
+        {
+            "n": "EmailAddress",
+            "l": "Email address",
+            "t": "email"
+        },
+        {
+            "n": "EmailMailBox",
+            "l": "Email mail box",
+            "t": "string"
+        },
+        {
+            "n": "EmailDomain",
+            "l": "Email domain",
+            "t": "string"
+        },
+        {
+            "n": "EmailLatestBounceDateTime",
+            "l": "Email latest bounce date time",
+            "t": "datetime"
+        },
+        {
+            "n": "EmailLatestBounceReasonText",
+            "l": "Email latest bounce reason text",
+            "t": "string"
+        }
+    ]
+}

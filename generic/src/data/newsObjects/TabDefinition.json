@@ -1,0 +1,83 @@
+{
+    "l": "Tab Definition",
+    "p": [],
+    "c": [
+        {
+            "n": "AppTabMember",
+            "rf": "TabDefinitionId",
+            "rl": "AppTabs"
+        },
+        {
+            "n": "ColorDefinition",
+            "rf": "TabDefinitionId",
+            "rl": "Colors"
+        },
+        {
+            "n": "IconDefinition",
+            "rf": "TabDefinitionId",
+            "rl": "Icons"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Tab Definition ID",
+            "t": "id"
+        },
+        {
+            "n": "DurableId",
+            "l": "Tab Definition Durable ID",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "Label",
+            "l": "Label",
+            "t": "string"
+        },
+        {
+            "n": "IsCustom",
+            "l": "Is Custom",
+            "t": "boolean"
+        },
+        {
+            "n": "SobjectName",
+            "l": "sObject Name",
+            "t": "string"
+        },
+        {
+            "n": "Url",
+            "l": "URL",
+            "t": "string"
+        },
+        {
+            "n": "IsAvailableInAloha",
+            "l": "Is Available In Aloha",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAvailableInLightning",
+            "l": "Is Available In Lightning",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAvailableInMobile",
+            "l": "Is Available In Mobile",
+            "t": "boolean"
+        },
+        {
+            "n": "IsAvailableInDesktop",
+            "l": "Is Available In Desktop",
+            "t": "boolean"
+        },
+        {
+            "n": "MobileUrl",
+            "l": "Mobile URL",
+            "t": "string"
+        }
+    ]
+}

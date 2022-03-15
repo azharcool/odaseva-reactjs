@@ -1,0 +1,1 @@
+{"l":"External Event","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"ConferenceNumber":[{"rf":"ExternalEventId","rl":"ConferenceNumbers"}],"FlowRecordRelation":[{"rf":"RelatedRecordId","rl":null}]}}

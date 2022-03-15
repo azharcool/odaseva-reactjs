@@ -1,0 +1,68 @@
+{
+    "l": "User Share",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "Group",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserOrGroupId",
+            "rl": "User\/Group ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "User Share ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserOrGroupId",
+            "l": "User\/Group ID",
+            "t": "reference"
+        },
+        {
+            "n": "UserAccessLevel",
+            "l": "User Access Level",
+            "t": "picklist"
+        },
+        {
+            "n": "RowCause",
+            "l": "Row Cause",
+            "t": "picklist"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        }
+    ]
+}

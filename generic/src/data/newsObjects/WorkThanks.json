@@ -1,0 +1,329 @@
+{
+    "l": "Thanks",
+    "p": [
+        {
+            "n": "Group",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "OwnerId",
+            "rl": "Owner ID"
+        },
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "User",
+            "rf": "GiverId",
+            "rl": "User ID"
+        },
+        {
+            "n": "FeedItem",
+            "rf": "FeedItemId",
+            "rl": "Feed Item ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "AccountFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "AssetFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "AssetRelationshipFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "AuthorizationFormTextFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CampaignFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CaseFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CollaborationGroupFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionChannelTypeFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionConsentFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "CommSubscriptionTimingFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContactFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContentDocumentFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ContractFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "DashboardComponentFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "DashboardFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "EngagementChannelTypeFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "EnhancedLetterheadFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "EventFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FeedComment",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FeedItem",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ImageFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "LeadFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "LocationFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OpportunityFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OrderFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OrderItemFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "PartyConsentFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "Product2Feed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillEndorsementFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ProfileSkillUserFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "QuoteFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "ReportFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "SiteFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "SocialPostFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "SolutionFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "TaskFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "TopicFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "UserFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "WorkBadge",
+            "rf": "SourceId",
+            "rl": "Badges"
+        },
+        {
+            "n": "WorkBadgeDefinitionFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "WorkOrderLineItemFeed",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "WorkThanksShare",
+            "rf": "ParentId",
+            "rl": "Shares"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Thanks ID",
+            "t": "id"
+        },
+        {
+            "n": "OwnerId",
+            "l": "Owner ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "GiverId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "Message",
+            "l": "Message",
+            "t": "textarea"
+        },
+        {
+            "n": "FeedItemId",
+            "l": "Feed Item ID",
+            "t": "reference"
+        }
+    ]
+}

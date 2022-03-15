@@ -1,0 +1,333 @@
+{
+    "l": "RecordActionHistory",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "Account",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Asset",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "AssetRelationship",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "AssociatedLocation",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Campaign",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "CampaignMember",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Case",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "CollaborationGroup",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Contact",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "ContactRequest",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Contract",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "EnhancedLetterhead",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Lead",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Location",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "MyObjectForGIDTest__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "NadraCustomSetting__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaRequest__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "OdasevaRoa__RoaSettings__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Opportunity",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Order",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Payment__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Pricebook2",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "PricebookEntry",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Product2",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Quote",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "QuoteLineItem",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_0__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_1__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_2__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_3__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_4__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Relationship_Tester_5__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "SocialPersona",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "SocialPost",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Subscription_Order__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Subscription_Product_Feature__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Subscription_Product__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Subscription__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "TestSFTOrgId__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Update_Data_1__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Update_Data_2__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "Update_Data_3__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "User",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "WorkOrder",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "WorkOrderLineItem",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "myObjectForMassDeleteTest__c",
+            "rf": "ParentRecordId",
+            "rl": "Parent Record ID"
+        },
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "RecordActionHistory ID",
+            "t": "id"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "ParentRecordId",
+            "l": "Parent Record ID",
+            "t": "reference"
+        },
+        {
+            "n": "ActionDefinitionApiName",
+            "l": "Action Definition API Name",
+            "t": "string"
+        },
+        {
+            "n": "ActionDefinitionLabel",
+            "l": "Action Definition Label",
+            "t": "string"
+        },
+        {
+            "n": "ActionType",
+            "l": "Action Type",
+            "t": "picklist"
+        },
+        {
+            "n": "State",
+            "l": "State",
+            "t": "picklist"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "RecordActionId",
+            "l": "RecordAction Id",
+            "t": "string"
+        },
+        {
+            "n": "LoggedTime",
+            "l": "Logged Time",
+            "t": "datetime"
+        },
+        {
+            "n": "Pinned",
+            "l": "Pinned",
+            "t": "picklist"
+        },
+        {
+            "n": "IsMandatory",
+            "l": "Is Mandatory",
+            "t": "boolean"
+        }
+    ]
+}

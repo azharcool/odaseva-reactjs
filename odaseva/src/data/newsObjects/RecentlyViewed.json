@@ -1,0 +1,108 @@
+{
+    "l": "Recently Viewed",
+    "p": [
+        {
+            "n": "UserRole",
+            "rf": "UserRoleId",
+            "rl": "Role ID"
+        },
+        {
+            "n": "RecordType",
+            "rf": "RecordTypeId",
+            "rl": "Record Type ID"
+        },
+        {
+            "n": "Profile",
+            "rf": "ProfileId",
+            "rl": "Profile ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Recently Viewed ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Name",
+            "t": "string"
+        },
+        {
+            "n": "LastName",
+            "l": "Last Name",
+            "t": "string"
+        },
+        {
+            "n": "FirstName",
+            "l": "First Name",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Alias",
+            "l": "Alias",
+            "t": "string"
+        },
+        {
+            "n": "UserRoleId",
+            "l": "Role ID",
+            "t": "reference"
+        },
+        {
+            "n": "RecordTypeId",
+            "l": "Record Type ID",
+            "t": "reference"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "ProfileId",
+            "l": "Profile ID",
+            "t": "reference"
+        },
+        {
+            "n": "Title",
+            "l": "Title",
+            "t": "string"
+        },
+        {
+            "n": "Email",
+            "l": "Email",
+            "t": "email"
+        },
+        {
+            "n": "Phone",
+            "l": "Phone",
+            "t": "phone"
+        },
+        {
+            "n": "NameOrAlias",
+            "l": "Name or Alias",
+            "t": "string"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastReferencedDate",
+            "l": "Last Referenced Date",
+            "t": "datetime"
+        },
+        {
+            "n": "Language",
+            "l": "Language",
+            "t": "picklist"
+        }
+    ]
+}

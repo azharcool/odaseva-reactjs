@@ -1,0 +1,109 @@
+{
+    "l": "FileSearchActivity",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Search Activity Id",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Search Activity Name",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "SearchTerm",
+            "l": "Search Term",
+            "t": "string"
+        },
+        {
+            "n": "QueryDate",
+            "l": "Search Date",
+            "t": "date"
+        },
+        {
+            "n": "CountQueries",
+            "l": "Number of Searches",
+            "t": "int"
+        },
+        {
+            "n": "CountUsers",
+            "l": "Number of Users",
+            "t": "int"
+        },
+        {
+            "n": "AvgNumResults",
+            "l": "Average Number of Results",
+            "t": "double"
+        },
+        {
+            "n": "Period",
+            "l": "Duration",
+            "t": "picklist"
+        },
+        {
+            "n": "QueryLanguage",
+            "l": "Language",
+            "t": "picklist"
+        },
+        {
+            "n": "ClickRank",
+            "l": "Average Click Rank",
+            "t": "double"
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "l": "Org Metric",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "LatestOrgMetricScanSummaryId",
+            "rl": "Org Metric Scan ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "FlowExecutionErrorEvent",
+            "rf": "ContextRecordId",
+            "rl": ""
+        },
+        {
+            "n": "FlowRecordRelation",
+            "rf": "RelatedRecordId",
+            "rl": ""
+        },
+        {
+            "n": "OrgMetricScanSummary",
+            "rf": "OrgMetricId",
+            "rl": "OrgMetric"
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Org Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "Name",
+            "l": "Org Metric",
+            "t": "string"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "LatestOrgMetricScanSummaryId",
+            "l": "Org Metric Scan ID",
+            "t": "reference"
+        },
+        {
+            "n": "FeatureType",
+            "l": "Feature Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Category",
+            "l": "Category",
+            "t": "picklist"
+        }
+    ]
+}

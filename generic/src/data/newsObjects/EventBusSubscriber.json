@@ -1,0 +1,57 @@
+{
+    "l": "Platform Event Subscription",
+    "p": [],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Event ID",
+            "t": "id"
+        },
+        {
+            "n": "ExternalId",
+            "l": "External ID",
+            "t": "string"
+        },
+        {
+            "n": "Name",
+            "l": "Subscriber Name",
+            "t": "string"
+        },
+        {
+            "n": "Type",
+            "l": "Type",
+            "t": "string"
+        },
+        {
+            "n": "Topic",
+            "l": "Topic",
+            "t": "string"
+        },
+        {
+            "n": "Position",
+            "l": "Position",
+            "t": "int"
+        },
+        {
+            "n": "Tip",
+            "l": "Tip",
+            "t": "int"
+        },
+        {
+            "n": "Retries",
+            "l": "Retry Attempts",
+            "t": "int"
+        },
+        {
+            "n": "LastError",
+            "l": "Last Error Message",
+            "t": "string"
+        },
+        {
+            "n": "Status",
+            "l": "Status",
+            "t": "picklist"
+        }
+    ]
+}

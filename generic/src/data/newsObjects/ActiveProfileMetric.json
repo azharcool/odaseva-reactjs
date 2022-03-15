@@ -1,0 +1,53 @@
+{
+    "l": "Active Profile Metric",
+    "p": [
+        {
+            "n": "UserLicense",
+            "rf": "UserLicenseId",
+            "rl": "User License ID"
+        },
+        {
+            "n": "Profile",
+            "rf": "ProfileId",
+            "rl": "Profile ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Active Profile Metric ID",
+            "t": "id"
+        },
+        {
+            "n": "MetricsDate",
+            "l": "Metrics Date",
+            "t": "date"
+        },
+        {
+            "n": "UserLicenseId",
+            "l": "User License ID",
+            "t": "reference"
+        },
+        {
+            "n": "ProfileId",
+            "l": "Profile ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "AssignedUserCount",
+            "l": "Assigned User Count",
+            "t": "int"
+        },
+        {
+            "n": "ActiveUserCount",
+            "l": "Active User Count",
+            "t": "int"
+        }
+    ]
+}

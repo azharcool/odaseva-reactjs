@@ -1,0 +1,154 @@
+{
+    "l": "Business Hours",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [
+        {
+            "n": "WorkOrder",
+            "rf": "BusinessHoursId",
+            "rl": "WorkOrders"
+        },
+        {
+            "n": "WorkOrderChangeEvent",
+            "rf": "BusinessHoursId",
+            "rl": ""
+        }
+    ],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Business Hours ID",
+            "t": "id"
+        },
+        {
+            "n": "Name",
+            "l": "Business Hours Name",
+            "t": "string"
+        },
+        {
+            "n": "IsActive",
+            "l": "Active",
+            "t": "boolean"
+        },
+        {
+            "n": "IsDefault",
+            "l": "Default Business Hours",
+            "t": "boolean"
+        },
+        {
+            "n": "SundayStartTime",
+            "l": "Sunday Start",
+            "t": "time"
+        },
+        {
+            "n": "SundayEndTime",
+            "l": "Sunday End",
+            "t": "time"
+        },
+        {
+            "n": "MondayStartTime",
+            "l": "Monday Start",
+            "t": "time"
+        },
+        {
+            "n": "MondayEndTime",
+            "l": "Monday End",
+            "t": "time"
+        },
+        {
+            "n": "TuesdayStartTime",
+            "l": "Tuesday Start",
+            "t": "time"
+        },
+        {
+            "n": "TuesdayEndTime",
+            "l": "Tuesday End",
+            "t": "time"
+        },
+        {
+            "n": "WednesdayStartTime",
+            "l": "Wednesday Start",
+            "t": "time"
+        },
+        {
+            "n": "WednesdayEndTime",
+            "l": "Wednesday End",
+            "t": "time"
+        },
+        {
+            "n": "ThursdayStartTime",
+            "l": "Thursday Start",
+            "t": "time"
+        },
+        {
+            "n": "ThursdayEndTime",
+            "l": "Thursday End",
+            "t": "time"
+        },
+        {
+            "n": "FridayStartTime",
+            "l": "Friday Start",
+            "t": "time"
+        },
+        {
+            "n": "FridayEndTime",
+            "l": "Friday End",
+            "t": "time"
+        },
+        {
+            "n": "SaturdayStartTime",
+            "l": "Saturday Start",
+            "t": "time"
+        },
+        {
+            "n": "SaturdayEndTime",
+            "l": "Saturday End",
+            "t": "time"
+        },
+        {
+            "n": "TimeZoneSidKey",
+            "l": "Time Zone",
+            "t": "picklist"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastViewedDate",
+            "l": "Last Viewed Date",
+            "t": "datetime"
+        }
+    ]
+}

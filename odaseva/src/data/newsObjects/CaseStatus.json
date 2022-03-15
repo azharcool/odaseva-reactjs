@@ -1,0 +1,73 @@
+{
+    "l": "Case Status Value",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Case Status Value ID",
+            "t": "id"
+        },
+        {
+            "n": "MasterLabel",
+            "l": "Master Label",
+            "t": "string"
+        },
+        {
+            "n": "ApiName",
+            "l": "Api Name",
+            "t": "string"
+        },
+        {
+            "n": "SortOrder",
+            "l": "Sort Order",
+            "t": "int"
+        },
+        {
+            "n": "IsDefault",
+            "l": "Is Default",
+            "t": "boolean"
+        },
+        {
+            "n": "IsClosed",
+            "l": "Is Closed",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"l":"Login Geo Data","p":{"User":[{"rf":"CreatedById","rl":"Created By ID"},{"rf":"LastModifiedById","rl":"Last Modified By ID"}]},"c":{"AuthSession":[{"rf":"LoginGeoId","rl":null}],"LoginHistory":[{"rf":"LoginGeoId","rl":null}],"VerificationHistory":[{"rf":"LoginGeoId","rl":null}]}}

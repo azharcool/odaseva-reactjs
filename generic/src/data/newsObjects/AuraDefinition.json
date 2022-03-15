@@ -1,0 +1,78 @@
+{
+    "l": "Lightning Component Definition",
+    "p": [
+        {
+            "n": "User",
+            "rf": "CreatedById",
+            "rl": "Created By ID"
+        },
+        {
+            "n": "User",
+            "rf": "LastModifiedById",
+            "rl": "Last Modified By ID"
+        },
+        {
+            "n": "AuraDefinitionBundle",
+            "rf": "AuraDefinitionBundleId",
+            "rl": "Lightning Definition Bundle ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "Lightning Definition ID",
+            "t": "id"
+        },
+        {
+            "n": "IsDeleted",
+            "l": "Deleted",
+            "t": "boolean"
+        },
+        {
+            "n": "CreatedDate",
+            "l": "Created Date",
+            "t": "datetime"
+        },
+        {
+            "n": "CreatedById",
+            "l": "Created By ID",
+            "t": "reference"
+        },
+        {
+            "n": "LastModifiedDate",
+            "l": "Last Modified Date",
+            "t": "datetime"
+        },
+        {
+            "n": "LastModifiedById",
+            "l": "Last Modified By ID",
+            "t": "reference"
+        },
+        {
+            "n": "SystemModstamp",
+            "l": "System Modstamp",
+            "t": "datetime"
+        },
+        {
+            "n": "AuraDefinitionBundleId",
+            "l": "Lightning Definition Bundle ID",
+            "t": "reference"
+        },
+        {
+            "n": "DefType",
+            "l": "Definition Type",
+            "t": "picklist"
+        },
+        {
+            "n": "Format",
+            "l": "Format",
+            "t": "picklist"
+        },
+        {
+            "n": "Source",
+            "l": "Source",
+            "t": "textarea"
+        }
+    ]
+}

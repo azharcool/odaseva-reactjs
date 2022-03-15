@@ -1,0 +1,33 @@
+{
+    "l": "Content Workspace Subscription",
+    "p": [
+        {
+            "n": "User",
+            "rf": "UserId",
+            "rl": "User ID"
+        },
+        {
+            "n": "ContentWorkspace",
+            "rf": "ContentWorkspaceId",
+            "rl": "Workspace ID"
+        }
+    ],
+    "c": [],
+    "f": [
+        {
+            "n": "Id",
+            "l": "ContentWorkspaceSubscription ID",
+            "t": "id"
+        },
+        {
+            "n": "UserId",
+            "l": "User ID",
+            "t": "reference"
+        },
+        {
+            "n": "ContentWorkspaceId",
+            "l": "Workspace ID",
+            "t": "reference"
+        }
+    ]
+}
